@@ -209,6 +209,30 @@
   .mover-move.up { color: var(--up); }
   .mover-move.down { color: var(--down); }
   .movers-loading { color: var(--muted); font-size: 0.85rem; }
+  .stat-chips {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 640px) {
+    .stat-chips { grid-template-columns: repeat(3, 1fr); }
+  }
+  .stat-chip {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .stat-label {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  .stat-value { font-size: 1rem; font-weight: 700; }
+  .stat-sub { font-size: 0.75rem; color: var(--muted); margin-top: 2px; }
 </style>
 </head>
 <body>
@@ -233,8 +257,8 @@
     </div>
 
     <section class="movers" id="movers-section">
-      <h2>📊 Mini League Movers</h2>
-      <div id="movers-body" class="movers-loading">Loading this gameweek's movers…</div>
+      <h2>📊 FPL Fairplay GW Summary</h2>
+      <div id="movers-body" class="movers-loading">Loading this gameweek's summary…</div>
     </section>
 
     <nav class="tabs">
@@ -374,6 +398,31 @@
           ? `GW${summary.gw} Recap: ${summary.topScorer.managerName} (${summary.topScorer.teamName}) led the way with ${summary.topScorer.gwPoints} points, while ${summary.bottomScorer.managerName} (${summary.bottomScorer.teamName}) had a quieter start on ${summary.bottomScorer.gwPoints}. League average this gameweek: ${summary.averagePoints} points across ${summary.managerCount} managers. Standings are freshly set — rank movers will show up from GW2 onward.`
           : `GW${summary.gw} Recap: ${summary.topScorer.managerName} (${summary.topScorer.teamName}) topped the gameweek with ${summary.topScorer.gwPoints} points, while ${summary.bottomScorer.managerName} (${summary.bottomScorer.teamName}) had a tougher week on ${summary.bottomScorer.gwPoints}. League average this gameweek: ${summary.averagePoints} points across ${summary.managerCount} managers.`;
 
+        const leader = summary.leagueLeader;
+        const statsHtml = `
+          <div class="stat-chips">
+            ${leader ? `
+              <div class="stat-chip">
+                <div class="stat-label">League Leader</div>
+                <div class="stat-value">${leader.managerName} — ${leader.totalPoints} pts</div>
+                <div class="stat-sub">${leader.gapToSecond != null ? `+${leader.gapToSecond} ahead of 2nd` : ""}</div>
+              </div>
+            ` : ""}
+            <div class="stat-chip">
+              <div class="stat-label">Above Average</div>
+              <div class="stat-value">${summary.aboveAverageCount} / ${summary.managerCount}</div>
+              <div class="stat-sub">managers beat ${summary.averagePoints} pts this GW</div>
+            </div>
+            ${summary.seasonHigh ? `
+              <div class="stat-chip">
+                <div class="stat-label">Best GW This Season</div>
+                <div class="stat-value">${summary.seasonHigh.gwPoints} pts</div>
+                <div class="stat-sub">${summary.seasonHigh.managerName} · GW${summary.seasonHigh.gw}</div>
+              </div>
+            ` : ""}
+          </div>
+        `;
+
         let moversHtml = "";
         if (!summary.isFirstGw) {
           moversHtml = `
@@ -390,7 +439,7 @@
           `;
         }
 
-        body.innerHTML = `<p class="movers-recap">${recap}</p>${moversHtml}`;
+        body.innerHTML = `<p class="movers-recap">${recap}</p>${statsHtml}${moversHtml}`;
       } catch (err) {
         body.innerHTML = `<div class="movers-loading">Couldn't load gameweek movers: ${err.message}</div>`;
       }
