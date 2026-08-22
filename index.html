@@ -12,6 +12,16 @@
     --text: #e2e8f0;
     --muted: #94a3b8;
     --accent2: #00ff87;
+    --up: #22c55e;
+    --down: #ef4444;
+  }
+  :root[data-theme="light"] {
+    --bg: #f4f6fb;
+    --panel: #ffffff;
+    --border: #dbe3ee;
+    --text: #0f172a;
+    --muted: #64748b;
+    --accent2: #059669;
   }
   * { box-sizing: border-box; }
   body {
@@ -20,8 +30,21 @@
     background: var(--bg);
     color: var(--text);
     padding: 40px 16px 80px;
+    transition: background 0.2s, color 0.2s;
   }
-  .wrap { max-width: 920px; margin: 0 auto; }
+  .wrap { max-width: 920px; margin: 0 auto; position: relative; }
+  .theme-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
   header { text-align: center; margin-bottom: 12px; }
   h1 { font-size: 2rem; margin: 0 0 8px; }
   h1 span { color: var(--accent2); }
@@ -149,10 +172,48 @@
   }
   .panel { display: none; }
   .panel.active { display: block; }
+  .movers {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 32px;
+  }
+  .movers h2 { font-size: 1.1rem; margin: 0 0 4px; }
+  .movers-recap { color: var(--text); font-size: 0.92rem; line-height: 1.6; margin: 10px 0 18px; }
+  .movers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @media (min-width: 640px) {
+    .movers-grid { grid-template-columns: 1fr 1fr; }
+  }
+  .movers-col h3 {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  .mover-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.88rem;
+  }
+  .mover-row:last-child { border-bottom: none; }
+  .mover-move { font-weight: 700; font-size: 0.8rem; }
+  .mover-move.up { color: var(--up); }
+  .mover-move.down { color: var(--down); }
+  .movers-loading { color: var(--muted); font-size: 0.85rem; }
 </style>
 </head>
 <body>
   <div class="wrap">
+    <button class="theme-toggle" id="theme-toggle">☀️ Light</button>
     <section class="welcome">
       <div class="season-badge">SEASON 7</div>
       <h1>Welcome to FPL <span>Fairplay</span></h1>
@@ -170,6 +231,11 @@
     <div class="cta-row">
       <a class="button" href="fpl-fairplay.html">View Live Standings →</a>
     </div>
+
+    <section class="movers" id="movers-section">
+      <h2>📊 Mini League Movers</h2>
+      <div id="movers-body" class="movers-loading">Loading this gameweek's movers…</div>
+    </section>
 
     <nav class="tabs">
       <button class="tab active" data-tab="competitions">Competitions</button>
@@ -257,6 +323,80 @@
         document.getElementById(`panel-${btn.dataset.tab}`).classList.add("active");
       });
     });
+
+    function initTheme() {
+      const saved = localStorage.getItem("fpl-fairplay-theme");
+      const theme = saved || "dark";
+      document.documentElement.setAttribute("data-theme", theme);
+      updateThemeButton(theme);
+    }
+    function updateThemeButton(theme) {
+      const btn = document.getElementById("theme-toggle");
+      if (btn) btn.textContent = theme === "light" ? "🌙 Dark" : "☀️ Light";
+    }
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute("data-theme") || "dark";
+      const next = current === "light" ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("fpl-fairplay-theme", next);
+      updateThemeButton(next);
+    }
+    initTheme();
+    document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
+
+    const WEBHOOK_URL = "https://anunay117.app.n8n.cloud/webhook/fpl-fairplay-managers";
+
+    function moverRow(m) {
+      const cls = m.movement > 0 ? "up" : m.movement < 0 ? "down" : "";
+      const arrow = m.movement > 0 ? `▲${m.movement}` : m.movement < 0 ? `▼${Math.abs(m.movement)}` : "–";
+      return `
+        <div class="mover-row">
+          <span>${m.managerName} <span style="color:var(--muted)">(${m.teamName})</span></span>
+          <span class="mover-move ${cls}">${arrow}</span>
+        </div>
+      `;
+    }
+
+    async function loadMovers() {
+      const body = document.getElementById("movers-body");
+      try {
+        const res = await fetch(WEBHOOK_URL);
+        if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+        const data = await res.json();
+        const summary = data.gwSummary;
+
+        if (!summary) {
+          body.innerHTML = `<div class="movers-loading">No gameweek data yet — check back once GW1 kicks off.</div>`;
+          return;
+        }
+
+        const recap = summary.isFirstGw
+          ? `GW${summary.gw} Recap: ${summary.topScorer.managerName} (${summary.topScorer.teamName}) led the way with ${summary.topScorer.gwPoints} points, while ${summary.bottomScorer.managerName} (${summary.bottomScorer.teamName}) had a quieter start on ${summary.bottomScorer.gwPoints}. League average this gameweek: ${summary.averagePoints} points across ${summary.managerCount} managers. Standings are freshly set — rank movers will show up from GW2 onward.`
+          : `GW${summary.gw} Recap: ${summary.topScorer.managerName} (${summary.topScorer.teamName}) topped the gameweek with ${summary.topScorer.gwPoints} points, while ${summary.bottomScorer.managerName} (${summary.bottomScorer.teamName}) had a tougher week on ${summary.bottomScorer.gwPoints}. League average this gameweek: ${summary.averagePoints} points across ${summary.managerCount} managers.`;
+
+        let moversHtml = "";
+        if (!summary.isFirstGw) {
+          moversHtml = `
+            <div class="movers-grid">
+              <div class="movers-col">
+                <h3>📈 Biggest Risers</h3>
+                ${summary.risers.length ? summary.risers.map(moverRow).join("") : '<div class="movers-loading">No risers this gameweek.</div>'}
+              </div>
+              <div class="movers-col">
+                <h3>📉 Biggest Fallers</h3>
+                ${summary.fallers.length ? summary.fallers.map(moverRow).join("") : '<div class="movers-loading">No fallers this gameweek.</div>'}
+              </div>
+            </div>
+          `;
+        }
+
+        body.innerHTML = `<p class="movers-recap">${recap}</p>${moversHtml}`;
+      } catch (err) {
+        body.innerHTML = `<div class="movers-loading">Couldn't load gameweek movers: ${err.message}</div>`;
+      }
+    }
+
+    loadMovers();
   </script>
 </body>
 </html>
