@@ -1,0 +1,113 @@
+{
+  "name": "FPL Fairplay - All Competitions",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "fpl-fairplay-managers",
+        "responseMode": "lastNode",
+        "responseData": "firstEntryJson",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+              }
+            ]
+          }
+        }
+      },
+      "id": "b1a1a111-0000-4000-8000-000000000001",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const CLASSIC_LEAGUE_ID = 684359; // FPL Fairplay League\nconst H2H_LEAGUE_ID = 1437968; // FPL Fairplay Head to Head\nconst LMS_START_GW = 5; // Last Man Standing begins at this gameweek\n\nconst fetchLeague = async (kind, leagueId) => {\n  // kind: 'classic' or 'h2h'\n  const base = kind === 'classic'\n    ? `https://fantasy.premierleague.com/api/leagues-classic/${leagueId}/standings/`\n    : `https://fantasy.premierleague.com/api/leagues-h2h/${leagueId}/standings/`;\n\n  let leagueName = null;\n  const managers = [];\n\n  let page = 1;\n  let hasNext = true;\n  while (hasNext) {\n    const response = await this.helpers.httpRequest({\n      method: 'GET',\n      url: `${base}?page_standings=${page}`,\n      json: true,\n    });\n    if (!leagueName) leagueName = response.league.name;\n\n    for (const entry of response.standings.results) {\n      if (entry.entry == null) continue; // skip synthetic \"AVERAGE\" benchmark row in H2H leagues\n      managers.push({\n        rank: entry.rank,\n        managerName: entry.player_name,\n        teamName: entry.entry_name,\n        entryId: entry.entry,\n        totalPoints: entry.total,\n        gwPoints: entry.event_total ?? null,\n        matchesWon: entry.matches_won ?? null,\n        matchesDrawn: entry.matches_drawn ?? null,\n        matchesLost: entry.matches_lost ?? null,\n        pointsFor: entry.points_for ?? null,\n        status: 'scored',\n      });\n    }\n    hasNext = response.standings.has_next;\n    page += 1;\n  }\n\n  // Pre-season fallback: standings empty, use new_entries (people who joined, no GW played yet)\n  if (managers.length === 0) {\n    page = 1;\n    hasNext = true;\n    while (hasNext) {\n      const response = await this.helpers.httpRequest({\n        method: 'GET',\n        url: `${base}?page_new_entries=${page}`,\n        json: true,\n      });\n      if (!leagueName) leagueName = response.league.name;\n\n      for (const entry of response.new_entries.results) {\n        managers.push({\n          rank: null,\n          managerName: `${entry.player_first_name} ${entry.player_last_name}`,\n          teamName: entry.entry_name,\n          entryId: entry.entry,\n          totalPoints: null,\n          gwPoints: null,\n          matchesWon: null,\n          matchesDrawn: null,\n          matchesLost: null,\n          pointsFor: null,\n          status: 'joined_no_points_yet',\n        });\n      }\n      hasNext = response.new_entries.has_next;\n      page += 1;\n    }\n  }\n\n  return { leagueName, managers };\n};\n\nconst fetchCup = async (classicManagers) => {\n  const matchesById = new Map();\n  let anyStarted = false;\n\n  for (const m of classicManagers) {\n    try {\n      const c = await this.helpers.httpRequest({\n        method: 'GET',\n        url: `https://fantasy.premierleague.com/api/entry/${m.entryId}/cup/`,\n        json: true,\n      });\n      if (c.status && c.status.qualification_state && c.status.qualification_state !== 'not_yet_started') {\n        anyStarted = true;\n      }\n      for (const match of c.matches || []) {\n        matchesById.set(match.id, match);\n      }\n    } catch (e) {\n      // Cup not available for this manager yet - skip.\n    }\n  }\n\n  return {\n    notStarted: !anyStarted,\n    matches: Array.from(matchesById.values()).sort((a, b) => (a.event ?? 0) - (b.event ?? 0)),\n  };\n};\n\nconst computeLastManStanding = async (classicManagers) => {\n  const histories = {};\n  for (const m of classicManagers) {\n    try {\n      const h = await this.helpers.httpRequest({\n        method: 'GET',\n        url: `https://fantasy.premierleague.com/api/entry/${m.entryId}/history/`,\n        json: true,\n      });\n      histories[m.entryId] = h.current || [];\n    } catch (e) {\n      histories[m.entryId] = [];\n    }\n  }\n\n  let maxGw = 0;\n  for (const entryId in histories) {\n    for (const rec of histories[entryId]) {\n      if (rec.event > maxGw) maxGw = rec.event;\n    }\n  }\n\n  if (maxGw < LMS_START_GW) {\n    return {\n      status: 'not_started',\n      startGw: LMS_START_GW,\n      currentGw: maxGw,\n      message: `Last Man Standing begins at GW${LMS_START_GW}. Current gameweek: ${maxGw || 'pre-season'}.`,\n      survivors: classicManagers,\n      eliminated: [],\n    };\n  }\n\n  const managerLookup = Object.fromEntries(classicManagers.map((m) => [m.entryId, m]));\n  let survivors = classicManagers.map((m) => m.entryId);\n  const eliminated = [];\n\n  for (let gw = LMS_START_GW; gw <= maxGw; gw++) {\n    const scores = survivors\n      .map((id) => {\n        const rec = (histories[id] || []).find((r) => r.event === gw);\n        return rec ? { entryId: id, gwPoints: rec.points, total: rec.total_points } : null;\n      })\n      .filter(Boolean);\n\n    if (scores.length === 0) continue;\n\n    const minScore = Math.min(...scores.map((s) => s.gwPoints));\n    let candidates = scores.filter((s) => s.gwPoints === minScore);\n\n    if (candidates.length > 1) {\n      const minTotal = Math.min(...candidates.map((c) => c.total));\n      candidates = candidates.filter((c) => c.total === minTotal);\n    }\n\n    for (const c of candidates) {\n      eliminated.push({ ...managerLookup[c.entryId], eliminatedGw: gw, gwPoints: c.gwPoints });\n      survivors = survivors.filter((id) => id !== c.entryId);\n    }\n\n    if (survivors.length <= 1) break;\n  }\n\n  return {\n    status: survivors.length === 1 ? 'winner_decided' : 'in_progress',\n    startGw: LMS_START_GW,\n    currentGw: maxGw,\n    survivors: survivors.map((id) => managerLookup[id]),\n    eliminated: eliminated.sort((a, b) => b.eliminatedGw - a.eliminatedGw),\n  };\n};\n\nconst classic = await fetchLeague.call(this, 'classic', CLASSIC_LEAGUE_ID);\nconst h2h = await fetchLeague.call(this, 'h2h', H2H_LEAGUE_ID);\nconst cup = await fetchCup.call(this, classic.managers);\nconst lastManStanding = await computeLastManStanding.call(this, classic.managers);\n\nreturn [\n  {\n    json: {\n      updatedAt: new Date().toISOString(),\n      classicLeague: classic,\n      h2hLeague: h2h,\n      cup,\n      lastManStanding,\n    },\n  },\n];\n"
+      },
+      "id": "b1a1a111-0000-4000-8000-000000000002",
+      "name": "Fetch All Competitions",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "fpl-fairplay-squad",
+        "responseMode": "lastNode",
+        "responseData": "firstEntryJson",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+              }
+            ]
+          }
+        }
+      },
+      "id": "b1a1a111-0000-4000-8000-000000000003",
+      "name": "Squad Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        260,
+        500
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "const query = $input.first().json.query || {};\nconst entryId = query.entryId;\n\nif (!entryId) {\n  return [{ json: { error: 'Missing entryId query parameter' } }];\n}\n\nconst bootstrap = await this.helpers.httpRequest({\n  method: 'GET',\n  url: 'https://fantasy.premierleague.com/api/bootstrap-static/',\n  json: true,\n});\n\nconst elementsById = Object.fromEntries(bootstrap.elements.map((e) => [e.id, e]));\nconst teamsById = Object.fromEntries(bootstrap.teams.map((t) => [t.id, t]));\nconst positionNames = { 1: 'GKP', 2: 'DEF', 3: 'MID', 4: 'FWD' };\n\nlet gw = parseInt(query.gw, 10);\nif (!gw) {\n  const currentEvent =\n    bootstrap.events.find((e) => e.is_current) ||\n    [...bootstrap.events].reverse().find((e) => e.finished);\n  gw = currentEvent ? currentEvent.id : 1;\n}\n\nconst entryInfo = await this.helpers.httpRequest({\n  method: 'GET',\n  url: `https://fantasy.premierleague.com/api/entry/${entryId}/`,\n  json: true,\n});\n\nconst picksResp = await this.helpers.httpRequest({\n  method: 'GET',\n  url: `https://fantasy.premierleague.com/api/entry/${entryId}/event/${gw}/picks/`,\n  json: true,\n});\n\nconst picks = picksResp.picks.map((p) => {\n  const el = elementsById[p.element] || {};\n  const team = teamsById[el.team] || {};\n  return {\n    name: el.web_name ?? 'Unknown',\n    team: team.short_name ?? '',\n    position: positionNames[el.element_type] ?? '',\n    isCaptain: p.is_captain,\n    isViceCaptain: p.is_vice_captain,\n    isStarting: p.position <= 11,\n    eventPoints: (el.event_points ?? 0) * p.multiplier,\n  };\n});\n\nreturn [\n  {\n    json: {\n      entryId: Number(entryId),\n      gw,\n      managerName: `${entryInfo.player_first_name} ${entryInfo.player_last_name}`,\n      teamName: entryInfo.name,\n      gwPoints: picksResp.entry_history ? picksResp.entry_history.points : null,\n      totalPoints: picksResp.entry_history ? picksResp.entry_history.total_points : null,\n      overallRank: (picksResp.entry_history ? picksResp.entry_history.overall_rank : null) ?? entryInfo.summary_overall_rank ?? null,\n      activeChip: picksResp.active_chip,\n      picks,\n    },\n  },\n];\n"
+      },
+      "id": "b1a1a111-0000-4000-8000-000000000004",
+      "name": "Fetch Squad",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        500
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Fetch All Competitions",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Squad Webhook": {
+      "main": [
+        [
+          {
+            "node": "Fetch Squad",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "meta": {
+    "instanceId": "fpl-fairplay-managers"
+  }
+}

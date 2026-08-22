@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FPL Fairplay</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --accent2: #00ff87;
+    --danger: #fca5a5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 32px 16px 64px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  h1 { font-size: 1.5rem; margin: 0; }
+  h1 span { color: var(--accent2); }
+  #meta { color: var(--muted); font-size: 0.85rem; }
+  button {
+    background: var(--accent2);
+    color: #04140b;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  button:hover { opacity: 0.9; }
+  nav.tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  nav.tabs button.tab {
+    background: transparent;
+    color: var(--muted);
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 10px 14px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 0;
+  }
+  nav.tabs button.tab.active {
+    color: var(--text);
+    border-bottom-color: var(--accent2);
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  input[type="search"] {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    min-width: 220px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  th:hover { color: var(--text); }
+  th .arrow { opacity: 0.5; font-size: 0.65rem; margin-left: 4px; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,0.03); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .badge.scored { background: rgba(0,255,135,0.15); color: var(--accent2); }
+  .badge.pending { background: rgba(148,163,184,0.15); color: var(--muted); }
+  .badge.out { background: rgba(220,38,38,0.15); color: var(--danger); }
+  .note {
+    color: var(--muted);
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 0.9rem;
+  }
+  .status-block { padding: 40px 0; text-align: center; color: var(--muted); }
+  a.team-link { color: var(--text); text-decoration: none; cursor: pointer; }
+  a.team-link:hover { color: var(--accent2); text-decoration: underline; }
+  .modal-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    z-index: 50;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    max-width: 420px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+  .modal-header h3 { margin: 0; font-size: 1.1rem; }
+  .modal-header .sub { color: var(--muted); font-size: 0.8rem; }
+  .modal-close {
+    background: transparent;
+    color: var(--muted);
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0 4px;
+  }
+  .modal-stats { display: flex; gap: 16px; margin: 12px 0 16px; font-size: 0.85rem; color: var(--muted); }
+  .modal-stats strong { color: var(--text); }
+  .pitch {
+    background:
+      repeating-linear-gradient(
+        180deg,
+        #1a8f4c 0px,
+        #1a8f4c 40px,
+        #17803f 40px,
+        #17803f 80px
+      );
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 8px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .pitch-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    padding: 6px 0;
+  }
+  .player-chip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 64px;
+    text-align: center;
+  }
+  .jersey {
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50% 45% 45%;
+    background: #ffffff;
+    color: #04140b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 800;
+    border: 2px solid rgba(0,0,0,0.15);
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  }
+  .jersey.gkp { background: #ffe45e; }
+  .jersey .cap-tag {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: #04140b;
+    color: var(--accent2);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    font-size: 0.55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+  }
+  .player-chip .pname {
+    margin-top: 4px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: #ffffff;
+    background: rgba(0,0,0,0.55);
+    padding: 1px 5px;
+    border-radius: 4px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .player-chip .ppts {
+    font-size: 0.65rem;
+    color: #0b2e17;
+    background: var(--accent2);
+    padding: 0px 5px;
+    border-radius: 4px;
+    margin-top: 2px;
+    font-weight: 700;
+  }
+  .bench-strip {
+    margin-top: 14px;
+  }
+  .bench-strip .squad-group-title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 0 0 8px;
+  }
+  .bench-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 8px;
+  }
+  .bench-row .jersey { background: #cbd5e1; }
+  .bench-row .jersey.gkp { background: #ffe45e; }
+  .bench-row .pname { color: var(--text); background: transparent; padding: 0; }
+  .bench-row .ppts { background: transparent; color: var(--muted); font-weight: 600; }
+  .modal-loading { text-align: center; color: var(--muted); padding: 20px 0; }
+  #error {
+    color: var(--danger);
+    background: rgba(220,38,38,0.1);
+    border: 1px solid rgba(220,38,38,0.4);
+    border-radius: 8px;
+    padding: 12px 16px;
+    display: none;
+    margin-bottom: 16px;
+    font-size: 0.85rem;
+  }
+  h2.section-title { font-size: 1.05rem; margin: 0 0 12px; }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @media (min-width: 700px) {
+    .grid-2 { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 id="league-title">FPL <span>Fairplay</span></h1>
+      <div>
+        <span id="meta"></span>
+        <a href="index.html" style="color: var(--muted); font-size: 0.85rem; margin-right: 12px; text-decoration: none;">← Home</a>
+        <button id="refresh">Refresh</button>
+      </div>
+    </header>
+
+    <div id="error"></div>
+    <div id="status" class="status-block">Loading league data…</div>
+
+    <div id="content" style="display:none">
+      <nav class="tabs">
+        <button class="tab active" data-tab="classic">FPL Fairplay League</button>
+        <button class="tab" data-tab="h2h">Head to Head</button>
+        <button class="tab" data-tab="cup">FPL Cup</button>
+        <button class="tab" data-tab="lms">Last Man Standing</button>
+      </nav>
+
+      <section class="panel active" id="panel-classic">
+        <div class="toolbar">
+          <h2 class="section-title" id="classic-title">Overall Standings</h2>
+          <input type="search" placeholder="Search manager or team…" data-search="classic" />
+        </div>
+        <table id="table-classic">
+          <thead>
+            <tr>
+              <th data-sort="rank">Rank <span class="arrow"></span></th>
+              <th data-sort="managerName">Manager <span class="arrow"></span></th>
+              <th data-sort="teamName">Team <span class="arrow"></span></th>
+              <th class="num" data-sort="gwPoints">GW <span class="arrow"></span></th>
+              <th class="num" data-sort="totalPoints">Total <span class="arrow"></span></th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="panel" id="panel-h2h">
+        <div class="toolbar">
+          <h2 class="section-title" id="h2h-title">Head to Head Standings</h2>
+          <input type="search" placeholder="Search manager or team…" data-search="h2h" />
+        </div>
+        <table id="table-h2h">
+          <thead>
+            <tr>
+              <th data-sort="rank">Rank <span class="arrow"></span></th>
+              <th data-sort="managerName">Manager <span class="arrow"></span></th>
+              <th data-sort="teamName">Team <span class="arrow"></span></th>
+              <th class="num" data-sort="matchesWon">W <span class="arrow"></span></th>
+              <th class="num" data-sort="matchesDrawn">D <span class="arrow"></span></th>
+              <th class="num" data-sort="matchesLost">L <span class="arrow"></span></th>
+              <th class="num" data-sort="totalPoints">Pts <span class="arrow"></span></th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+
+      <section class="panel" id="panel-cup">
+        <h2 class="section-title">FPL Cup</h2>
+        <div id="cup-content"></div>
+      </section>
+
+      <section class="panel" id="panel-lms">
+        <h2 class="section-title">Last Man Standing</h2>
+        <div id="lms-message" class="note" style="margin-bottom:16px; display:none"></div>
+        <div class="grid-2">
+          <div>
+            <h3 style="font-size:0.9rem; color:var(--muted); margin: 0 0 8px;">Survivors</h3>
+            <table id="table-lms-survivors">
+              <thead><tr><th>Manager</th><th>Team</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div>
+            <h3 style="font-size:0.9rem; color:var(--muted); margin: 0 0 8px;">Eliminated</h3>
+            <table id="table-lms-eliminated">
+              <thead><tr><th>Manager</th><th>Team</th><th class="num">GW Out</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="squad-modal-backdrop">
+    <div class="modal" id="squad-modal">
+      <div class="modal-header">
+        <div>
+          <h3 id="squad-modal-title">Loading…</h3>
+          <div class="sub" id="squad-modal-sub"></div>
+        </div>
+        <button class="modal-close" id="squad-modal-close">✕</button>
+      </div>
+      <div id="squad-modal-body"></div>
+    </div>
+  </div>
+
+<script>
+  const WEBHOOK_URL = "https://anunay117.app.n8n.cloud/webhook/fpl-fairplay-managers";
+  const SQUAD_WEBHOOK_URL = "https://anunay117.app.n8n.cloud/webhook/fpl-fairplay-squad";
+
+  const statusEl = document.getElementById("status");
+  const errorEl = document.getElementById("error");
+  const contentEl = document.getElementById("content");
+  const metaEl = document.getElementById("meta");
+  const titleEl = document.getElementById("league-title");
+
+  let data = null;
+  const sortState = { classic: { key: "rank", dir: 1 }, h2h: { key: "rank", dir: 1 } };
+  const searchState = { classic: "", h2h: "" };
+
+  function teamLink(entryId, label) {
+    if (!entryId || !label) return label ?? "";
+    return `<a class="team-link" data-entry-id="${entryId}">${label}</a>`;
+  }
+
+  const squadBackdrop = document.getElementById("squad-modal-backdrop");
+  const squadTitle = document.getElementById("squad-modal-title");
+  const squadSub = document.getElementById("squad-modal-sub");
+  const squadBody = document.getElementById("squad-modal-body");
+
+  function closeSquadModal() {
+    squadBackdrop.classList.remove("open");
+  }
+
+  function playerChip(p) {
+    const cap = p.isCaptain ? '<span class="cap-tag">C</span>' : p.isViceCaptain ? '<span class="cap-tag">V</span>' : "";
+    const jerseyClass = p.position === "GKP" ? "jersey gkp" : "jersey";
+    return `
+      <div class="player-chip">
+        <div class="${jerseyClass}">${p.team || ""}${cap}</div>
+        <div class="pname">${p.name}</div>
+        <div class="ppts">${p.eventPoints ?? 0}</div>
+      </div>
+    `;
+  }
+
+  function renderSquadPicks(picks) {
+    const starting = picks.filter((p) => p.isStarting);
+    const bench = picks.filter((p) => !p.isStarting);
+    const posOrder = ["GKP", "DEF", "MID", "FWD"];
+    const rows = posOrder
+      .map((pos) => starting.filter((p) => p.position === pos))
+      .filter((group) => group.length > 0)
+      .map((group) => `<div class="pitch-row">${group.map(playerChip).join("")}</div>`)
+      .join("");
+
+    return `
+      <div class="pitch">${rows}</div>
+      <div class="bench-strip">
+        <div class="squad-group-title">Bench</div>
+        <div class="bench-row">${bench.map(playerChip).join("")}</div>
+      </div>
+    `;
+  }
+
+  async function openSquadModal(entryId) {
+    squadBackdrop.classList.add("open");
+    squadTitle.textContent = "Loading…";
+    squadSub.textContent = "";
+    squadBody.innerHTML = '<div class="modal-loading">Fetching squad from FPL…</div>';
+
+    try {
+      const res = await fetch(`${SQUAD_WEBHOOK_URL}?entryId=${encodeURIComponent(entryId)}`);
+      if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+      const squad = await res.json();
+      if (squad.error) throw new Error(squad.error);
+
+      squadTitle.textContent = squad.teamName || "Squad";
+      squadSub.textContent = `${squad.managerName || ""} · GW${squad.gw}`;
+      squadBody.innerHTML = `
+        <div class="modal-stats">
+          <div>GW Points: <strong>${squad.gwPoints ?? "—"}</strong></div>
+          <div>Total: <strong>${squad.totalPoints ?? "—"}</strong></div>
+          <div>Overall Rank: <strong>${squad.overallRank != null ? squad.overallRank.toLocaleString() : "—"}</strong></div>
+          ${squad.activeChip ? `<div>Chip: <strong>${squad.activeChip}</strong></div>` : ""}
+        </div>
+        ${renderSquadPicks(squad.picks || [])}
+      `;
+    } catch (err) {
+      squadTitle.textContent = "Couldn't load squad";
+      squadBody.innerHTML = `<div class="modal-loading">${err.message}</div>`;
+    }
+  }
+
+  document.getElementById("squad-modal-close").addEventListener("click", closeSquadModal);
+  squadBackdrop.addEventListener("click", (e) => {
+    if (e.target === squadBackdrop) closeSquadModal();
+  });
+
+  document.addEventListener("click", (e) => {
+    const link = e.target.closest("a.team-link");
+    if (link) {
+      e.preventDefault();
+      openSquadModal(link.dataset.entryId);
+    }
+  });
+
+  function statusBadge(status) {
+    if (status === "scored") return '<span class="badge scored">Scored</span>';
+    if (status === "joined_no_points_yet") return '<span class="badge pending">Joined</span>';
+    return "";
+  }
+
+  function renderStandingsTable(kind) {
+    const table = document.getElementById(`table-${kind}`);
+    const tbody = table.querySelector("tbody");
+    const source = kind === "classic" ? data.classicLeague : data.h2hLeague;
+    if (!source) return;
+
+    const term = searchState[kind].toLowerCase();
+    let rows = source.managers.filter(
+      (m) =>
+        !term ||
+        (m.managerName || "").toLowerCase().includes(term) ||
+        (m.teamName || "").toLowerCase().includes(term)
+    );
+
+    const { key, dir } = sortState[kind];
+    rows = [...rows].sort((a, b) => {
+      const av = a[key];
+      const bv = b[key];
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      if (typeof av === "string") return dir * av.localeCompare(bv);
+      return dir * (av - bv);
+    });
+
+    tbody.innerHTML = "";
+    for (const m of rows) {
+      const tr = document.createElement("tr");
+      if (kind === "classic") {
+        tr.innerHTML = `
+          <td>${m.rank ?? "—"}</td>
+          <td>${teamLink(m.entryId, m.managerName)}</td>
+          <td>${teamLink(m.entryId, m.teamName)}</td>
+          <td class="num">${m.gwPoints ?? "—"}</td>
+          <td class="num">${m.totalPoints ?? "—"}</td>
+          <td>${statusBadge(m.status)}</td>
+        `;
+      } else {
+        tr.innerHTML = `
+          <td>${m.rank ?? "—"}</td>
+          <td>${teamLink(m.entryId, m.managerName)}</td>
+          <td>${teamLink(m.entryId, m.teamName)}</td>
+          <td class="num">${m.matchesWon ?? "—"}</td>
+          <td class="num">${m.matchesDrawn ?? "—"}</td>
+          <td class="num">${m.matchesLost ?? "—"}</td>
+          <td class="num">${m.totalPoints ?? "—"}</td>
+          <td>${statusBadge(m.status)}</td>
+        `;
+      }
+      tbody.appendChild(tr);
+    }
+
+    document.getElementById(`${kind}-title`).textContent =
+      `${source.leagueName || "Standings"} · ${source.managers.length} managers`;
+  }
+
+  function renderCup() {
+    const el = document.getElementById("cup-content");
+    const cup = data.cup;
+    if (!cup || cup.notStarted || !cup.matches || cup.matches.length === 0) {
+      el.innerHTML = `<div class="note">The FPL Cup hasn't started yet. It kicks off automatically later in the season once qualifying gameweeks are complete — this section will populate with bracket results as soon as FPL activates it.</div>`;
+      return;
+    }
+    const rows = cup.matches
+      .map(
+        (m) => `
+      <tr>
+        <td class="num">${m.event ?? "—"}</td>
+        <td>${teamLink(m.entry_1_entry, m.entry_1_player_name ?? m.entry_1_name ?? "TBD")} (${m.entry_1_points ?? "—"})</td>
+        <td>${teamLink(m.entry_2_entry, m.entry_2_player_name ?? m.entry_2_name ?? "TBD")} (${m.entry_2_points ?? "—"})</td>
+        <td>${m.winner ? "Decided" : "Pending"}</td>
+      </tr>
+    `
+      )
+      .join("");
+    el.innerHTML = `
+      <table>
+        <thead><tr><th class="num">GW</th><th>Entry 1</th><th>Entry 2</th><th>Result</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+
+  function renderLms() {
+    const lms = data.lastManStanding;
+    const msgEl = document.getElementById("lms-message");
+    const survivorsBody = document.querySelector("#table-lms-survivors tbody");
+    const eliminatedBody = document.querySelector("#table-lms-eliminated tbody");
+    survivorsBody.innerHTML = "";
+    eliminatedBody.innerHTML = "";
+
+    if (!lms) return;
+
+    if (lms.status === "not_started") {
+      msgEl.style.display = "block";
+      msgEl.textContent = lms.message;
+    } else {
+      msgEl.style.display = "none";
+    }
+
+    for (const m of lms.survivors || []) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${teamLink(m.entryId, m.managerName)}</td><td>${teamLink(m.entryId, m.teamName)}</td>`;
+      survivorsBody.appendChild(tr);
+    }
+
+    for (const m of lms.eliminated || []) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${teamLink(m.entryId, m.managerName)}</td><td>${teamLink(m.entryId, m.teamName)}</td><td class="num">${m.eliminatedGw ?? ""}</td>`;
+      eliminatedBody.appendChild(tr);
+    }
+  }
+
+  function renderAll() {
+    renderStandingsTable("classic");
+    renderStandingsTable("h2h");
+    renderCup();
+    renderLms();
+  }
+
+  async function load() {
+    errorEl.style.display = "none";
+    contentEl.style.display = "none";
+    statusEl.style.display = "block";
+    statusEl.textContent = "Loading league data…";
+
+    try {
+      const res = await fetch(WEBHOOK_URL);
+      if (!res.ok) throw new Error(`Request failed: ${res.status} ${res.statusText}`);
+      data = await res.json();
+
+      if (data.classicLeague && data.classicLeague.leagueName) {
+        titleEl.innerHTML = data.classicLeague.leagueName.replace(/fairplay/i, "<span>$&</span>");
+      }
+      metaEl.textContent = `Updated ${new Date(data.updatedAt).toLocaleString()}`;
+
+      renderAll();
+      statusEl.style.display = "none";
+      contentEl.style.display = "block";
+    } catch (err) {
+      statusEl.style.display = "none";
+      errorEl.style.display = "block";
+      errorEl.textContent =
+        "Couldn't load league data: " +
+        err.message +
+        ". Check that the n8n webhook is active and reachable.";
+    }
+  }
+
+  document.getElementById("refresh").addEventListener("click", load);
+
+  document.querySelectorAll("nav.tabs .tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("nav.tabs .tab").forEach((b) => b.classList.remove("active"));
+      document.querySelectorAll(".panel").forEach((p) => p.classList.remove("active"));
+      btn.classList.add("active");
+      document.getElementById(`panel-${btn.dataset.tab}`).classList.add("active");
+    });
+  });
+
+  document.querySelectorAll("input[data-search]").forEach((input) => {
+    input.addEventListener("input", () => {
+      const kind = input.dataset.search;
+      searchState[kind] = input.value;
+      renderStandingsTable(kind);
+    });
+  });
+
+  document.querySelectorAll("th[data-sort]").forEach((th) => {
+    th.addEventListener("click", () => {
+      const table = th.closest("table");
+      const kind = table.id.replace("table-", "");
+      const key = th.dataset.sort;
+      const state = sortState[kind];
+      if (state.key === key) {
+        state.dir *= -1;
+      } else {
+        state.key = key;
+        state.dir = 1;
+      }
+      table.querySelectorAll("th .arrow").forEach((a) => (a.textContent = ""));
+      th.querySelector(".arrow").textContent = state.dir === 1 ? "▲" : "▼";
+      renderStandingsTable(kind);
+    });
+  });
+
+  load();
+</script>
+</body>
+</html>

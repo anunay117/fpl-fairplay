@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FPL Fairplay</title>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #1e293b;
+    --border: #334155;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --accent2: #00ff87;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 40px 16px 80px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 12px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  h1 span { color: var(--accent2); }
+  .tagline { color: var(--muted); font-size: 0.95rem; margin-bottom: 28px; }
+  .welcome {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(0,255,135,0.08), transparent);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 36px 24px;
+    margin-bottom: 32px;
+  }
+  .season-badge {
+    display: inline-block;
+    background: var(--accent2);
+    color: #04140b;
+    font-weight: 800;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    padding: 5px 14px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+  }
+  .welcome h1 { font-size: 1.9rem; margin: 0 0 14px; }
+  .welcome-text {
+    color: var(--text);
+    font-size: 1rem;
+    max-width: 620px;
+    margin: 0 auto 10px;
+    line-height: 1.6;
+  }
+  .welcome-wish {
+    color: var(--accent2);
+    font-weight: 600;
+  }
+  .cta-row { text-align: center; margin-bottom: 40px; }
+  a.button {
+    display: inline-block;
+    background: var(--accent2);
+    color: #04140b;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  a.button:hover { opacity: 0.9; }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  @media (min-width: 720px) {
+    .cards { grid-template-columns: 1fr 1fr; }
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px;
+  }
+  .card h2 {
+    font-size: 1.1rem;
+    margin: 0 0 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card .subtitle { color: var(--muted); font-size: 0.8rem; margin-bottom: 14px; }
+  .card ul { margin: 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.6; }
+  .card ul li { margin-bottom: 4px; }
+  .assumption {
+    margin-top: 12px;
+    font-size: 0.78rem;
+    color: var(--muted);
+    border-top: 1px dashed var(--border);
+    padding-top: 10px;
+  }
+  .badge {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: rgba(0,255,135,0.12);
+    color: var(--accent2);
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-weight: 700;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-top: 48px;
+  }
+  .prizes {
+    text-align: center;
+  }
+  .prizes-image {
+    max-width: 100%;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+  nav.tabs {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-bottom: 28px;
+    border-bottom: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  nav.tabs button.tab {
+    background: transparent;
+    color: var(--muted);
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  nav.tabs button.tab.active {
+    color: var(--text);
+    border-bottom-color: var(--accent2);
+  }
+  .panel { display: none; }
+  .panel.active { display: block; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="welcome">
+      <div class="season-badge">SEASON 7</div>
+      <h1>Welcome to FPL <span>Fairplay</span></h1>
+      <p class="welcome-text">
+        We're kicking off the 7th season of the FPL Fairplay mini league! Whether you're a
+        returning gaffer or new to the league this year, we're glad to have you.
+      </p>
+      <p class="welcome-text welcome-wish">Best of luck to every manager this season — play fair, play smart, win big! ⚽🏆</p>
+    </section>
+
+    <header>
+      <div class="tagline">Four ways to compete, one league. Here's how each one works.</div>
+    </header>
+
+    <div class="cta-row">
+      <a class="button" href="fpl-fairplay.html">View Live Standings →</a>
+    </div>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="competitions">Competitions</button>
+      <button class="tab" data-tab="prizes">Prizes</button>
+    </nav>
+
+    <section class="panel active" id="panel-competitions">
+    <div class="cards">
+      <div class="card">
+        <h2>🏆 FPL Fairplay League <span class="badge">Classic</span></h2>
+        <div class="subtitle">The main event — season-long, no eliminations</div>
+        <ul>
+          <li>Every manager's total FPL points are added up across all 38 gameweeks.</li>
+          <li>Standings update automatically after each gameweek is finalized by the official FPL scoring.</li>
+          <li>Whoever has the highest cumulative total at the end of GW38 wins the league.</li>
+          <li>No knockouts here — a bad gameweek doesn't eliminate you, it's a pure marathon.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>⚔️ Head to Head <span class="badge">H2H</span></h2>
+        <div class="subtitle">Weekly 1v1 matchups, football-style table</div>
+        <ul>
+          <li>Every gameweek, you're paired against one other manager in the league.</li>
+          <li>Higher FPL score that gameweek wins the match: <strong>3 points</strong> for a win, <strong>1 point</strong> for a tie (equal scores), <strong>0</strong> for a loss.</li>
+          <li>Standings rank by total H2H league points (win/draw/loss record), with total FPL points scored as the tiebreaker.</li>
+          <li>Fixtures rotate automatically for the whole season, similar to a round-robin football league.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>🥇 FPL Cup <span class="badge">Knockout</span></h2>
+        <div class="subtitle">Single-elimination bracket, later in the season</div>
+        <ul>
+          <li>FPL automatically activates the cup for classic leagues after a qualification cutoff (typically once a decent number of gameweeks have been played).</li>
+          <li>Managers are randomly paired each round; whoever scores more points that gameweek advances.</li>
+          <li>Ties are broken by FPL's standard tiebreak rules (bench points, then transfers made).</li>
+          <li>Continues round by round until one manager remains as Cup champion.</li>
+        </ul>
+        <div class="assumption">Assumption: exact start gameweek and pairing rules are set by FPL itself for this season and aren't final until FPL activates them — the live standings page will show bracket results automatically once that happens.</div>
+      </div>
+
+      <div class="card">
+        <h2>💀 Last Man Standing <span class="badge">Elimination</span></h2>
+        <div class="subtitle">Survive each gameweek — one bad week and you're out</div>
+        <ul>
+          <li>Starts at <strong>Gameweek 5</strong> — everyone in the league begins as a survivor.</li>
+          <li>Each gameweek from GW5 onward, the surviving manager with the <strong>lowest gameweek score</strong> is eliminated.</li>
+          <li>If there's a tie for lowest score, the manager with the <strong>lower season total points</strong> (as of that gameweek) is the one eliminated.</li>
+          <li>This repeats every week until only one manager is left standing — the winner.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>📅 Manager of the Month <span class="badge">Monthly</span></h2>
+        <div class="subtitle">Best performer each month, awarded manually</div>
+        <ul>
+          <li>Awarded each calendar month to the manager with the best gameweek performances during that month.</li>
+          <li>Not yet on the live standings page — for now this is tracked and awarded manually by the league admin.</li>
+        </ul>
+      </div>
+    </div>
+    </section>
+
+    <section class="panel prizes" id="panel-prizes">
+      <img class="prizes-image" src="prize.png" alt="FPL Fairplay Season 7 prize breakdown" />
+    </section>
+
+    <footer>
+      Rules for the Cup are FPL-set and may be refined once the season reaches that stage.
+      <br /><br />
+      FPL Fairplay Admin — Anunay Gupta<br />
+      For any queries/information, please reach out on the WhatsApp Group of FPL Fairplay.
+    </footer>
+  </div>
+
+  <script>
+    document.querySelectorAll("nav.tabs .tab").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("nav.tabs .tab").forEach((b) => b.classList.remove("active"));
+        document.querySelectorAll(".panel").forEach((p) => p.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById(`panel-${btn.dataset.tab}`).classList.add("active");
+      });
+    });
+  </script>
+</body>
+</html>
