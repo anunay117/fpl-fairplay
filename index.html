@@ -216,7 +216,7 @@
     margin-bottom: 20px;
   }
   @media (min-width: 640px) {
-    .stat-chips { grid-template-columns: repeat(3, 1fr); }
+    .stat-chips { grid-template-columns: repeat(2, 1fr); }
   }
   .stat-chip {
     background: var(--bg);
@@ -453,6 +453,63 @@
       `;
     }
 
+    function buildCommentary(summary, managers) {
+      const sorted = [...managers].filter((m) => m.gwPoints != null).sort((a, b) => b.gwPoints - a.gwPoints);
+      const top = sorted[0];
+      const second = sorted[1];
+      const bottom = sorted[sorted.length - 1];
+      const gapTopSecond = second ? top.gwPoints - second.gwPoints : null;
+      const lines = [];
+
+      if (gapTopSecond != null && gapTopSecond >= 10) {
+        lines.push(`${top.managerName} (${top.teamName}) blew the field away this gameweek, finishing ${gapTopSecond} points clear of anyone else.`);
+      } else if (gapTopSecond != null && gapTopSecond <= 2) {
+        lines.push(`It was razor-close at the top — ${top.managerName} (${top.teamName}) edged it by just ${gapTopSecond} point${gapTopSecond === 1 ? "" : "s"}.`);
+      } else {
+        lines.push(`${top.managerName} (${top.teamName}) topped the gameweek with ${top.gwPoints} points.`);
+      }
+
+      if (bottom.gwPoints <= 20) {
+        lines.push(`Spare a thought for ${bottom.managerName} (${bottom.teamName}), who had a nightmare week on just ${bottom.gwPoints} points.`);
+      } else {
+        lines.push(`${bottom.managerName} (${bottom.teamName}) had the quietest week, on ${bottom.gwPoints} points.`);
+      }
+
+      if (summary.leagueLeader && summary.leagueLeader.gapToSecond != null) {
+        const gap = summary.leagueLeader.gapToSecond;
+        if (gap >= 15) {
+          lines.push(`${summary.leagueLeader.managerName} is cruising at the top of the table, ${gap} points clear of the chasing pack.`);
+        } else if (gap <= 3) {
+          lines.push(`The title race is wide open — ${summary.leagueLeader.managerName} leads by a slender ${gap} point${gap === 1 ? "" : "s"}.`);
+        } else {
+          lines.push(`${summary.leagueLeader.managerName} holds the top spot, ${gap} points ahead of 2nd place.`);
+        }
+      }
+
+      if (summary.seasonHigh) {
+        if (summary.seasonHigh.gw === summary.gw) {
+          lines.push(`That's also the best single-gameweek score of the season so far! 🔥`);
+        } else {
+          lines.push(`Season-best GW score so far remains ${summary.seasonHigh.gwPoints} points, set by ${summary.seasonHigh.managerName} in GW${summary.seasonHigh.gw}.`);
+        }
+      }
+
+      if (!summary.isFirstGw && summary.risers.length) {
+        const r = summary.risers[0];
+        lines.push(`Biggest climber: ${r.managerName} (${r.teamName}), up ${r.movement} place${r.movement === 1 ? "" : "s"} in the table.`);
+      }
+      if (!summary.isFirstGw && summary.fallers.length) {
+        const f = summary.fallers[0];
+        lines.push(`Biggest faller: ${f.managerName} (${f.teamName}), down ${Math.abs(f.movement)} place${Math.abs(f.movement) === 1 ? "" : "s"}.`);
+      }
+
+      if (summary.isFirstGw) {
+        lines.push(`Standings are freshly set — rank movers will show up from GW2 onward.`);
+      }
+
+      return lines;
+    }
+
     async function loadMovers() {
       const body = document.getElementById("movers-body");
       try {
@@ -460,15 +517,16 @@
         if (!res.ok) throw new Error(`Request failed: ${res.status}`);
         const data = await res.json();
         const summary = data.gwSummary;
+        const managers = data.classicLeague ? data.classicLeague.managers : [];
 
         if (!summary) {
           body.innerHTML = `<div class="movers-loading">No gameweek data yet — check back once GW1 kicks off.</div>`;
           return;
         }
 
-        const recap = summary.isFirstGw
-          ? `GW${summary.gw} Recap: ${summary.topScorer.managerName} (${summary.topScorer.teamName}) led the way with ${summary.topScorer.gwPoints} points, while ${summary.bottomScorer.managerName} (${summary.bottomScorer.teamName}) had a quieter start on ${summary.bottomScorer.gwPoints}. League average this gameweek: ${summary.averagePoints} points across ${summary.managerCount} managers. Standings are freshly set — rank movers will show up from GW2 onward.`
-          : `GW${summary.gw} Recap: ${summary.topScorer.managerName} (${summary.topScorer.teamName}) topped the gameweek with ${summary.topScorer.gwPoints} points, while ${summary.bottomScorer.managerName} (${summary.bottomScorer.teamName}) had a tougher week on ${summary.bottomScorer.gwPoints}. League average this gameweek: ${summary.averagePoints} points across ${summary.managerCount} managers.`;
+        const commentaryHtml = buildCommentary(summary, managers)
+          .map((line) => `<p class="movers-recap">${line}</p>`)
+          .join("");
 
         const leader = summary.leagueLeader;
         const statsHtml = `
@@ -480,11 +538,6 @@
                 <div class="stat-sub">${leader.gapToSecond != null ? `+${leader.gapToSecond} ahead of 2nd` : ""}</div>
               </div>
             ` : ""}
-            <div class="stat-chip">
-              <div class="stat-label">Above Average</div>
-              <div class="stat-value">${summary.aboveAverageCount} / ${summary.managerCount}</div>
-              <div class="stat-sub">managers beat ${summary.averagePoints} pts this GW</div>
-            </div>
             ${summary.seasonHigh ? `
               <div class="stat-chip">
                 <div class="stat-label">Best GW This Season</div>
@@ -511,7 +564,7 @@
           `;
         }
 
-        body.innerHTML = `<p class="movers-recap">${recap}</p>${statsHtml}${moversHtml}`;
+        body.innerHTML = `${commentaryHtml}${statsHtml}${moversHtml}`;
       } catch (err) {
         body.innerHTML = `<div class="movers-loading">Couldn't load gameweek movers: ${err.message}</div>`;
       }
