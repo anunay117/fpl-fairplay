@@ -442,12 +442,22 @@
 
     const WEBHOOK_URL = "https://anunay117.app.n8n.cloud/webhook/fpl-fairplay-managers";
 
+    function escapeHtml(str) {
+      if (str == null) return "";
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
     function moverRow(m) {
       const cls = m.movement > 0 ? "up" : m.movement < 0 ? "down" : "";
       const arrow = m.movement > 0 ? `▲${m.movement}` : m.movement < 0 ? `▼${Math.abs(m.movement)}` : "–";
       return `
         <div class="mover-row">
-          <span>${m.managerName} <span style="color:var(--muted)">(${m.teamName})</span></span>
+          <span>${escapeHtml(m.managerName)} <span style="color:var(--muted)">(${escapeHtml(m.teamName)})</span></span>
           <span class="mover-move ${cls}">${arrow}</span>
         </div>
       `;
@@ -461,28 +471,34 @@
       const gapTopSecond = second ? top.gwPoints - second.gwPoints : null;
       const lines = [];
 
+      const topName = escapeHtml(top.managerName);
+      const topTeam = escapeHtml(top.teamName);
+      const bottomName = escapeHtml(bottom.managerName);
+      const bottomTeam = escapeHtml(bottom.teamName);
+
       if (gapTopSecond != null && gapTopSecond >= 10) {
-        lines.push(`${top.managerName} (${top.teamName}) blew the field away this gameweek, finishing ${gapTopSecond} points clear of anyone else.`);
+        lines.push(`${topName} (${topTeam}) blew the field away this gameweek, finishing ${gapTopSecond} points clear of anyone else.`);
       } else if (gapTopSecond != null && gapTopSecond <= 2) {
-        lines.push(`It was razor-close at the top — ${top.managerName} (${top.teamName}) edged it by just ${gapTopSecond} point${gapTopSecond === 1 ? "" : "s"}.`);
+        lines.push(`It was razor-close at the top — ${topName} (${topTeam}) edged it by just ${gapTopSecond} point${gapTopSecond === 1 ? "" : "s"}.`);
       } else {
-        lines.push(`${top.managerName} (${top.teamName}) topped the gameweek with ${top.gwPoints} points.`);
+        lines.push(`${topName} (${topTeam}) topped the gameweek with ${top.gwPoints} points.`);
       }
 
       if (bottom.gwPoints <= 20) {
-        lines.push(`Spare a thought for ${bottom.managerName} (${bottom.teamName}), who had a nightmare week on just ${bottom.gwPoints} points.`);
+        lines.push(`Spare a thought for ${bottomName} (${bottomTeam}), who had a nightmare week on just ${bottom.gwPoints} points.`);
       } else {
-        lines.push(`${bottom.managerName} (${bottom.teamName}) had the quietest week, on ${bottom.gwPoints} points.`);
+        lines.push(`${bottomName} (${bottomTeam}) had the quietest week, on ${bottom.gwPoints} points.`);
       }
 
       if (summary.leagueLeader && summary.leagueLeader.gapToSecond != null) {
         const gap = summary.leagueLeader.gapToSecond;
+        const leaderName = escapeHtml(summary.leagueLeader.managerName);
         if (gap >= 15) {
-          lines.push(`${summary.leagueLeader.managerName} is cruising at the top of the table, ${gap} points clear of the chasing pack.`);
+          lines.push(`${leaderName} is cruising at the top of the table, ${gap} points clear of the chasing pack.`);
         } else if (gap <= 3) {
-          lines.push(`The title race is wide open — ${summary.leagueLeader.managerName} leads by a slender ${gap} point${gap === 1 ? "" : "s"}.`);
+          lines.push(`The title race is wide open — ${leaderName} leads by a slender ${gap} point${gap === 1 ? "" : "s"}.`);
         } else {
-          lines.push(`${summary.leagueLeader.managerName} holds the top spot, ${gap} points ahead of 2nd place.`);
+          lines.push(`${leaderName} holds the top spot, ${gap} points ahead of 2nd place.`);
         }
       }
 
@@ -490,17 +506,17 @@
         if (summary.seasonHigh.gw === summary.gw) {
           lines.push(`That's also the best single-gameweek score of the season so far! 🔥`);
         } else {
-          lines.push(`Season-best GW score so far remains ${summary.seasonHigh.gwPoints} points, set by ${summary.seasonHigh.managerName} in GW${summary.seasonHigh.gw}.`);
+          lines.push(`Season-best GW score so far remains ${summary.seasonHigh.gwPoints} points, set by ${escapeHtml(summary.seasonHigh.managerName)} in GW${summary.seasonHigh.gw}.`);
         }
       }
 
       if (!summary.isFirstGw && summary.risers.length) {
         const r = summary.risers[0];
-        lines.push(`Biggest climber: ${r.managerName} (${r.teamName}), up ${r.movement} place${r.movement === 1 ? "" : "s"} in the table.`);
+        lines.push(`Biggest climber: ${escapeHtml(r.managerName)} (${escapeHtml(r.teamName)}), up ${r.movement} place${r.movement === 1 ? "" : "s"} in the table.`);
       }
       if (!summary.isFirstGw && summary.fallers.length) {
         const f = summary.fallers[0];
-        lines.push(`Biggest faller: ${f.managerName} (${f.teamName}), down ${Math.abs(f.movement)} place${Math.abs(f.movement) === 1 ? "" : "s"}.`);
+        lines.push(`Biggest faller: ${escapeHtml(f.managerName)} (${escapeHtml(f.teamName)}), down ${Math.abs(f.movement)} place${Math.abs(f.movement) === 1 ? "" : "s"}.`);
       }
 
       if (summary.isFirstGw) {
@@ -532,7 +548,7 @@
             ${leader ? `
               <div class="stat-chip">
                 <div class="stat-label">League Leader</div>
-                <div class="stat-value">${leader.managerName} — ${leader.totalPoints} pts</div>
+                <div class="stat-value">${escapeHtml(leader.managerName)} — ${leader.totalPoints} pts</div>
                 <div class="stat-sub">${leader.gapToSecond != null ? `+${leader.gapToSecond} ahead of 2nd` : ""}</div>
               </div>
             ` : ""}
@@ -540,7 +556,7 @@
               <div class="stat-chip">
                 <div class="stat-label">Best GW This Season</div>
                 <div class="stat-value">${summary.seasonHigh.gwPoints} pts</div>
-                <div class="stat-sub">${summary.seasonHigh.managerName} · GW${summary.seasonHigh.gw}</div>
+                <div class="stat-sub">${escapeHtml(summary.seasonHigh.managerName)} · GW${summary.seasonHigh.gw}</div>
               </div>
             ` : ""}
           </div>
