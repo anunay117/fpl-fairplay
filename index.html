@@ -524,9 +524,7 @@
           return;
         }
 
-        const commentaryHtml = buildCommentary(summary, managers)
-          .map((line) => `<p class="movers-recap">${line}</p>`)
-          .join("");
+        const commentaryHtml = `<p class="movers-recap">${buildCommentary(summary, managers).join(" ")}</p>`;
 
         const leader = summary.leagueLeader;
         const statsHtml = `
