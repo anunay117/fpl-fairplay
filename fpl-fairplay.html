@@ -202,7 +202,24 @@
     font-size: 1.2rem;
     cursor: pointer;
     padding: 0 4px;
+    float: right;
   }
+  .coffee-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ffdd00;
+    color: #04140b;
+    border: none;
+    border-radius: 999px;
+    padding: 12px 18px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+    z-index: 40;
+  }
+  .coffee-btn:hover { opacity: 0.9; }
   .modal-stats { display: flex; gap: 16px; margin: 12px 0 16px; font-size: 0.85rem; color: var(--muted); }
   .modal-stats strong { color: var(--text); }
   .pitch {
@@ -428,6 +445,20 @@
           </div>
         </div>
       </section>
+    </div>
+  </div>
+
+  <button class="coffee-btn" id="coffee-btn">☕ If you love this, buy me a coffee</button>
+
+  <div class="modal-backdrop" id="coffee-modal-backdrop">
+    <div class="modal" style="max-width: 360px; text-align: center;">
+      <button class="modal-close" id="coffee-modal-close">✕</button>
+      <h3 style="margin: 4px 0 0;">☕ Buy Me a Coffee</h3>
+      <img src="coffee-qr.png" alt="Scan to buy Anunay a coffee via UPI" style="max-width: 100%; border-radius: 10px; margin: 12px 0;" />
+      <div style="font-size: 0.9rem; color: var(--text); line-height: 1.6; margin-top: 10px;">
+        Thank you so much for supporting FPL Fairplay! 🙏<br />
+        Every little bit helps keep the league running smoothly.
+      </div>
     </div>
   </div>
 
@@ -771,6 +802,17 @@
   });
 
   load();
+
+  const coffeeBackdrop = document.getElementById("coffee-modal-backdrop");
+  document.getElementById("coffee-btn").addEventListener("click", () => {
+    coffeeBackdrop.classList.add("open");
+  });
+  document.getElementById("coffee-modal-close").addEventListener("click", () => {
+    coffeeBackdrop.classList.remove("open");
+  });
+  coffeeBackdrop.addEventListener("click", (e) => {
+    if (e.target === coffeeBackdrop) coffeeBackdrop.classList.remove("open");
+  });
 </script>
 </body>
 </html>
