@@ -117,6 +117,10 @@
   .card .subtitle { color: var(--muted); font-size: 0.8rem; margin-bottom: 14px; }
   .card ul { margin: 0; padding-left: 18px; font-size: 0.88rem; line-height: 1.6; }
   .card ul li { margin-bottom: 4px; }
+  a.card-link { display: block; color: inherit; text-decoration: none; }
+  a.card-link .card { cursor: pointer; transition: border-color 0.15s ease, transform 0.15s ease; }
+  a.card-link:hover .card { border-color: var(--accent2); transform: translateY(-2px); }
+  .card-cta { margin-top: 14px; font-size: 0.8rem; font-weight: 700; color: var(--accent2); }
   .assumption {
     margin-top: 12px;
     font-size: 0.78rem;
@@ -329,6 +333,7 @@
 
     <section class="panel active" id="panel-competitions">
     <div class="cards">
+      <a class="card-link" href="fpl-fairplay.html?tab=classic">
       <div class="card">
         <h2>🏆 FPL Fairplay League <span class="badge">Classic</span></h2>
         <div class="subtitle">The main event — season-long, no eliminations</div>
@@ -338,8 +343,11 @@
           <li>Whoever has the highest cumulative total at the end of GW38 wins the league.</li>
           <li>No knockouts here — a bad gameweek doesn't eliminate you, it's a pure marathon.</li>
         </ul>
+        <div class="card-cta">View League standings →</div>
       </div>
+      </a>
 
+      <a class="card-link" href="fpl-fairplay.html?tab=h2h">
       <div class="card">
         <h2>⚔️ Head to Head <span class="badge">H2H</span></h2>
         <div class="subtitle">Weekly 1v1 matchups, football-style table</div>
@@ -349,8 +357,11 @@
           <li>Standings rank by total H2H league points (win/draw/loss record), with total FPL points scored as the tiebreaker.</li>
           <li>Fixtures rotate automatically for the whole season, similar to a round-robin football league.</li>
         </ul>
+        <div class="card-cta">View Head to Head standings →</div>
       </div>
+      </a>
 
+      <a class="card-link" href="fpl-fairplay.html?tab=cup">
       <div class="card">
         <h2>🥇 FPL Cup <span class="badge">Knockout</span></h2>
         <div class="subtitle">Single-elimination bracket, later in the season</div>
@@ -361,8 +372,11 @@
           <li>Continues round by round until one manager remains as Cup champion.</li>
         </ul>
         <div class="assumption">Assumption: exact start gameweek and pairing rules are set by FPL itself for this season and aren't final until FPL activates them — the live standings page will show bracket results automatically once that happens.</div>
+        <div class="card-cta">View Cup bracket →</div>
       </div>
+      </a>
 
+      <a class="card-link" href="fpl-fairplay.html?tab=lms">
       <div class="card">
         <h2>💀 Last Man Standing <span class="badge">Elimination</span></h2>
         <div class="subtitle">Survive each gameweek — one bad week and you're out</div>
@@ -372,7 +386,9 @@
           <li>If there's a tie for lowest score, the manager with the <strong>lower season total points</strong> (as of that gameweek) is the one eliminated.</li>
           <li>This repeats every week until only one manager is left standing — the winner.</li>
         </ul>
+        <div class="card-cta">View Last Man Standing →</div>
       </div>
+      </a>
 
       <div class="card">
         <h2>📅 Manager of the Month <span class="badge">Monthly</span></h2>
