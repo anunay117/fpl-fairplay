@@ -17,6 +17,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": "COV (A)"
     },
     {
@@ -28,6 +29,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -39,6 +41,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": "LEE (A)"
     },
     {
@@ -50,6 +53,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": "MUN (A)"
     },
     {
@@ -61,6 +65,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -72,6 +77,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": "MUN (A)"
     },
     {
@@ -83,6 +89,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 10,
+      "rawPoints": 5,
       "fixtureLabel": null
     },
     {
@@ -94,6 +101,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
@@ -105,6 +113,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": "LEE (A)"
     },
     {
@@ -116,6 +125,7 @@
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": "MUN (A)"
     },
     {
@@ -127,6 +137,7 @@
       "isViceCaptain": true,
       "isStarting": true,
       "eventPoints": 12,
+      "rawPoints": 12,
       "fixtureLabel": null
     },
     {
@@ -138,6 +149,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -149,6 +161,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
+      "rawPoints": 4,
       "fixtureLabel": null
     },
     {
@@ -160,6 +173,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -171,6 +185,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
+      "rawPoints": 2,
       "fixtureLabel": null
     }
   ]

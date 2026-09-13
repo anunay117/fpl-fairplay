@@ -333,7 +333,12 @@ async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById, f
       isCaptain: p.is_captain,
       isViceCaptain: p.is_vice_captain,
       isStarting: p.position <= 11,
+      // eventPoints applies the pick's multiplier (0 for an un-subbed-in bench player,
+      // 2/3 for captain/triple-captain) - what actually counts toward the manager's total.
+      // rawPoints is what the player actually scored in their match regardless of
+      // multiplier, so a benched player who played and scored isn't shown as a flat 0.
       eventPoints: (liveStats ? liveStats.total_points : 0) * p.multiplier,
+      rawPoints: liveStats ? liveStats.total_points : 0,
       fixtureLabel,
     };
   });

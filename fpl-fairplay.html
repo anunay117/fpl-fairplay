@@ -251,6 +251,10 @@
     align-items: center;
     width: 64px;
     text-align: center;
+    padding: 6px 4px 8px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.28);
   }
   .jersey {
     width: 30px;
@@ -329,11 +333,13 @@
   .bench-row .jersey.gkp { background: #ffe45e; }
   .bench-row .pname { color: var(--text); background: transparent; padding: 0; }
   .bench-row .ppts { background: transparent; color: var(--muted); font-weight: 600; }
+  .bench-row .player-chip { background: transparent; border-color: var(--border); }
   .player-chip .ppts.fixture {
-    background: transparent;
-    border: 1px solid var(--border);
-    color: var(--muted);
-    font-weight: 600;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    color: #0f172a;
+    font-weight: 800;
+    letter-spacing: 0.01em;
   }
   .modal-loading { text-align: center; color: var(--muted); padding: 20px 0; }
   #error {
@@ -525,9 +531,10 @@
     const jerseyInner = p.crestUrl
       ? `<img src="${escapeHtml(p.crestUrl)}" alt="${escapeHtml(p.team)}" width="18" height="18" />`
       : escapeHtml(p.team) || "";
+    const displayPoints = p.isStarting ? p.eventPoints ?? 0 : p.rawPoints ?? p.eventPoints ?? 0;
     const ptsBox = p.fixtureLabel
       ? `<div class="ppts fixture">${escapeHtml(p.fixtureLabel)}</div>`
-      : `<div class="ppts">${p.eventPoints ?? 0}</div>`;
+      : `<div class="ppts">${displayPoints}</div>`;
     return `
       <div class="player-chip">
         <div class="${jerseyClass}">${jerseyInner}${cap}</div>
