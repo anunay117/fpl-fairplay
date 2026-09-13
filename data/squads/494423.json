@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Arka Ghosh",
   "teamName": "BrunoDosTres",
-  "gwPoints": 59,
-  "totalPoints": 280,
-  "overallRank": 319582,
+  "gwPoints": 66,
+  "totalPoints": 287,
+  "overallRank": 234816,
   "activeChip": null,
   "picks": [
     {
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",

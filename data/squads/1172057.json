@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Vipul Rustagi",
   "teamName": "Champions XI",
-  "gwPoints": 44,
-  "totalPoints": 238,
-  "overallRank": 3082925,
+  "gwPoints": 45,
+  "totalPoints": 239,
+  "overallRank": 3186421,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Ødegaard",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Gomez",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Egan",

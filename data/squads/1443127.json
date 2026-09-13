@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Mayank Sharma",
   "teamName": "euceladus",
-  "gwPoints": 34,
-  "totalPoints": 234,
-  "overallRank": 3538718,
+  "gwPoints": 42,
+  "totalPoints": 242,
+  "overallRank": 2907324,
   "activeChip": null,
   "picks": [
     {
@@ -16,9 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Calvert-Lewin",

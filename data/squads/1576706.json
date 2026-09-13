@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Awanish Gaurav",
   "teamName": "FPL AGing",
-  "gwPoints": 51,
-  "totalPoints": 237,
-  "overallRank": 3215754,
+  "gwPoints": 52,
+  "totalPoints": 238,
+  "overallRank": 3316610,
   "activeChip": null,
   "picks": [
     {
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Foden",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Maguire",

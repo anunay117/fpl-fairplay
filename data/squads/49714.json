@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Prince Srivastava",
   "teamName": "Why always me?",
-  "gwPoints": 66,
-  "totalPoints": 292,
-  "overallRank": 112176,
+  "gwPoints": 73,
+  "totalPoints": 299,
+  "overallRank": 76745,
   "activeChip": null,
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Gibbs-White",

@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Abhinav Verman",
   "teamName": "Berlin Ballers",
-  "gwPoints": 64,
-  "totalPoints": 289,
-  "overallRank": 151910,
+  "gwPoints": 70,
+  "totalPoints": 295,
+  "overallRank": 115555,
   "activeChip": "3xc",
   "picks": [
     {
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Elanga",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",

@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Nirbhay Vadera Varma",
   "teamName": "ØhDearGawd",
-  "gwPoints": 48,
-  "totalPoints": 294,
-  "overallRank": 92344,
+  "gwPoints": 49,
+  "totalPoints": 295,
+  "overallRank": 113806,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",

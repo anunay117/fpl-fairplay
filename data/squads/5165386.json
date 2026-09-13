@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Himanshu Rajawat",
   "teamName": "WhatATeam!",
-  "gwPoints": 55,
-  "totalPoints": 254,
-  "overallRank": 1620215,
+  "gwPoints": 61,
+  "totalPoints": 260,
+  "overallRank": 1365269,
   "activeChip": null,
   "picks": [
     {
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Mbeumo",
