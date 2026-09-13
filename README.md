@@ -9,7 +9,7 @@ A live companion website for the **FPL Fairplay** mini-league (Season 7) — sta
 | File | Purpose |
 |---|---|
 | `index.html` | Home page — welcome banner, GW summary with AI-style commentary, competition rules, prizes tab, Buy Me a Coffee |
-| `fpl-fairplay.html` | Live standings — League / Head to Head / Cup / Last Man Standing tabs, sortable & searchable tables, click-through squad viewer |
+| `fpl-fairplay.html` | Live standings — League / Head to Head / Cup / Last Man Standing tabs, sortable & searchable tables, click-through squad viewer, and a player search (with a Captain/Started/Bench role filter) that highlights every team owning a given player |
 | `fpl-fairplay-managers.json` | n8n workflow (backup/reference) — the two webhooks that power both pages |
 | `fpl-gw-finish-detector.json` | n8n workflow (backup/reference) — scheduled check for when a gameweek officially finishes |
 | `prize.png`, `coffee-qr.png` | Images used on the site |

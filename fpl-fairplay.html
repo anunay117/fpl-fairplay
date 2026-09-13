@@ -116,6 +116,38 @@
     font-size: 0.85rem;
     min-width: 220px;
   }
+  .player-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 0 16px;
+    padding: 10px 14px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .player-search-bar select {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+  }
+  .player-search-summary {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  tr.player-match td {
+    background: rgba(16, 185, 129, 0.14);
+  }
+  tr.player-match:hover td {
+    background: rgba(16, 185, 129, 0.2);
+  }
+  tr.player-match td:first-child {
+    box-shadow: inset 3px 0 0 var(--accent2);
+  }
   table {
     width: 100%;
     border-collapse: collapse;
@@ -386,6 +418,17 @@
         <button class="tab" data-tab="lms">Last Man Standing</button>
       </nav>
 
+      <div class="player-search-bar">
+        <input type="search" id="player-search-input" placeholder="Search for a player (e.g. Haaland)…" />
+        <select id="player-search-role">
+          <option value="all">Any role</option>
+          <option value="captain">Captain</option>
+          <option value="starting">Started (XI)</option>
+          <option value="bench">Bench</option>
+        </select>
+        <span id="player-search-summary" class="player-search-summary"></span>
+      </div>
+
       <section class="panel active" id="panel-classic">
         <div class="toolbar">
           <h2 class="section-title" id="classic-title">Overall Standings</h2>
@@ -500,6 +543,11 @@
   let data = null;
   const sortState = { classic: { key: "rank", dir: 1 }, h2h: { key: "rank", dir: 1 } };
   const searchState = { classic: "", h2h: "" };
+
+  const squadsByEntry = {};
+  let squadsLoaded = false;
+  let playerSearchTerm = "";
+  let playerSearchRole = "all";
 
   function escapeHtml(str) {
     if (str == null) return "";
@@ -669,6 +717,7 @@
     tbody.innerHTML = "";
     for (const m of rows) {
       const tr = document.createElement("tr");
+      tr.dataset.entryId = m.entryId;
       if (kind === "classic") {
         tr.innerHTML = `
           <td>${m.rank ?? "—"}${rankArrow(m.rankChange)}</td>
@@ -695,6 +744,8 @@
 
     document.getElementById(`${kind}-title`).textContent =
       `${source.leagueName || "Standings"} · ${source.managers.length} managers`;
+
+    refreshPlayerSearch();
   }
 
   function renderCup() {
@@ -761,6 +812,83 @@
     renderLms();
   }
 
+  async function loadAllSquads() {
+    squadsLoaded = false;
+    const managers = (data && data.classicLeague && data.classicLeague.managers) || [];
+    await Promise.all(
+      managers.map(async (m) => {
+        try {
+          const res = await fetch(`${SQUAD_DATA_URL}/${m.entryId}.json?t=${Date.now()}`);
+          if (!res.ok) throw new Error("squad fetch failed");
+          squadsByEntry[m.entryId] = await res.json();
+        } catch (e) {
+          squadsByEntry[m.entryId] = null;
+        }
+      })
+    );
+    squadsLoaded = true;
+    refreshPlayerSearch();
+  }
+
+  function refreshPlayerSearch() {
+    const summaryEl = document.getElementById("player-search-summary");
+    const term = playerSearchTerm.trim().toLowerCase();
+    const matched = new Set();
+    const roleCounts = { captain: 0, starting: 0, bench: 0 };
+
+    if (term && squadsLoaded) {
+      for (const entryId in squadsByEntry) {
+        const squad = squadsByEntry[entryId];
+        if (!squad || !squad.picks) continue;
+        const hit = squad.picks.find((p) => (p.name || "").toLowerCase().includes(term));
+        if (!hit) continue;
+
+        const roleOk =
+          playerSearchRole === "all" ||
+          (playerSearchRole === "captain" && hit.isCaptain) ||
+          (playerSearchRole === "starting" && hit.isStarting) ||
+          (playerSearchRole === "bench" && !hit.isStarting);
+        if (!roleOk) continue;
+
+        matched.add(Number(entryId));
+        if (hit.isCaptain) roleCounts.captain++;
+        if (hit.isStarting) roleCounts.starting++;
+        else roleCounts.bench++;
+      }
+    }
+
+    for (const kind of ["classic", "h2h"]) {
+      const tbody = document.querySelector(`#table-${kind} tbody`);
+      if (!tbody) continue;
+      tbody.querySelectorAll("tr").forEach((tr) => {
+        tr.classList.toggle("player-match", matched.has(Number(tr.dataset.entryId)));
+      });
+    }
+
+    if (!term) {
+      summaryEl.textContent = "";
+    } else if (!squadsLoaded) {
+      summaryEl.textContent = "Loading squads…";
+    } else if (matched.size === 0) {
+      summaryEl.textContent = `No teams found with "${term}".`;
+    } else {
+      const breakdown =
+        playerSearchRole === "all"
+          ? ` (Captain: ${roleCounts.captain} · Started: ${roleCounts.starting} · Bench: ${roleCounts.bench})`
+          : "";
+      summaryEl.textContent = `${matched.size} team${matched.size === 1 ? "" : "s"} found${breakdown}`;
+    }
+  }
+
+  document.getElementById("player-search-input").addEventListener("input", (e) => {
+    playerSearchTerm = e.target.value;
+    refreshPlayerSearch();
+  });
+  document.getElementById("player-search-role").addEventListener("change", (e) => {
+    playerSearchRole = e.target.value;
+    refreshPlayerSearch();
+  });
+
   async function load() {
     errorEl.style.display = "none";
     contentEl.style.display = "none";
@@ -780,6 +908,7 @@
       renderAll();
       statusEl.style.display = "none";
       contentEl.style.display = "block";
+      loadAllSquads();
     } catch (err) {
       statusEl.style.display = "none";
       errorEl.style.display = "block";
