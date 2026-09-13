@@ -476,8 +476,8 @@
   </div>
 
 <script>
-  const WEBHOOK_URL = "https://anunay117.app.n8n.cloud/webhook/fpl-fairplay-managers";
-  const SQUAD_WEBHOOK_URL = "https://anunay117.app.n8n.cloud/webhook/fpl-fairplay-squad";
+  const DATA_URL = "./data/standings.json";
+  const SQUAD_DATA_URL = "./data/squads";
 
   const statusEl = document.getElementById("status");
   const errorEl = document.getElementById("error");
@@ -554,7 +554,7 @@
     squadBody.innerHTML = '<div class="modal-loading">Fetching squad from FPL…</div>';
 
     try {
-      const res = await fetch(`${SQUAD_WEBHOOK_URL}?entryId=${encodeURIComponent(entryId)}`);
+      const res = await fetch(`${SQUAD_DATA_URL}/${encodeURIComponent(entryId)}.json?t=${Date.now()}`);
       if (!res.ok) throw new Error(`Request failed: ${res.status}`);
       const squad = await res.json();
       if (squad.error) throw new Error(squad.error);
@@ -752,7 +752,7 @@
     statusEl.textContent = "Loading league data…";
 
     try {
-      const res = await fetch(WEBHOOK_URL);
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
       if (!res.ok) throw new Error(`Request failed: ${res.status} ${res.statusText}`);
       data = await res.json();
 
@@ -770,7 +770,7 @@
       errorEl.textContent =
         "Couldn't load league data: " +
         err.message +
-        ". Check that the n8n webhook is active and reachable.";
+        ". The data file may not have been generated yet.";
     }
   }
 

@@ -16,12 +16,15 @@ A live companion website for the **FPL Fairplay** mini-league (Season 7) — sta
 
 ## How it works
 
-The frontend is plain static HTML/CSS/JS — no build step, no framework. All FPL data comes from two **n8n Cloud webhooks** that call the official (unofficial, but public) Fantasy Premier League API server-side, since the FPL API doesn't allow direct browser requests (no CORS headers):
+The frontend is plain static HTML/CSS/JS — no build step, no framework. Data comes from `data/standings.json` and `data/squads/<entryId>.json`, both static files committed to this repo and served by GitHub Pages alongside the HTML.
 
-- `fpl-fairplay-managers` — returns standings for the classic league and H2H league, cup bracket status, Last Man Standing state, and a computed gameweek summary (top/bottom scorer, league leader, biggest risers/fallers, season-high score).
-- `fpl-fairplay-squad` — given a manager's entry ID, returns their squad for a given gameweek (starting XI, bench, captain/vice-captain, live per-player points, club crests).
+Those files are regenerated every 10 minutes by `scripts/build-data.js`, run on a schedule by the `.github/workflows/update-data.yml` GitHub Action (also runnable manually via "Run workflow" in the Actions tab). The script calls the official (unofficial, but public) Fantasy Premier League API server-side and:
 
-A third workflow (`fpl-gw-finish-detector.json`) polls periodically and detects the moment a gameweek is fully finalized (`finished` + `data_checked` on FPL's side), ready to trigger a notification step in future.
+- Fetches classic + H2H league standings, cup bracket status, and per-manager history, then computes Last Man Standing state and a gameweek summary (top/bottom scorer, league leader, biggest risers/fallers, season-high score) — written to `data/standings.json`.
+- Fetches each classic-league manager's squad for the current gameweek (starting XI, bench, captain/vice-captain, live per-player points, club crests) — one file per manager under `data/squads/`.
+- Checks whether a gameweek has just been fully finalized (`finished` + `data_checked` on FPL's side) and logs a results message to `data/state.json` — a hook for a future notification step (Slack/WhatsApp/etc.), not wired to one yet.
+
+This previously ran as three n8n Cloud webhooks/workflows, but n8n Cloud isn't free past a 14-day trial and this site earns no revenue, so the same logic was ported to a plain Node script that GitHub runs for free.
 
 ## Competitions covered
 
@@ -34,5 +37,7 @@ See the home page for full rules and prize details.
 
 ## Notes
 
-- The `fpl-fairplay-managers.json` and `fpl-gw-finish-detector.json` files are kept here as a backup of the n8n workflow logic — importing them into a fresh n8n instance recreates the webhooks, but the *live* workflows run on n8n Cloud, not from this repo directly.
-- League/H2H IDs and the Last Man Standing start gameweek are hardcoded for this specific league; swap `CLASSIC_LEAGUE_ID` / `H2H_LEAGUE_ID` / `LMS_START_GW` in the workflow code to reuse this for a different league.
+- `fpl-fairplay-managers.json` and `fpl-gw-finish-detector.json` are kept only as a historical reference of the original n8n workflow logic — they are no longer used to run the site.
+- League/H2H IDs and the Last Man Standing start gameweek are hardcoded for this specific league; swap `CLASSIC_LEAGUE_ID` / `H2H_LEAGUE_ID` / `LMS_START_GW` at the top of `scripts/build-data.js` to reuse this for a different league.
+- The squad viewer only ever shows the current gameweek's squad (matching what the frontend previously requested) — past gameweeks aren't stored.
+- GitHub auto-disables a repo's scheduled Actions workflows after 60 days with no other repo activity; if updates seem to have stopped, re-enable it from the Actions tab.

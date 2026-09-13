@@ -440,7 +440,7 @@
     initTheme();
     document.getElementById("theme-toggle").addEventListener("click", toggleTheme);
 
-    const WEBHOOK_URL = "https://anunay117.app.n8n.cloud/webhook/fpl-fairplay-managers";
+    const DATA_URL = "./data/standings.json";
 
     function escapeHtml(str) {
       if (str == null) return "";
@@ -529,7 +529,7 @@
     async function loadMovers() {
       const body = document.getElementById("movers-body");
       try {
-        const res = await fetch(WEBHOOK_URL);
+        const res = await fetch(`${DATA_URL}?t=${Date.now()}`);
         if (!res.ok) throw new Error(`Request failed: ${res.status}`);
         const data = await res.json();
         const summary = data.gwSummary;
