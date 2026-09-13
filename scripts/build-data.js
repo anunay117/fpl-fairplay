@@ -124,6 +124,21 @@ async function fetchHistories(classicManagers) {
   return histories;
 }
 
+// Fetched once per manager and reused both for the standings table's Overall Rank
+// column and for building each manager's squad file, instead of hitting /entry/{id}/
+// twice for the same data.
+async function fetchEntryInfos(classicManagers) {
+  const entryInfoById = {};
+  for (const m of classicManagers) {
+    try {
+      entryInfoById[m.entryId] = await getJson(`https://fantasy.premierleague.com/api/entry/${m.entryId}/`);
+    } catch (e) {
+      entryInfoById[m.entryId] = null;
+    }
+  }
+  return entryInfoById;
+}
+
 function computeLastManStanding(classicManagers, histories) {
   let maxGw = 0;
   for (const entryId in histories) {
@@ -301,10 +316,9 @@ function computeGwSummary(classicManagers, currentGw, seasonHigh) {
 // Builds one manager's squad view for the given gameweek, reusing a bootstrap/live
 // payload fetched once per script run rather than once per manager (the old n8n
 // "Fetch Squad" webhook fetched bootstrap fresh on every single click).
-async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById, fixturesByTeam) {
+async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById, fixturesByTeam, entryInfo) {
   const positionNames = { 1: "GKP", 2: "DEF", 3: "MID", 4: "FWD" };
 
-  const entryInfo = await getJson(`https://fantasy.premierleague.com/api/entry/${entryId}/`);
   const picksResp = await getJson(`https://fantasy.premierleague.com/api/entry/${entryId}/event/${gw}/picks/`);
 
   const picks = picksResp.picks.map((p) => {
@@ -343,16 +357,17 @@ async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById, f
     };
   });
 
+  const info = entryInfo || {};
   return {
     entryId: Number(entryId),
     gw,
-    managerName: `${entryInfo.player_first_name} ${entryInfo.player_last_name}`,
-    teamName: entryInfo.name,
-    gwPoints: entryInfo.summary_event_points ?? (picksResp.entry_history ? picksResp.entry_history.points : null),
+    managerName: `${info.player_first_name ?? ""} ${info.player_last_name ?? ""}`.trim(),
+    teamName: info.name ?? null,
+    gwPoints: info.summary_event_points ?? (picksResp.entry_history ? picksResp.entry_history.points : null),
     totalPoints:
-      entryInfo.summary_overall_points ?? (picksResp.entry_history ? picksResp.entry_history.total_points : null),
+      info.summary_overall_points ?? (picksResp.entry_history ? picksResp.entry_history.total_points : null),
     overallRank:
-      entryInfo.summary_overall_rank ?? (picksResp.entry_history ? picksResp.entry_history.overall_rank : null),
+      info.summary_overall_rank ?? (picksResp.entry_history ? picksResp.entry_history.overall_rank : null),
     activeChip: picksResp.active_chip,
     picks,
   };
@@ -375,6 +390,7 @@ async function main() {
   const h2h = await fetchLeague("h2h", H2H_LEAGUE_ID);
   const cup = await fetchCup(classic.managers);
   const histories = await fetchHistories(classic.managers);
+  const entryInfoById = await fetchEntryInfos(classic.managers);
   const lastManStanding = computeLastManStanding(classic.managers, histories);
   const seasonHigh = computeSeasonHigh(classic.managers, histories, lastManStanding.currentGw);
   const gwSummary = computeGwSummary(classic.managers, lastManStanding.currentGw, seasonHigh);
@@ -383,6 +399,11 @@ async function main() {
     for (const m of classic.managers) {
       m.rankChange = gwSummary.movementByEntry[m.entryId] ?? null;
     }
+  }
+
+  for (const m of classic.managers) {
+    const info = entryInfoById[m.entryId];
+    m.overallRank = info ? info.summary_overall_rank ?? null : null;
   }
 
   fs.writeFileSync(
@@ -441,7 +462,15 @@ async function main() {
 
   for (const m of classic.managers) {
     try {
-      const squad = await fetchSquad(m.entryId, currentGw, elementsById, teamsById, liveStatsById, fixturesByTeam);
+      const squad = await fetchSquad(
+        m.entryId,
+        currentGw,
+        elementsById,
+        teamsById,
+        liveStatsById,
+        fixturesByTeam,
+        entryInfoById[m.entryId]
+      );
       fs.writeFileSync(path.join(SQUADS_DIR, `${m.entryId}.json`), JSON.stringify(squad, null, 2));
     } catch (e) {
       console.error(`Failed to build squad for entry ${m.entryId}: ${e.message}`);

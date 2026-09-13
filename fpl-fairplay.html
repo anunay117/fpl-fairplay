@@ -400,7 +400,7 @@
               <th data-sort="teamName">Team <span class="arrow"></span></th>
               <th class="num" data-sort="gwPoints">GW <span class="arrow"></span></th>
               <th class="num" data-sort="totalPoints">Total <span class="arrow"></span></th>
-              <th>Status</th>
+              <th class="num" data-sort="overallRank">Overall Rank <span class="arrow"></span></th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -676,7 +676,7 @@
           <td>${teamLink(m.entryId, m.teamName)}</td>
           <td class="num">${m.gwPoints ?? "—"}</td>
           <td class="num">${m.totalPoints ?? "—"}</td>
-          <td>${statusBadge(m.status)}</td>
+          <td class="num">${m.overallRank != null ? m.overallRank.toLocaleString() : "—"}</td>
         `;
       } else {
         tr.innerHTML = `

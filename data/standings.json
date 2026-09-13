@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T09:42:53.039Z",
+  "updatedAt": "2026-09-13T09:57:39.441Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -15,7 +15,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 0
+        "rankChange": 0,
+        "overallRank": 36171
       },
       {
         "rank": 2,
@@ -29,7 +30,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 0
+        "rankChange": 0,
+        "overallRank": 92344
       },
       {
         "rank": 3,
@@ -43,7 +45,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 112176
       },
       {
         "rank": 4,
@@ -57,7 +60,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 151910
       },
       {
         "rank": 5,
@@ -71,7 +75,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 319582
       },
       {
         "rank": 6,
@@ -85,7 +90,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3
+        "rankChange": -3,
+        "overallRank": 455807
       },
       {
         "rank": 7,
@@ -99,7 +105,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 781526
       },
       {
         "rank": 8,
@@ -113,7 +120,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 881382
       },
       {
         "rank": 9,
@@ -127,7 +135,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -5
+        "rankChange": -5,
+        "overallRank": 996521
       },
       {
         "rank": 10,
@@ -141,7 +150,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 4
+        "rankChange": 4,
+        "overallRank": 1620215
       },
       {
         "rank": 11,
@@ -155,7 +165,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 1698799
       },
       {
         "rank": 12,
@@ -169,7 +180,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3
+        "rankChange": 3,
+        "overallRank": 1903406
       },
       {
         "rank": 13,
@@ -183,7 +195,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -4
+        "rankChange": -4,
+        "overallRank": 2125056
       },
       {
         "rank": 14,
@@ -197,7 +210,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 6
+        "rankChange": 6,
+        "overallRank": 2473902
       },
       {
         "rank": 15,
@@ -211,7 +225,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 3082925
       },
       {
         "rank": 16,
@@ -225,7 +240,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 5
+        "rankChange": 5,
+        "overallRank": 3143855
       },
       {
         "rank": 17,
@@ -239,7 +255,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 6
+        "rankChange": 6,
+        "overallRank": 3215754
       },
       {
         "rank": 18,
@@ -253,7 +270,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 3373198
       },
       {
         "rank": 19,
@@ -267,7 +285,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3
+        "rankChange": 3,
+        "overallRank": 3390265
       },
       {
         "rank": 20,
@@ -281,7 +300,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -7
+        "rankChange": -7,
+        "overallRank": 3538718
       },
       {
         "rank": 21,
@@ -295,7 +315,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3
+        "rankChange": -3,
+        "overallRank": 4407511
       },
       {
         "rank": 22,
@@ -309,7 +330,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -11
+        "rankChange": -11,
+        "overallRank": 4598127
       },
       {
         "rank": 23,
@@ -323,7 +345,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 4835057
       },
       {
         "rank": 24,
@@ -337,7 +360,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 5124405
       },
       {
         "rank": 25,
@@ -351,7 +375,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -8
+        "rankChange": -8,
+        "overallRank": 5147892
       }
     ]
   },
@@ -707,7 +732,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 0
+        "rankChange": 0,
+        "overallRank": 36171
       },
       {
         "rank": 2,
@@ -721,7 +747,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 0
+        "rankChange": 0,
+        "overallRank": 92344
       },
       {
         "rank": 3,
@@ -735,7 +762,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 112176
       },
       {
         "rank": 4,
@@ -749,7 +777,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 151910
       },
       {
         "rank": 5,
@@ -763,7 +792,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 319582
       },
       {
         "rank": 6,
@@ -777,7 +807,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3
+        "rankChange": -3,
+        "overallRank": 455807
       },
       {
         "rank": 7,
@@ -791,7 +822,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 781526
       },
       {
         "rank": 8,
@@ -805,7 +837,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2
+        "rankChange": 2,
+        "overallRank": 881382
       },
       {
         "rank": 9,
@@ -819,7 +852,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -5
+        "rankChange": -5,
+        "overallRank": 996521
       },
       {
         "rank": 10,
@@ -833,7 +867,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 4
+        "rankChange": 4,
+        "overallRank": 1620215
       },
       {
         "rank": 11,
@@ -847,7 +882,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 1698799
       },
       {
         "rank": 12,
@@ -861,7 +897,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3
+        "rankChange": 3,
+        "overallRank": 1903406
       },
       {
         "rank": 13,
@@ -875,7 +912,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -4
+        "rankChange": -4,
+        "overallRank": 2125056
       },
       {
         "rank": 14,
@@ -889,7 +927,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 6
+        "rankChange": 6,
+        "overallRank": 2473902
       },
       {
         "rank": 15,
@@ -903,7 +942,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 3082925
       },
       {
         "rank": 16,
@@ -917,7 +957,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 5
+        "rankChange": 5,
+        "overallRank": 3143855
       },
       {
         "rank": 17,
@@ -931,7 +972,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 6
+        "rankChange": 6,
+        "overallRank": 3215754
       },
       {
         "rank": 18,
@@ -945,7 +987,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 3373198
       },
       {
         "rank": 19,
@@ -959,7 +1002,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3
+        "rankChange": 3,
+        "overallRank": 3390265
       },
       {
         "rank": 20,
@@ -973,7 +1017,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -7
+        "rankChange": -7,
+        "overallRank": 3538718
       },
       {
         "rank": 21,
@@ -987,7 +1032,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3
+        "rankChange": -3,
+        "overallRank": 4407511
       },
       {
         "rank": 22,
@@ -1001,7 +1047,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -11
+        "rankChange": -11,
+        "overallRank": 4598127
       },
       {
         "rank": 23,
@@ -1015,7 +1062,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 4835057
       },
       {
         "rank": 24,
@@ -1029,7 +1077,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1
+        "rankChange": 1,
+        "overallRank": 5124405
       },
       {
         "rank": 25,
@@ -1043,7 +1092,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -8
+        "rankChange": -8,
+        "overallRank": 5147892
       }
     ],
     "eliminated": []
