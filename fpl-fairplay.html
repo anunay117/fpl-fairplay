@@ -76,6 +76,19 @@
     font-size: 0.85rem;
   }
   button:hover { opacity: 0.9; }
+  .home-cta { margin: 0 0 20px; }
+  .home-cta a {
+    display: inline-block;
+    background: var(--accent2);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 0.95rem;
+    padding: 12px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid var(--accent2);
+  }
+  .home-cta a:hover { opacity: 0.9; }
   nav.tabs {
     display: flex;
     gap: 6px;
@@ -406,6 +419,10 @@
         <button id="refresh">Refresh</button>
       </div>
     </header>
+
+    <div id="home-cta" class="home-cta" style="display:none;">
+      <a href="index.html">← Back to all competitions</a>
+    </div>
 
     <div id="error"></div>
     <div id="status" class="status-block">Loading league data…</div>
@@ -943,6 +960,7 @@
   const requestedTab = new URLSearchParams(window.location.search).get("tab");
   if (requestedTab && activateTab(requestedTab)) {
     document.querySelector("nav.tabs").style.display = "none";
+    document.getElementById("home-cta").style.display = "block";
   }
 
   document.querySelectorAll("input[data-search]").forEach((input) => {
