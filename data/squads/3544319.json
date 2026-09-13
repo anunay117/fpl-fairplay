@@ -5,7 +5,7 @@
   "teamName": "Unlucky 11",
   "gwPoints": 87,
   "totalPoints": 292,
-  "overallRank": 841680,
+  "overallRank": 825854,
   "activeChip": null,
   "picks": [
     {
@@ -173,7 +173,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
