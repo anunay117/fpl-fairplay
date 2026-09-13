@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Ash Kallen",
   "teamName": "Not Too Xabi",
-  "gwPoints": 46,
-  "totalPoints": 224,
-  "overallRank": 4786397,
+  "gwPoints": 60,
+  "totalPoints": 238,
+  "overallRank": 5346822,
   "activeChip": null,
   "picks": [
     {
@@ -16,8 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
+      "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
@@ -124,9 +124,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "eventPoints": 8,
+      "rawPoints": 8,
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "van Ewijk",
@@ -173,7 +173,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -185,8 +185,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MCI (H)"
+      "rawPoints": 2,
+      "fixtureLabel": null
     }
   ]
 }

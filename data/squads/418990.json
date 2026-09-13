@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Yash Kapadia",
   "teamName": "Scouser XI",
-  "gwPoints": 47,
-  "totalPoints": 256,
-  "overallRank": 1654203,
+  "gwPoints": 74,
+  "totalPoints": 283,
+  "overallRank": 1361651,
   "activeChip": null,
   "picks": [
     {
@@ -16,8 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
+      "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
+      "eventPoints": 17,
+      "rawPoints": 17,
       "fixtureLabel": null
     },
     {
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MCI (H)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "eventPoints": 8,
+      "rawPoints": 8,
+      "fixtureLabel": null
     },
     {
       "name": "Kinsky",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MCI (H)"
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "M.Sangaré",

@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "mohit maheshwari",
   "teamName": "mohit's Team",
-  "gwPoints": 47,
-  "totalPoints": 238,
-  "overallRank": 3349686,
+  "gwPoints": 52,
+  "totalPoints": 243,
+  "overallRank": 4900837,
   "activeChip": null,
   "picks": [
     {
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MCI (H)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Saka",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "eventPoints": 3,
+      "rawPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
@@ -173,7 +173,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
