@@ -329,6 +329,12 @@
   .bench-row .jersey.gkp { background: #ffe45e; }
   .bench-row .pname { color: var(--text); background: transparent; padding: 0; }
   .bench-row .ppts { background: transparent; color: var(--muted); font-weight: 600; }
+  .player-chip .ppts.fixture {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-weight: 600;
+  }
   .modal-loading { text-align: center; color: var(--muted); padding: 20px 0; }
   #error {
     color: var(--danger);
@@ -519,11 +525,14 @@
     const jerseyInner = p.crestUrl
       ? `<img src="${escapeHtml(p.crestUrl)}" alt="${escapeHtml(p.team)}" width="18" height="18" />`
       : escapeHtml(p.team) || "";
+    const ptsBox = p.fixtureLabel
+      ? `<div class="ppts fixture">${escapeHtml(p.fixtureLabel)}</div>`
+      : `<div class="ppts">${p.eventPoints ?? 0}</div>`;
     return `
       <div class="player-chip">
         <div class="${jerseyClass}">${jerseyInner}${cap}</div>
         <div class="pname">${escapeHtml(p.name)}</div>
-        <div class="ppts">${p.eventPoints ?? 0}</div>
+        ${ptsBox}
       </div>
     `;
   }

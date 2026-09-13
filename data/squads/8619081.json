@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 47,
   "totalPoints": 238,
-  "overallRank": 3143858,
+  "overallRank": 3143855,
   "activeChip": null,
   "picks": [
     {
@@ -16,7 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1
+      "eventPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Virgil",
@@ -26,7 +27,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 8
+      "eventPoints": 8,
+      "fixtureLabel": null
     },
     {
       "name": "Hato",
@@ -36,7 +38,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Chilwell",
@@ -46,7 +49,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1
+      "eventPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "B.Fernandes",
@@ -56,7 +60,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Saka",
@@ -66,7 +71,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 8
+      "eventPoints": 8,
+      "fixtureLabel": null
     },
     {
       "name": "Wirtz",
@@ -76,7 +82,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3
+      "eventPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Semenyo",
@@ -86,7 +93,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "Isak",
@@ -96,7 +104,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 2
+      "eventPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -106,7 +115,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 24
+      "eventPoints": 24,
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",
@@ -116,7 +126,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "LEE (A)"
     },
     {
       "name": "Phillips",
@@ -126,7 +137,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -136,7 +148,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Thomas",
@@ -146,7 +159,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "BHA (H)"
     },
     {
       "name": "Mehmeti",
@@ -156,7 +170,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     }
   ]
 }

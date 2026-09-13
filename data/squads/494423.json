@@ -16,7 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 14
+      "eventPoints": 14,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -26,7 +27,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6
+      "eventPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -36,7 +38,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6
+      "eventPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -46,7 +49,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "Rogers",
@@ -56,7 +60,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 8
+      "eventPoints": 8,
+      "fixtureLabel": null
     },
     {
       "name": "Szoboszlai",
@@ -66,7 +71,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3
+      "eventPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -76,7 +82,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "Palmer",
@@ -86,7 +93,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 10
+      "eventPoints": 10,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -96,7 +104,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "Wissa",
@@ -106,7 +115,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "LEE (A)"
     },
     {
       "name": "João Pedro",
@@ -116,7 +126,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 12
+      "eventPoints": 12,
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -126,7 +137,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "M.Sangaré",
@@ -136,7 +148,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Hall",
@@ -146,7 +159,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "LEE (A)"
     },
     {
       "name": "Gvardiol",
@@ -156,7 +170,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     }
   ]
 }

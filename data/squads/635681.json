@@ -5,7 +5,7 @@
   "teamName": "Godspeed Gunners",
   "gwPoints": 25,
   "totalPoints": 219,
-  "overallRank": 5147895,
+  "overallRank": 5147892,
   "activeChip": null,
   "picks": [
     {
@@ -16,7 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "Calafiori",
@@ -26,7 +27,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6
+      "eventPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Mitchell",
@@ -36,7 +38,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1
+      "eventPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "van Ewijk",
@@ -46,7 +49,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "BHA (H)"
     },
     {
       "name": "B.Fernandes",
@@ -56,7 +60,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Szoboszlai",
@@ -66,7 +71,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3
+      "eventPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Ødegaard",
@@ -76,7 +82,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3
+      "eventPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -86,7 +93,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "Groß",
@@ -96,7 +104,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "Haaland",
@@ -106,7 +115,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "João Pedro",
@@ -116,7 +126,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 12
+      "eventPoints": 12,
+      "fixtureLabel": null
     },
     {
       "name": "Kelleher",
@@ -126,7 +137,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Brobbey",
@@ -136,7 +148,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Diop",
@@ -146,7 +159,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Shaw",
@@ -156,7 +170,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     }
   ]
 }

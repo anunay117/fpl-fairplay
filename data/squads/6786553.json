@@ -5,7 +5,7 @@
   "teamName": "Cockroach FPL Party",
   "gwPoints": 51,
   "totalPoints": 253,
-  "overallRank": 1698800,
+  "overallRank": 1698799,
   "activeChip": null,
   "picks": [
     {
@@ -16,7 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 14
+      "eventPoints": 14,
+      "fixtureLabel": null
     },
     {
       "name": "Guéhi",
@@ -26,7 +27,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "Gabriel",
@@ -36,7 +38,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9
+      "eventPoints": 9,
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -46,7 +49,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "Hughes",
@@ -56,7 +60,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1
+      "eventPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -66,7 +71,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "B.Fernandes",
@@ -76,7 +82,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Ødegaard",
@@ -86,7 +93,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3
+      "eventPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -96,7 +104,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 8
+      "eventPoints": 8,
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -106,7 +115,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 12
+      "eventPoints": 12,
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
@@ -116,7 +126,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4
+      "eventPoints": 4,
+      "fixtureLabel": null
     },
     {
       "name": "Dubravka",
@@ -126,7 +137,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Mendy",
@@ -136,7 +148,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Maguire",
@@ -146,7 +159,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Richarlison",
@@ -156,7 +170,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     }
   ]
 }

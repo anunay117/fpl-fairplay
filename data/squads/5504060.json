@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 43,
   "totalPoints": 235,
-  "overallRank": 3373201,
+  "overallRank": 3373198,
   "activeChip": null,
   "picks": [
     {
@@ -16,7 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 14
+      "eventPoints": 14,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -26,7 +27,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6
+      "eventPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Ajer",
@@ -36,7 +38,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1
+      "eventPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Shaw",
@@ -46,7 +49,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "O'Reilly",
@@ -56,7 +60,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "B.Fernandes",
@@ -66,7 +71,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Schade",
@@ -76,7 +82,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 15
+      "eventPoints": 15,
+      "fixtureLabel": null
     },
     {
       "name": "Tzolis",
@@ -86,7 +93,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3
+      "eventPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "M.Sangaré",
@@ -96,7 +104,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4
+      "eventPoints": 4,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -106,7 +115,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "Calvert-Lewin",
@@ -116,7 +126,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "NEW (H)"
     },
     {
       "name": "Verbruggen",
@@ -126,7 +137,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "João Pedro",
@@ -136,7 +148,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -146,7 +159,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "Davis",
@@ -156,7 +170,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     }
   ]
 }

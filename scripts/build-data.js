@@ -301,7 +301,7 @@ function computeGwSummary(classicManagers, currentGw, seasonHigh) {
 // Builds one manager's squad view for the given gameweek, reusing a bootstrap/live
 // payload fetched once per script run rather than once per manager (the old n8n
 // "Fetch Squad" webhook fetched bootstrap fresh on every single click).
-async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById) {
+async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById, fixturesByTeam) {
   const positionNames = { 1: "GKP", 2: "DEF", 3: "MID", 4: "FWD" };
 
   const entryInfo = await getJson(`https://fantasy.premierleague.com/api/entry/${entryId}/`);
@@ -311,6 +311,20 @@ async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById) {
     const el = elementsById[p.element] || {};
     const team = teamsById[el.team] || {};
     const liveStats = liveStatsById[p.element];
+    const hasPlayed = !!(liveStats && liveStats.minutes > 0);
+
+    // Before a player's fixture(s) for this gameweek kick off, show the upcoming
+    // opponent (e.g. "MUN (H)") instead of a 0, matching the official FPL site.
+    let fixtureLabel = null;
+    if (!hasPlayed) {
+      const upcoming = (fixturesByTeam[el.team] || []).filter((f) => !f.started);
+      if (upcoming.length) {
+        fixtureLabel = upcoming
+          .map((f) => `${(teamsById[f.opponent] || {}).short_name || "?"} (${f.isHome ? "H" : "A"})`)
+          .join(", ");
+      }
+    }
+
     return {
       name: el.web_name ?? "Unknown",
       team: team.short_name ?? "",
@@ -320,6 +334,7 @@ async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById) {
       isViceCaptain: p.is_vice_captain,
       isStarting: p.position <= 11,
       eventPoints: (liveStats ? liveStats.total_points : 0) * p.multiplier,
+      fixtureLabel,
     };
   });
 
@@ -398,9 +413,30 @@ async function main() {
     // Live feed can 404 before a gameweek's data is published yet; squads just show 0 pts.
   }
 
+  // Map each team to its fixture(s) this gameweek, so players who haven't kicked off
+  // yet can show their opponent instead of a 0.
+  const fixturesByTeam = {};
+  try {
+    const fixtures = await getJson(`https://fantasy.premierleague.com/api/fixtures/?event=${currentGw}`);
+    for (const f of fixtures) {
+      (fixturesByTeam[f.team_h] = fixturesByTeam[f.team_h] || []).push({
+        opponent: f.team_a,
+        isHome: true,
+        started: f.started,
+      });
+      (fixturesByTeam[f.team_a] = fixturesByTeam[f.team_a] || []).push({
+        opponent: f.team_h,
+        isHome: false,
+        started: f.started,
+      });
+    }
+  } catch (e) {
+    // Fixtures endpoint unavailable - fall back to plain 0s, no fixture labels.
+  }
+
   for (const m of classic.managers) {
     try {
-      const squad = await fetchSquad(m.entryId, currentGw, elementsById, teamsById, liveStatsById);
+      const squad = await fetchSquad(m.entryId, currentGw, elementsById, teamsById, liveStatsById, fixturesByTeam);
       fs.writeFileSync(path.join(SQUADS_DIR, `${m.entryId}.json`), JSON.stringify(squad, null, 2));
     } catch (e) {
       console.error(`Failed to build squad for entry ${m.entryId}: ${e.message}`);

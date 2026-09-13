@@ -5,7 +5,7 @@
   "teamName": "WhatATeam!",
   "gwPoints": 55,
   "totalPoints": 254,
-  "overallRank": 1620216,
+  "overallRank": 1620215,
   "activeChip": null,
   "picks": [
     {
@@ -16,7 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 7
+      "eventPoints": 7,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -26,7 +27,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6
+      "eventPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Davis",
@@ -36,7 +38,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 14
+      "eventPoints": 14,
+      "fixtureLabel": null
     },
     {
       "name": "Mitchell",
@@ -46,7 +49,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1
+      "eventPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Tzolis",
@@ -56,7 +60,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3
+      "eventPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -66,7 +71,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "COV (A)"
     },
     {
       "name": "Mbeumo",
@@ -76,7 +82,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Barnes",
@@ -86,7 +93,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "LEE (A)"
     },
     {
       "name": "Haaland",
@@ -96,7 +104,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MUN (A)"
     },
     {
       "name": "Calvert-Lewin",
@@ -106,7 +115,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "NEW (H)"
     },
     {
       "name": "João Pedro",
@@ -116,7 +126,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 24
+      "eventPoints": 24,
+      "fixtureLabel": null
     },
     {
       "name": "Dubravka",
@@ -126,7 +137,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     },
     {
       "name": "B.Fernandes",
@@ -136,7 +148,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Maguire",
@@ -146,7 +159,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "O'Nien",
@@ -156,7 +170,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0
+      "eventPoints": 0,
+      "fixtureLabel": null
     }
   ]
 }
