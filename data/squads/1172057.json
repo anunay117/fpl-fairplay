@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Vipul Rustagi",
   "teamName": "Champions XI",
-  "gwPoints": 73,
-  "totalPoints": 267,
-  "overallRank": 2662056,
+  "gwPoints": 74,
+  "totalPoints": 268,
+  "overallRank": 2859318,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -16,9 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -185,8 +185,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "rawPoints": 2,
+      "fixtureLabel": null
     }
   ]
 }

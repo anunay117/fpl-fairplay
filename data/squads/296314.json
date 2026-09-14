@@ -5,7 +5,7 @@
   "teamName": "Jetha ke Jabaaz",
   "gwPoints": 86,
   "totalPoints": 284,
-  "overallRank": 1323775,
+  "overallRank": 1563918,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "O'Shea",

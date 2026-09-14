@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Vikramjeet Singh",
   "teamName": "MultaniFC",
-  "gwPoints": 79,
-  "totalPoints": 282,
-  "overallRank": 1471070,
+  "gwPoints": 81,
+  "totalPoints": 284,
+  "overallRank": 1580919,
   "activeChip": null,
   "picks": [
     {
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Kinsky",

@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Mayank Sharma",
   "teamName": "euceladus",
-  "gwPoints": 79,
-  "totalPoints": 279,
-  "overallRank": 1703491,
+  "gwPoints": 89,
+  "totalPoints": 289,
+  "overallRank": 1277769,
   "activeChip": null,
   "picks": [
     {
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "eventPoints": 10,
+      "rawPoints": 10,
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",

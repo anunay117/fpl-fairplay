@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Abhinav Verman",
   "teamName": "Berlin Ballers",
-  "gwPoints": 90,
-  "totalPoints": 315,
-  "overallRank": 175146,
+  "gwPoints": 92,
+  "totalPoints": 317,
+  "overallRank": 212157,
   "activeChip": "3xc",
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -124,9 +124,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",

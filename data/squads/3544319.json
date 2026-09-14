@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Siddharth Purang",
   "teamName": "Unlucky 11",
-  "gwPoints": 88,
-  "totalPoints": 293,
-  "overallRank": 831627,
+  "gwPoints": 90,
+  "totalPoints": 295,
+  "overallRank": 925415,
   "activeChip": null,
   "picks": [
     {
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "O'Reilly",

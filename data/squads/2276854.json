@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Rudra Manoj Joshi",
   "teamName": "Reece's Pieces",
-  "gwPoints": 101,
-  "totalPoints": 292,
-  "overallRank": 887351,
+  "gwPoints": 103,
+  "totalPoints": 294,
+  "overallRank": 981443,
   "activeChip": null,
   "picks": [
     {
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "M.Sangaré",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     }
   ]
 }

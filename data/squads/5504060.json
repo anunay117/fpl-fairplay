@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 57,
-  "totalPoints": 249,
-  "overallRank": 4356638,
+  "gwPoints": 67,
+  "totalPoints": 259,
+  "overallRank": 3669075,
   "activeChip": null,
   "picks": [
     {
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "eventPoints": 10,
+      "rawPoints": 10,
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",

@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Prince Srivastava",
   "teamName": "Why always me?",
-  "gwPoints": 101,
-  "totalPoints": 327,
-  "overallRank": 53199,
+  "gwPoints": 103,
+  "totalPoints": 329,
+  "overallRank": 67898,
   "activeChip": null,
   "picks": [
     {
@@ -124,9 +124,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",

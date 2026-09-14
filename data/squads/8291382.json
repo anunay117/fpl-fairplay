@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Ash Kallen",
   "teamName": "Not Too Xabi",
-  "gwPoints": 61,
-  "totalPoints": 239,
-  "overallRank": 5364759,
+  "gwPoints": 71,
+  "totalPoints": 249,
+  "overallRank": 4672605,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "eventPoints": 10,
+      "rawPoints": 10,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",

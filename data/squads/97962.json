@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Rajat Aggarwal",
   "teamName": "Childish Firmino",
-  "gwPoints": 69,
-  "totalPoints": 301,
-  "overallRank": 509450,
+  "gwPoints": 79,
+  "totalPoints": 311,
+  "overallRank": 341943,
   "activeChip": null,
   "picks": [
     {
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "eventPoints": 10,
+      "rawPoints": 10,
+      "fixtureLabel": null
     },
     {
       "name": "Kinsky",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "rawPoints": 7,
+      "fixtureLabel": null
     },
     {
       "name": "van Ewijk",

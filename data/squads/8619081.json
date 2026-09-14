@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "mohit maheshwari",
   "teamName": "mohit's Team",
-  "gwPoints": 52,
-  "totalPoints": 243,
-  "overallRank": 5013891,
+  "gwPoints": 54,
+  "totalPoints": 245,
+  "overallRank": 5074802,
   "activeChip": null,
   "picks": [
     {
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Phillips",

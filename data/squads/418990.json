@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Yash Kapadia",
   "teamName": "Scouser XI",
-  "gwPoints": 75,
-  "totalPoints": 284,
-  "overallRank": 1359079,
+  "gwPoints": 82,
+  "totalPoints": 291,
+  "overallRank": 1161069,
   "activeChip": null,
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "eventPoints": 7,
+      "rawPoints": 7,
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",

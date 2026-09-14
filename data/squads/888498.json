@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Divyansh Gupta",
   "teamName": "UnTzolisited Advice",
-  "gwPoints": 77,
-  "totalPoints": 270,
-  "overallRank": 2422995,
+  "gwPoints": 87,
+  "totalPoints": 280,
+  "overallRank": 1890307,
   "activeChip": null,
   "picks": [
     {
@@ -124,9 +124,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "eventPoints": 10,
+      "rawPoints": 10,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
