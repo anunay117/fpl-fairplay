@@ -6,24 +6,26 @@
 <title>FPL Fairplay</title>
 <style>
   :root {
-    --bg: #0f172a;
-    --panel: #16213a;
-    --border: #263355;
-    --text: #e8ecf4;
-    --muted: #8792a8;
-    --accent2: #10b981;
-    --danger: #fca5a5;
-    --up: #22c55e;
-    --down: #ef4444;
-  }
-  :root[data-theme="light"] {
-    --bg: #f4f6fb;
+    --bg: #fdfaf5;
     --panel: #ffffff;
-    --border: #dbe3ee;
-    --text: #0f172a;
-    --muted: #64748b;
-    --accent2: #059669;
+    --border: #e8dfd0;
+    --text: #2d2a26;
+    --muted: #8a8378;
+    --accent2: #f59e0b;
     --danger: #dc2626;
+    --up: #16a34a;
+    --down: #dc2626;
+  }
+  :root[data-theme="dark"] {
+    --bg: #1c1712;
+    --panel: #262019;
+    --border: #3a3128;
+    --text: #f5efe6;
+    --muted: #a89f91;
+    --accent2: #f59e0b;
+    --danger: #fca5a5;
+    --up: #4ade80;
+    --down: #f87171;
   }
   * { box-sizing: border-box; }
   body {
@@ -153,10 +155,10 @@
     color: var(--muted);
   }
   tr.player-match td {
-    background: rgba(16, 185, 129, 0.14);
+    background: rgba(245, 158, 11, 0.14);
   }
   tr.player-match:hover td {
-    background: rgba(16, 185, 129, 0.2);
+    background: rgba(245, 158, 11, 0.2);
   }
   tr.player-match td:first-child {
     box-shadow: inset 3px 0 0 var(--accent2);
@@ -197,7 +199,7 @@
     font-size: 0.7rem;
     font-weight: 600;
   }
-  .badge.scored { background: rgba(16,185,129,0.16); color: var(--accent2); }
+  .badge.scored { background: rgba(245,158,11,0.16); color: var(--accent2); }
   .badge.pending { background: rgba(148,163,184,0.15); color: var(--muted); }
   .badge.out { background: rgba(220,38,38,0.15); color: var(--danger); }
   .note {
@@ -347,7 +349,7 @@
   }
   .player-chip .ppts {
     font-size: 0.65rem;
-    color: #0b2e17;
+    color: #78350f;
     background: var(--accent2);
     padding: 0px 5px;
     border-radius: 4px;
@@ -685,7 +687,7 @@
 
   function initTheme() {
     const saved = localStorage.getItem("fpl-fairplay-theme");
-    const theme = saved || "dark";
+    const theme = saved || "light";
     document.documentElement.setAttribute("data-theme", theme);
     updateThemeButton(theme);
   }
