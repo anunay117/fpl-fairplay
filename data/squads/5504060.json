@@ -3,9 +3,9 @@
   "gw": 4,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 67,
-  "totalPoints": 259,
-  "overallRank": 3669062,
+  "gwPoints": 79,
+  "totalPoints": 271,
+  "overallRank": 2665836,
   "activeChip": null,
   "picks": [
     {
@@ -42,18 +42,6 @@
       "isStarting": true,
       "eventPoints": 1,
       "rawPoints": 1,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Shaw",
-      "team": "MUN",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -117,6 +105,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 12,
+      "rawPoints": 12,
+      "fixtureLabel": null
+    },
+    {
       "name": "Haaland",
       "team": "MCI",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
+      "name": "Shaw",
+      "team": "MUN",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 12,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T04:59:06.127Z",
+  "updatedAt": "2026-09-15T09:46:48.563Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5286
+        "overallRank": 5440
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 67898
+        "overallRank": 69995
       },
       {
         "rank": 2,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 67898
+        "overallRank": 69995
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 179688
+        "overallRank": 185481
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 212157
+        "overallRank": 219072
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 310904
+        "overallRank": 321550
       },
       {
         "rank": 7,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 341943
+        "overallRank": 353623
       },
       {
         "rank": 8,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 925415
+        "overallRank": 959328
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 11,
-        "overallRank": 981443
+        "overallRank": 1017912
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 998176
+        "overallRank": 1035158
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1161068
+        "overallRank": 1204199
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1277767
+        "overallRank": 1325466
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1563916
+        "overallRank": 1622014
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 1572703
+        "overallRank": 1631419
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1580917
+        "overallRank": 1639973
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1890301
+        "overallRank": 1960112
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 5,
-        "overallRank": 2250419
+        "overallRank": 2333666
       },
       {
         "rank": 18,
@@ -271,10 +271,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 2448956
+        "overallRank": 2537503
       },
       {
         "rank": 19,
+        "managerName": "Vatsal Choudhary",
+        "teamName": "OrderOfDevil's",
+        "entryId": 5504060,
+        "totalPoints": 271,
+        "gwPoints": 79,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 2665836
+      },
+      {
+        "rank": 20,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
@@ -285,11 +300,11 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3,
-        "overallRank": 2859310
+        "rankChange": -4,
+        "overallRank": 2960094
       },
       {
-        "rank": 20,
+        "rank": 21,
         "managerName": "Utkarsh Jaiswal",
         "teamName": "Godspeed Gunners",
         "entryId": 635681,
@@ -300,23 +315,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3,
-        "overallRank": 3156085
-      },
-      {
-        "rank": 21,
-        "managerName": "Vatsal Choudhary",
-        "teamName": "OrderOfDevil's",
-        "entryId": 5504060,
-        "totalPoints": 259,
-        "gwPoints": 67,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -2,
-        "overallRank": 3669062
+        "rankChange": -4,
+        "overallRank": 3265516
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 4555492
+        "overallRank": 4694200
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4672590
+        "overallRank": 4812649
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5074787
+        "overallRank": 5220551
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 5142089
+        "overallRank": 5289103
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5286
+        "overallRank": 5440
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 67898
+        "overallRank": 69995
       },
       {
         "rank": 2,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 67898
+        "overallRank": 69995
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 179688
+        "overallRank": 185481
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 212157
+        "overallRank": 219072
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 310904
+        "overallRank": 321550
       },
       {
         "rank": 7,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 341943
+        "overallRank": 353623
       },
       {
         "rank": 8,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 925415
+        "overallRank": 959328
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 11,
-        "overallRank": 981443
+        "overallRank": 1017912
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 998176
+        "overallRank": 1035158
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1161068
+        "overallRank": 1204199
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1277767
+        "overallRank": 1325466
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1563916
+        "overallRank": 1622014
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 1572703
+        "overallRank": 1631419
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1580917
+        "overallRank": 1639973
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1890301
+        "overallRank": 1960112
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 5,
-        "overallRank": 2250419
+        "overallRank": 2333666
       },
       {
         "rank": 18,
@@ -988,10 +988,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 2448956
+        "overallRank": 2537503
       },
       {
         "rank": 19,
+        "managerName": "Vatsal Choudhary",
+        "teamName": "OrderOfDevil's",
+        "entryId": 5504060,
+        "totalPoints": 271,
+        "gwPoints": 79,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 2665836
+      },
+      {
+        "rank": 20,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
@@ -1002,11 +1017,11 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3,
-        "overallRank": 2859310
+        "rankChange": -4,
+        "overallRank": 2960094
       },
       {
-        "rank": 20,
+        "rank": 21,
         "managerName": "Utkarsh Jaiswal",
         "teamName": "Godspeed Gunners",
         "entryId": 635681,
@@ -1017,23 +1032,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3,
-        "overallRank": 3156085
-      },
-      {
-        "rank": 21,
-        "managerName": "Vatsal Choudhary",
-        "teamName": "OrderOfDevil's",
-        "entryId": 5504060,
-        "totalPoints": 259,
-        "gwPoints": 67,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -2,
-        "overallRank": 3669062
+        "rankChange": -4,
+        "overallRank": 3265516
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 4555492
+        "overallRank": 4694200
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4672590
+        "overallRank": 4812649
       },
       {
         "rank": 24,
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5074787
+        "overallRank": 5220551
       },
       {
         "rank": 25,
@@ -1093,7 +1093,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 5142089
+        "overallRank": 5289103
       }
     ],
     "eliminated": []
@@ -1102,7 +1102,7 @@
     "gw": 4,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 81.2,
+    "averagePoints": 81.6,
     "aboveAverageCount": 13,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
@@ -1196,9 +1196,9 @@
       "296314": 2,
       "418990": -2,
       "494423": 3,
-      "635681": -3,
+      "635681": -4,
       "888498": 2,
-      "1172057": -3,
+      "1172057": -4,
       "1386216": 0,
       "1443127": 1,
       "1576706": -2,
@@ -1210,7 +1210,7 @@
       "3544319": 2,
       "3717778": 5,
       "5165386": 4,
-      "5504060": -2,
+      "5504060": 0,
       "6786553": -6,
       "8291382": 1,
       "8619081": -3
