@@ -281,6 +281,10 @@
     z-index: 40;
   }
   .coffee-btn:hover { opacity: 0.9; }
+  @media (max-width: 480px) {
+    .coffee-btn { padding: 12px 14px; font-size: 0; }
+    .coffee-btn::before { content: "☕"; font-size: 1.1rem; }
+  }
   .modal-backdrop {
     display: none;
     position: fixed;
@@ -432,7 +436,7 @@
     </footer>
   </div>
 
-  <button class="coffee-btn" id="coffee-btn">☕ If you love this, buy me a coffee</button>
+  <button class="coffee-btn" id="coffee-btn" title="If you love this, buy me a coffee">☕ If you love this, buy me a coffee</button>
 
   <div class="modal-backdrop" id="coffee-modal-backdrop">
     <div class="modal">
