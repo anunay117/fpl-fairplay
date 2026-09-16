@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:39:24.287Z",
+  "updatedAt": "2026-09-16T01:37:42.677Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -20,21 +20,6 @@
       },
       {
         "rank": 2,
-        "managerName": "Nirbhay Vadera Varma",
-        "teamName": "ØhDearGawd",
-        "entryId": 1386216,
-        "totalPoints": 329,
-        "gwPoints": 83,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 69995
-      },
-      {
-        "rank": 2,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -46,6 +31,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
+        "overallRank": 69995
+      },
+      {
+        "rank": 2,
+        "managerName": "Nirbhay Vadera Varma",
+        "teamName": "ØhDearGawd",
+        "entryId": 1386216,
+        "totalPoints": 329,
+        "gwPoints": 83,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
         "overallRank": 69995
       },
       {
@@ -737,21 +737,6 @@
       },
       {
         "rank": 2,
-        "managerName": "Nirbhay Vadera Varma",
-        "teamName": "ØhDearGawd",
-        "entryId": 1386216,
-        "totalPoints": 329,
-        "gwPoints": 83,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 69995
-      },
-      {
-        "rank": 2,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -763,6 +748,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
+        "overallRank": 69995
+      },
+      {
+        "rank": 2,
+        "managerName": "Nirbhay Vadera Varma",
+        "teamName": "ØhDearGawd",
+        "entryId": 1386216,
+        "totalPoints": 329,
+        "gwPoints": 83,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
         "overallRank": 69995
       },
       {
