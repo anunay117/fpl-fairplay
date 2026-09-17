@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T00:41:32.913Z",
+  "updatedAt": "2026-09-17T05:27:13.021Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -20,21 +20,6 @@
       },
       {
         "rank": 2,
-        "managerName": "Prince Srivastava",
-        "teamName": "Why always me?",
-        "entryId": 49714,
-        "totalPoints": 329,
-        "gwPoints": 103,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 3,
-        "overallRank": 69995
-      },
-      {
-        "rank": 2,
         "managerName": "Nirbhay Vadera Varma",
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
@@ -46,6 +31,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 69995
+      },
+      {
+        "rank": 2,
+        "managerName": "Prince Srivastava",
+        "teamName": "Why always me?",
+        "entryId": 49714,
+        "totalPoints": 329,
+        "gwPoints": 103,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 3,
         "overallRank": 69995
       },
       {
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 11,
-        "overallRank": 1017896
+        "overallRank": 1017897
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 1035143
+        "overallRank": 1035144
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1204182
+        "overallRank": 1204183
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1325449
+        "overallRank": 1325450
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1621991
+        "overallRank": 1621992
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 1631395
+        "overallRank": 1631396
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1639949
+        "overallRank": 1639950
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1960077
+        "overallRank": 1960078
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 5,
-        "overallRank": 2333622
+        "overallRank": 2333623
       },
       {
         "rank": 18,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5220422
+        "overallRank": 5220420
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 5288971
+        "overallRank": 5288969
       }
     ]
   },
@@ -737,21 +737,6 @@
       },
       {
         "rank": 2,
-        "managerName": "Prince Srivastava",
-        "teamName": "Why always me?",
-        "entryId": 49714,
-        "totalPoints": 329,
-        "gwPoints": 103,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 3,
-        "overallRank": 69995
-      },
-      {
-        "rank": 2,
         "managerName": "Nirbhay Vadera Varma",
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
@@ -763,6 +748,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 69995
+      },
+      {
+        "rank": 2,
+        "managerName": "Prince Srivastava",
+        "teamName": "Why always me?",
+        "entryId": 49714,
+        "totalPoints": 329,
+        "gwPoints": 103,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 3,
         "overallRank": 69995
       },
       {
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 11,
-        "overallRank": 1017896
+        "overallRank": 1017897
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 1035143
+        "overallRank": 1035144
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1204182
+        "overallRank": 1204183
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1325449
+        "overallRank": 1325450
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1621991
+        "overallRank": 1621992
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 1631395
+        "overallRank": 1631396
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1639949
+        "overallRank": 1639950
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1960077
+        "overallRank": 1960078
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 5,
-        "overallRank": 2333622
+        "overallRank": 2333623
       },
       {
         "rank": 18,
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5220422
+        "overallRank": 5220420
       },
       {
         "rank": 25,
@@ -1093,7 +1093,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 5288971
+        "overallRank": 5288969
       }
     ],
     "eliminated": []
