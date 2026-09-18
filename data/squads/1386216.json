@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Nirbhay Vadera Varma",
   "teamName": "ØhDearGawd",
-  "gwPoints": 0,
-  "totalPoints": 329,
-  "overallRank": 68338,
+  "gwPoints": 2,
+  "totalPoints": 331,
+  "overallRank": 84279,
   "activeChip": null,
   "picks": [
     {
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Szoboszlai",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",

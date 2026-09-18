@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 0,
   "totalPoints": 241,
-  "overallRank": 5525367,
+  "overallRank": 5813868,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Chilwell",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",

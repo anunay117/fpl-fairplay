@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Utkarsh Jaiswal",
   "teamName": "Godspeed Gunners",
-  "gwPoints": 0,
-  "totalPoints": 265,
-  "overallRank": 3188350,
+  "gwPoints": 2,
+  "totalPoints": 267,
+  "overallRank": 3291539,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",

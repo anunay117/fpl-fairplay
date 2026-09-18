@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Two To Tangoal",
   "teamName": "Cockroach FPL Party",
-  "gwPoints": 0,
-  "totalPoints": 273,
-  "overallRank": 2492072,
+  "gwPoints": 2,
+  "totalPoints": 275,
+  "overallRank": 2588252,
   "activeChip": null,
   "picks": [
     {
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Igor Jesus",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Isak",

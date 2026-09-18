@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Vikramjeet Singh",
   "teamName": "MultaniFC",
-  "gwPoints": 0,
-  "totalPoints": 284,
-  "overallRank": 1598407,
+  "gwPoints": 2,
+  "totalPoints": 286,
+  "overallRank": 1679465,
   "activeChip": null,
   "picks": [
     {
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Mbeumo",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",

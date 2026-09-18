@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Yash Kapadia",
   "teamName": "Scouser XI",
-  "gwPoints": 0,
-  "totalPoints": 291,
-  "overallRank": 1164130,
+  "gwPoints": 2,
+  "totalPoints": 293,
+  "overallRank": 1235530,
   "activeChip": null,
   "picks": [
     {
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Mbeumo",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Diop",

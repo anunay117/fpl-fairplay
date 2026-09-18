@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 0,
-  "totalPoints": 271,
-  "overallRank": 2629908,
+  "gwPoints": 9,
+  "totalPoints": 280,
+  "overallRank": 2134462,
   "activeChip": null,
   "picks": [
     {
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "eventPoints": 9,
+      "rawPoints": 9,
+      "fixtureLabel": null
     },
     {
       "name": "Tzolis",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Ajer",
@@ -185,8 +185,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "rawPoints": 7,
+      "fixtureLabel": null
     }
   ]
 }

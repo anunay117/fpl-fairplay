@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Divyansh Gupta",
   "teamName": "UnTzolisited Advice",
-  "gwPoints": 0,
-  "totalPoints": 280,
-  "overallRank": 1923067,
+  "gwPoints": 2,
+  "totalPoints": 282,
+  "overallRank": 2009594,
   "activeChip": null,
   "picks": [
     {
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Tzolis",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Calvert-Lewin",

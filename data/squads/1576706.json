@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Awanish Gaurav",
   "teamName": "FPL AGing",
-  "gwPoints": 0,
-  "totalPoints": 244,
-  "overallRank": 5219562,
+  "gwPoints": 2,
+  "totalPoints": 246,
+  "overallRank": 5329196,
   "activeChip": null,
   "picks": [
     {
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Gomez",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Thomas",

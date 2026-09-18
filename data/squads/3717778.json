@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Ritee Mishra",
   "teamName": "Why always you?",
-  "gwPoints": 0,
-  "totalPoints": 275,
-  "overallRank": 2289712,
+  "gwPoints": 2,
+  "totalPoints": 277,
+  "overallRank": 2382062,
   "activeChip": null,
   "picks": [
     {
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
