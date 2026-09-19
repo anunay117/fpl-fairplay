@@ -522,7 +522,7 @@
           <div>
             <h3 style="font-size:0.9rem; color:var(--muted); margin: 0 0 8px;">Survivors</h3>
             <table id="table-lms-survivors">
-              <thead><tr><th>Manager</th><th>Team</th></tr></thead>
+              <thead><tr><th>Manager</th><th>Team</th><th class="num">GW Pts</th></tr></thead>
               <tbody></tbody>
             </table>
           </div>
@@ -823,13 +823,30 @@
     if (lms.status === "not_started") {
       msgEl.style.display = "block";
       msgEl.textContent = lms.message;
+    } else if (lms.liveGw) {
+      msgEl.style.display = "block";
+      msgEl.textContent = `GW${lms.liveGw} is still live — showing current scores. The lowest scorer among survivors will be eliminated once the gameweek is finalized.`;
     } else {
       msgEl.style.display = "none";
     }
 
-    for (const m of lms.survivors || []) {
+    const survivors = lms.survivors || [];
+    // While the gameweek is still live, sort lowest-scorer-first so managers can see who's
+    // provisionally on the chopping block; once finalized, elimination already removed them
+    // from this list, so just show survivors in their existing (rank) order.
+    const sortedSurvivors = lms.liveGw
+      ? [...survivors].sort((a, b) => (a.gwPoints ?? Infinity) - (b.gwPoints ?? Infinity))
+      : survivors;
+    const lowestLiveScore = lms.liveGw
+      ? Math.min(...survivors.map((m) => m.gwPoints ?? Infinity))
+      : null;
+
+    for (const m of sortedSurvivors) {
       const tr = document.createElement("tr");
-      tr.innerHTML = `<td>${teamLink(m.entryId, m.managerName)}</td><td>${teamLink(m.entryId, m.teamName)}</td>`;
+      const atRisk = lms.liveGw && m.gwPoints === lowestLiveScore
+        ? ' <span class="badge out">At risk</span>'
+        : "";
+      tr.innerHTML = `<td>${teamLink(m.entryId, m.managerName)}</td><td>${teamLink(m.entryId, m.teamName)}${atRisk}</td><td class="num">${m.gwPoints ?? "—"}</td>`;
       survivorsBody.appendChild(tr);
     }
 

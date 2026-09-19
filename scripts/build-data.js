@@ -139,7 +139,7 @@ async function fetchEntryInfos(classicManagers) {
   return entryInfoById;
 }
 
-function computeLastManStanding(classicManagers, histories) {
+function computeLastManStanding(classicManagers, histories, latestFinishedGw) {
   let maxGw = 0;
   for (const entryId in histories) {
     for (const rec of histories[entryId]) {
@@ -158,11 +158,19 @@ function computeLastManStanding(classicManagers, histories) {
     };
   }
 
+  // The /history/ endpoint reflects the gameweek still in progress in real time, but bonus
+  // points aren't locked in until FPL marks it finished + data_checked - so only eliminate
+  // someone off a gameweek once it's fully finalized, not off a live/partial score. While a
+  // gameweek is still live, survivors keep their current (live) gwPoints from classicManagers
+  // so the frontend can show who's provisionally in last place without eliminating them yet.
+  const lastDecidableGw = Math.min(maxGw, latestFinishedGw);
+  const liveGwInProgress = maxGw > lastDecidableGw;
+
   const managerLookup = Object.fromEntries(classicManagers.map((m) => [m.entryId, m]));
   let survivors = classicManagers.map((m) => m.entryId);
   const eliminated = [];
 
-  for (let gw = LMS_START_GW; gw <= maxGw; gw++) {
+  for (let gw = LMS_START_GW; gw <= lastDecidableGw; gw++) {
     const scores = survivors
       .map((id) => {
         const rec = (histories[id] || []).find((r) => r.event === gw);
@@ -192,6 +200,7 @@ function computeLastManStanding(classicManagers, histories) {
     status: survivors.length === 1 ? "winner_decided" : "in_progress",
     startGw: LMS_START_GW,
     currentGw: maxGw,
+    liveGw: liveGwInProgress ? maxGw : null,
     survivors: survivors.map((id) => managerLookup[id]),
     eliminated: eliminated.sort((a, b) => b.eliminatedGw - a.eliminatedGw),
   };
@@ -385,13 +394,15 @@ async function main() {
   fs.mkdirSync(SQUADS_DIR, { recursive: true });
 
   const bootstrap = await getJson("https://fantasy.premierleague.com/api/bootstrap-static/");
+  const finishedGws = bootstrap.events.filter((e) => e.finished && e.data_checked).map((e) => e.id);
+  const latestFinishedGw = finishedGws.length ? Math.max(...finishedGws) : 0;
 
   const classic = await fetchLeague("classic", CLASSIC_LEAGUE_ID);
   const h2h = await fetchLeague("h2h", H2H_LEAGUE_ID);
   const cup = await fetchCup(classic.managers);
   const histories = await fetchHistories(classic.managers);
   const entryInfoById = await fetchEntryInfos(classic.managers);
-  const lastManStanding = computeLastManStanding(classic.managers, histories);
+  const lastManStanding = computeLastManStanding(classic.managers, histories, latestFinishedGw);
   const seasonHigh = computeSeasonHigh(classic.managers, histories, lastManStanding.currentGw);
   const gwSummary = computeGwSummary(classic.managers, lastManStanding.currentGw, seasonHigh);
 
@@ -479,8 +490,6 @@ async function main() {
 
   // --- GW finish detection (replaces fpl-gw-finish-detector.json) ---
   const state = readJsonIfExists(STATE_FILE, { lastNotifiedGw: 0 });
-  const finishedGws = bootstrap.events.filter((e) => e.finished && e.data_checked).map((e) => e.id);
-  const latestFinishedGw = finishedGws.length ? Math.max(...finishedGws) : 0;
 
   if (latestFinishedGw > state.lastNotifiedGw) {
     const topScorer = [...classic.managers].sort((a, b) => (b.gwPoints ?? -1) - (a.gwPoints ?? -1))[0];
