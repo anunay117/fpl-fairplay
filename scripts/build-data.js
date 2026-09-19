@@ -390,12 +390,47 @@ function readJsonIfExists(file, fallback) {
   }
 }
 
+// Covers a match's ~90 minutes of play plus stoppage time and the lag before bonus points/
+// data_checked are confirmed, so a 10-min external trigger keeps polling through that tail
+// instead of stopping the instant the final whistle blows.
+const MATCH_WINDOW_TAIL_MS = 150 * 60 * 1000;
+
+async function isMatchWindowActive(gwId) {
+  if (!gwId) return false;
+  let fixtures = [];
+  try {
+    fixtures = await getJson(`https://fantasy.premierleague.com/api/fixtures/?event=${gwId}`);
+  } catch (e) {
+    return true; // fixtures endpoint unavailable - fail open and run the full refresh anyway.
+  }
+
+  const now = Date.now();
+  return fixtures.some((f) => {
+    if (f.started && !f.finished) return true;
+    if (!f.kickoff_time) return false;
+    const kickoff = new Date(f.kickoff_time).getTime();
+    return now >= kickoff && now <= kickoff + MATCH_WINDOW_TAIL_MS;
+  });
+}
+
 async function main() {
   fs.mkdirSync(SQUADS_DIR, { recursive: true });
 
   const bootstrap = await getJson("https://fantasy.premierleague.com/api/bootstrap-static/");
   const finishedGws = bootstrap.events.filter((e) => e.finished && e.data_checked).map((e) => e.id);
   const latestFinishedGw = finishedGws.length ? Math.max(...finishedGws) : 0;
+
+  // The 10-min external trigger fires around the clock, but there's no point hammering the
+  // FPL API and pushing empty commits when no match is actually being played. The 4h in-repo
+  // schedule (GITHUB_EVENT_NAME === "schedule") always runs the full refresh regardless, as a
+  // backup that keeps data from ever going stale for more than a few hours.
+  const activeGwEvent = bootstrap.events.find((e) => e.is_current) || bootstrap.events.find((e) => !e.finished);
+  const matchLive = await isMatchWindowActive(activeGwEvent ? activeGwEvent.id : null);
+
+  if (!matchLive && process.env.GITHUB_EVENT_NAME !== "schedule") {
+    console.log("No live match window right now - skipping full refresh.");
+    return;
+  }
 
   const classic = await fetchLeague("classic", CLASSIC_LEAGUE_ID);
   const h2h = await fetchLeague("h2h", H2H_LEAGUE_ID);
