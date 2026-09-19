@@ -602,11 +602,13 @@ async function main() {
     const leader = [...classic.managers].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity))[0];
 
     state.lastNotifiedGw = latestFinishedGw;
+    // *bold* / _italic_ is the same plain-text syntax in both Slack and WhatsApp, so this
+    // renders correctly if copy-pasted from Slack straight into a WhatsApp chat.
     state.lastFinishMessage =
-      `🏆 ${classic.leagueName} — GW${latestFinishedGw} Results\n\n` +
-      `Top scorer: ${topScorer.managerName} (${topScorer.teamName}) — ${topScorer.gwPoints} pts\n` +
-      `Lowest score: ${bottomScorer.managerName} (${bottomScorer.teamName}) — ${bottomScorer.gwPoints} pts\n\n` +
-      `League Leader: ${leader.managerName} (${leader.teamName}) — ${leader.totalPoints} pts total`;
+      `🏆 *${classic.leagueName}* — GW${latestFinishedGw} Results\n\n` +
+      `🔥 Top scorer: *${topScorer.managerName}* (${topScorer.teamName}) — ${topScorer.gwPoints} pts\n` +
+      `🥶 Lowest score: *${bottomScorer.managerName}* (${bottomScorer.teamName}) — ${bottomScorer.gwPoints} pts\n\n` +
+      `👑 League Leader: *${leader.managerName}* (${leader.teamName}) — ${leader.totalPoints} pts total`;
 
     const messages = [state.lastFinishMessage];
 
@@ -616,15 +618,15 @@ async function main() {
       const eliminatedThisGw = lastManStanding.eliminated.filter((e) => e.eliminatedGw === latestFinishedGw);
       if (eliminatedThisGw.length > 0) {
         const eliminatedLines = eliminatedThisGw
-          .map((e) => `${e.managerName} (${e.teamName}) — ${e.gwPoints} pts`)
+          .map((e) => `☠️ *${e.managerName}* (${e.teamName}) — ${e.gwPoints} pts`)
           .join("\n");
         const survivorCount = lastManStanding.survivors.length;
         const statusLine =
           lastManStanding.status === "winner_decided"
-            ? `🏆 ${lastManStanding.survivors[0]?.managerName ?? "The last manager standing"} wins Last Man Standing!`
-            : `${survivorCount} manager${survivorCount === 1 ? "" : "s"} still standing.`;
+            ? `🏆 *${lastManStanding.survivors[0]?.managerName ?? "The last manager standing"}* wins Last Man Standing! 🎉`
+            : `👥 ${survivorCount} manager${survivorCount === 1 ? "" : "s"} still standing.`;
         messages.push(
-          `💀 Last Man Standing — GW${latestFinishedGw}\n\nEliminated:\n${eliminatedLines}\n\n${statusLine}`
+          `💀 *Last Man Standing — GW${latestFinishedGw}*\n\n${eliminatedLines}\n\n${statusLine}`
         );
       }
     }
