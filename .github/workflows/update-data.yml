@@ -2,7 +2,10 @@ name: Update FPL data
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    # Backup only - an external cron-job.org trigger calls workflow_dispatch every
+    # 15 minutes for the real refresh cadence, since GitHub throttles a repo's own
+    # scheduled workflow down to multi-hour gaps regardless of the cron expression.
+    - cron: "0 */4 * * *"
   workflow_dispatch: {}
 
 permissions:
