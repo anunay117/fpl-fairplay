@@ -26,6 +26,8 @@ jobs:
           node-version: 20
 
       - run: node scripts/build-data.js
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
       - name: Commit and push if changed
         run: |

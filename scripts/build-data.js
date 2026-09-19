@@ -435,6 +435,21 @@ async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById, f
   };
 }
 
+async function sendSlackMessage(text) {
+  const webhookUrl = process.env.SLACK_WEBHOOK_URL;
+  if (!webhookUrl) return;
+  try {
+    const res = await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text }),
+    });
+    if (!res.ok) console.error(`Slack webhook failed: ${res.status} ${res.statusText}`);
+  } catch (e) {
+    console.error(`Slack webhook error: ${e.message}`);
+  }
+}
+
 function readJsonIfExists(file, fallback) {
   try {
     return JSON.parse(fs.readFileSync(file, "utf8"));
@@ -592,8 +607,32 @@ async function main() {
       `Top scorer: ${topScorer.managerName} (${topScorer.teamName}) — ${topScorer.gwPoints} pts\n` +
       `Lowest score: ${bottomScorer.managerName} (${bottomScorer.teamName}) — ${bottomScorer.gwPoints} pts\n\n` +
       `League Leader: ${leader.managerName} (${leader.teamName}) — ${leader.totalPoints} pts total`;
-    // Hook a notification (Slack/WhatsApp/etc) here in future by reading state.lastFinishMessage
-    // right after this block runs, before it's persisted below.
+
+    const messages = [state.lastFinishMessage];
+
+    // Last Man Standing update - only once eliminations for this specific gameweek have
+    // actually been decided (guarded by the same latestFinishedGw the elimination loop uses).
+    if (lastManStanding.status !== "not_started") {
+      const eliminatedThisGw = lastManStanding.eliminated.filter((e) => e.eliminatedGw === latestFinishedGw);
+      if (eliminatedThisGw.length > 0) {
+        const eliminatedLines = eliminatedThisGw
+          .map((e) => `${e.managerName} (${e.teamName}) — ${e.gwPoints} pts`)
+          .join("\n");
+        const survivorCount = lastManStanding.survivors.length;
+        const statusLine =
+          lastManStanding.status === "winner_decided"
+            ? `🏆 ${lastManStanding.survivors[0]?.managerName ?? "The last manager standing"} wins Last Man Standing!`
+            : `${survivorCount} manager${survivorCount === 1 ? "" : "s"} still standing.`;
+        messages.push(
+          `💀 Last Man Standing — GW${latestFinishedGw}\n\nEliminated:\n${eliminatedLines}\n\n${statusLine}`
+        );
+      }
+    }
+
+    state.lastFinishMessage = messages.join("\n\n---\n\n");
+    for (const msg of messages) {
+      await sendSlackMessage(msg);
+    }
     console.log("New gameweek finished:\n" + state.lastFinishMessage);
   }
 
