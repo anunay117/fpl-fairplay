@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "mohit maheshwari",
   "teamName": "mohit's Team",
-  "gwPoints": 0,
-  "totalPoints": 241,
-  "overallRank": 5873838,
+  "gwPoints": 8,
+  "totalPoints": 249,
+  "overallRank": 6206893,
   "activeChip": null,
   "picks": [
     {
@@ -16,9 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Virgil",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Petrović",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Thomas",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Mehmeti",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (A)"
+      "fixtureLabel": null
     }
   ]
 }

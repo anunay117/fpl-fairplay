@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 9,
-  "totalPoints": 280,
-  "overallRank": 2190316,
+  "gwPoints": 27,
+  "totalPoints": 298,
+  "overallRank": 1989414,
   "activeChip": null,
   "picks": [
     {
@@ -16,9 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Hall",
@@ -40,9 +40,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "eventPoints": 12,
+      "rawPoints": 12,
+      "fixtureLabel": null
     },
     {
       "name": "Davis",
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "EVE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "O'Reilly",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -149,8 +149,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "rawPoints": 7,
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "rawPoints": 14,
+      "fixtureLabel": null
     },
     {
       "name": "M.Sangaré",

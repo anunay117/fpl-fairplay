@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Awanish Gaurav",
   "teamName": "FPL AGing",
-  "gwPoints": 4,
-  "totalPoints": 248,
-  "overallRank": 5204785,
+  "gwPoints": 24,
+  "totalPoints": 268,
+  "overallRank": 4528089,
   "activeChip": null,
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Van Hecke",
@@ -40,8 +40,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "IPS (H)"
+      "eventPoints": 3,
+      "rawPoints": 3,
+      "fixtureLabel": null
     },
     {
       "name": "Tzolis",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Szoboszlai",
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "eventPoints": 8,
+      "rawPoints": 8,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Diop",
@@ -185,8 +185,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "EVE (A)"
+      "rawPoints": 4,
+      "fixtureLabel": null
     }
   ]
 }

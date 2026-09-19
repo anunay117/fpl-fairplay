@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Anunay Gupta",
   "teamName": "Jetha ke Jabaaz",
-  "gwPoints": 6,
-  "totalPoints": 290,
-  "overallRank": 1446928,
+  "gwPoints": 61,
+  "totalPoints": 345,
+  "overallRank": 148255,
   "activeChip": "bboost",
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -40,9 +40,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Hall",
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "eventPoints": 12,
+      "rawPoints": 12,
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "eventPoints": 9,
+      "rawPoints": 9,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "IPS (H)"
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",
@@ -148,9 +148,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "eventPoints": 7,
+      "rawPoints": 7,
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -160,9 +160,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "eventPoints": 14,
+      "rawPoints": 14,
+      "fixtureLabel": null
     },
     {
       "name": "O'Shea",
@@ -172,9 +172,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "EVE (A)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -184,9 +184,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     }
   ]
 }
