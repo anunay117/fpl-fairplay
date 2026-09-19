@@ -597,18 +597,25 @@ async function main() {
   const state = readJsonIfExists(STATE_FILE, { lastNotifiedGw: 0 });
 
   if (latestFinishedGw > state.lastNotifiedGw) {
-    const topScorer = [...classic.managers].sort((a, b) => (b.gwPoints ?? -1) - (a.gwPoints ?? -1))[0];
-    const bottomScorer = [...classic.managers].sort((a, b) => (a.gwPoints ?? Infinity) - (b.gwPoints ?? Infinity))[0];
-    const leader = [...classic.managers].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity))[0];
+    const classicTop3 = [...classic.managers].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity)).slice(0, 3);
+    const h2hTop2 = [...h2h.managers].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity)).slice(0, 2);
 
     state.lastNotifiedGw = latestFinishedGw;
     // *bold* / _italic_ is the same plain-text syntax in both Slack and WhatsApp, so this
     // renders correctly if copy-pasted from Slack straight into a WhatsApp chat.
+    const classicLines = classicTop3
+      .map((m, i) => `${i + 1}. *${m.managerName}* (${m.teamName}) — ${m.totalPoints} pts`)
+      .join("\n");
+    const h2hLines = h2hTop2
+      .map(
+        (m, i) =>
+          `${i + 1}. *${m.managerName}* (${m.teamName}) — ${m.totalPoints} pts (${m.matchesWon}W-${m.matchesDrawn}D-${m.matchesLost}L)`
+      )
+      .join("\n");
     state.lastFinishMessage =
       `🏆 *${classic.leagueName}* — GW${latestFinishedGw} Results\n\n` +
-      `🔥 Top scorer: *${topScorer.managerName}* (${topScorer.teamName}) — ${topScorer.gwPoints} pts\n` +
-      `🥶 Lowest score: *${bottomScorer.managerName}* (${bottomScorer.teamName}) — ${bottomScorer.gwPoints} pts\n\n` +
-      `👑 League Leader: *${leader.managerName}* (${leader.teamName}) — ${leader.totalPoints} pts total`;
+      `📊 League Leaders (Top 3):\n${classicLines}\n\n` +
+      `⚔️ Head to Head (Top 2):\n${h2hLines}`;
 
     const messages = [state.lastFinishMessage];
 
