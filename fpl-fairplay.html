@@ -884,19 +884,30 @@
               .map((w) => teamLink(w.entryId, w.managerName))
               .join(", ")}</strong> — ${m.winners[0].points} pts</div>`
           : "";
-        const rows = m.leaderboard
-          .slice(0, 5)
-          .map(
-            (t, i) => `
-          <tr>
-            <td class="num">${i + 1}</td>
-            <td>${teamLink(t.entryId, t.managerName)}</td>
-            <td>${teamLink(t.entryId, t.teamName)}</td>
-            <td class="num">${t.points}</td>
-          </tr>
-        `
-          )
-          .join("");
+
+        // Once a month is finalized, its champion is decided - no need to show the full
+        // leaderboard anymore, just the winner line above.
+        const table =
+          m.status === "finalized"
+            ? ""
+            : `
+          <table>
+            <thead><tr><th>#</th><th>Manager</th><th>Team</th><th class="num">Pts</th></tr></thead>
+            <tbody>${m.leaderboard
+              .slice(0, 5)
+              .map(
+                (t, i) => `
+              <tr>
+                <td class="num">${i + 1}</td>
+                <td>${teamLink(t.entryId, t.managerName)}</td>
+                <td>${teamLink(t.entryId, t.teamName)}</td>
+                <td class="num">${t.points}</td>
+              </tr>
+            `
+              )
+              .join("")}</tbody>
+          </table>
+        `;
 
         return `
           <div class="note" style="margin-bottom:16px;">
@@ -905,10 +916,7 @@
               ${statusBadge}
             </div>
             ${winnerLine}
-            <table>
-              <thead><tr><th>#</th><th>Manager</th><th>Team</th><th class="num">Pts</th></tr></thead>
-              <tbody>${rows}</tbody>
-            </table>
+            ${table}
           </div>
         `;
       })
