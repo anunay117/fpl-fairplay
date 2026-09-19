@@ -451,6 +451,7 @@
         <button class="tab" data-tab="h2h">Head to Head</button>
         <button class="tab" data-tab="cup">FPL Cup</button>
         <button class="tab" data-tab="lms">Last Man Standing</button>
+        <button class="tab" data-tab="motm">Manager of the Month</button>
       </nav>
 
       <div class="player-search-bar">
@@ -534,6 +535,11 @@
             </table>
           </div>
         </div>
+      </section>
+
+      <section class="panel" id="panel-motm">
+        <h2 class="section-title">Manager of the Month</h2>
+        <div id="motm-content"></div>
       </section>
     </div>
   </div>
@@ -857,11 +863,63 @@
     }
   }
 
+  function renderMotm() {
+    const el = document.getElementById("motm-content");
+    const months = data.managerOfTheMonth || [];
+    if (!months.length) {
+      el.innerHTML = `<div class="note">No completed gameweeks yet this season.</div>`;
+      return;
+    }
+
+    el.innerHTML = [...months]
+      .reverse() // most recent month first
+      .map((m) => {
+        const statusBadge =
+          m.status === "finalized"
+            ? '<span class="badge scored">Finalized</span>'
+            : '<span class="badge pending">In Progress</span>';
+        const winnerLine = m.winners.length
+          ? `<div style="margin-bottom:10px;">🏆 <strong>${m.winners
+              .map((w) => teamLink(w.entryId, w.managerName))
+              .join(", ")}</strong> — ${m.winners[0].points} pts</div>`
+          : "";
+        const rows = m.leaderboard
+          .slice(0, 5)
+          .map(
+            (t, i) => `
+          <tr>
+            <td class="num">${i + 1}</td>
+            <td>${teamLink(t.entryId, t.managerName)}</td>
+            <td>${teamLink(t.entryId, t.teamName)}</td>
+            <td class="num">${t.points}</td>
+          </tr>
+        `
+          )
+          .join("");
+
+        return `
+          <div class="note" style="margin-bottom:16px;">
+            <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:8px;">
+              <h3 style="margin:0; font-size:1rem; color:var(--text);">${escapeHtml(m.label)}</h3>
+              ${statusBadge}
+            </div>
+            ${winnerLine}
+            <table>
+              <thead><tr><th>#</th><th>Manager</th><th>Team</th><th class="num">Pts</th></tr></thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        `;
+      })
+      .join("");
+  }
+
   function renderAll() {
     renderStandingsTable("classic");
     renderStandingsTable("h2h");
     renderCup();
     renderLms();
+    renderMotm();
   }
 
   async function loadAllSquads() {

@@ -206,6 +206,59 @@ function computeLastManStanding(classicManagers, histories, latestFinishedGw) {
   };
 }
 
+// Mirrors the "filter by month" view on the official FPL standings page: each gameweek is
+// bucketed into the calendar month its deadline falls in (deadline_time is real-world, unlike
+// the GW number), then every classic-league manager's points across that month's gameweeks are
+// summed. A month is "finalized" once every gameweek in it is finished + data_checked; otherwise
+// it's the current in-progress leaderboard for that month.
+function computeManagerOfTheMonth(classicManagers, histories, events) {
+  const monthBuckets = new Map();
+  for (const e of events) {
+    if (!e.deadline_time) continue;
+    const d = new Date(e.deadline_time);
+    const monthKey = `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
+    if (!monthBuckets.has(monthKey)) {
+      monthBuckets.set(monthKey, {
+        monthKey,
+        label: d.toLocaleString("en-US", { month: "long", year: "numeric", timeZone: "UTC" }),
+        gwIds: [],
+      });
+    }
+    monthBuckets.get(monthKey).gwIds.push(e.id);
+  }
+
+  const eventById = Object.fromEntries(events.map((e) => [e.id, e]));
+
+  return [...monthBuckets.values()]
+    .sort((a, b) => a.gwIds[0] - b.gwIds[0])
+    .map(({ monthKey, label, gwIds }) => {
+      const allFinished = gwIds.every((id) => eventById[id]?.finished && eventById[id]?.data_checked);
+      const anyPlayed = gwIds.some((id) => eventById[id]?.finished || eventById[id]?.is_current);
+
+      const leaderboard = classicManagers
+        .map((m) => {
+          const points = (histories[m.entryId] || [])
+            .filter((rec) => gwIds.includes(rec.event))
+            .reduce((sum, rec) => sum + (rec.points || 0), 0);
+          return { entryId: m.entryId, managerName: m.managerName, teamName: m.teamName, points };
+        })
+        .sort((a, b) => b.points - a.points);
+
+      const topScore = leaderboard.length ? leaderboard[0].points : 0;
+      const winners = topScore > 0 ? leaderboard.filter((t) => t.points === topScore) : [];
+
+      return {
+        monthKey,
+        label,
+        gws: gwIds,
+        status: allFinished ? "finalized" : anyPlayed ? "in_progress" : "not_started",
+        leaderboard,
+        winners,
+      };
+    })
+    .filter((m) => m.status !== "not_started");
+}
+
 function computeSeasonHigh(classicManagers, histories, currentGw) {
   const managerLookup = Object.fromEntries(classicManagers.map((m) => [m.entryId, m]));
   let best = null;
@@ -440,6 +493,7 @@ async function main() {
   const lastManStanding = computeLastManStanding(classic.managers, histories, latestFinishedGw);
   const seasonHigh = computeSeasonHigh(classic.managers, histories, lastManStanding.currentGw);
   const gwSummary = computeGwSummary(classic.managers, lastManStanding.currentGw, seasonHigh);
+  const managerOfTheMonth = computeManagerOfTheMonth(classic.managers, histories, bootstrap.events);
 
   if (gwSummary && !gwSummary.isFirstGw) {
     for (const m of classic.managers) {
@@ -462,6 +516,7 @@ async function main() {
         cup,
         lastManStanding,
         gwSummary,
+        managerOfTheMonth,
       },
       null,
       2
