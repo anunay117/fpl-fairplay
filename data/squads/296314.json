@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Anunay Gupta",
   "teamName": "Jetha ke Jabaaz",
-  "gwPoints": 4,
-  "totalPoints": 288,
-  "overallRank": 1531345,
+  "gwPoints": 6,
+  "totalPoints": 290,
+  "overallRank": 1446928,
   "activeChip": "bboost",
   "picks": [
     {
@@ -16,9 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",

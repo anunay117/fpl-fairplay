@@ -5,7 +5,7 @@
   "teamName": "Reece's Pieces",
   "gwPoints": 4,
   "totalPoints": 298,
-  "overallRank": 954055,
+  "overallRank": 992416,
   "activeChip": null,
   "picks": [
     {
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
