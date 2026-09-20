@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Rudra Manoj Joshi",
   "teamName": "Reece's Pieces",
-  "gwPoints": 12,
-  "totalPoints": 306,
-  "overallRank": 2033171,
+  "gwPoints": 14,
+  "totalPoints": 308,
+  "overallRank": 2300627,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
