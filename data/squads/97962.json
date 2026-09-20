@@ -3,9 +3,9 @@
   "gw": 5,
   "managerName": "Rajat Aggarwal",
   "teamName": "Childish Firmino",
-  "gwPoints": 27,
-  "totalPoints": 338,
-  "overallRank": 423442,
+  "gwPoints": 26,
+  "totalPoints": 337,
+  "overallRank": 440997,
   "activeChip": null,
   "picks": [
     {
@@ -100,8 +100,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
