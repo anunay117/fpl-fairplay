@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 10,
   "totalPoints": 259,
-  "overallRank": 5407711,
+  "overallRank": 5407709,
   "activeChip": null,
   "picks": [
     {
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Calvert-Lewin",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",

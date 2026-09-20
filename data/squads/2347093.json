@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 22,
   "totalPoints": 306,
-  "overallRank": 1534897,
+  "overallRank": 1534896,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",

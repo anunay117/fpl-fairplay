@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
