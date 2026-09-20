@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 34,
   "totalPoints": 305,
-  "overallRank": 2832530,
+  "overallRank": 2827355,
   "activeChip": null,
   "picks": [
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -124,8 +124,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 2,
+      "eventPoints": 12,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {

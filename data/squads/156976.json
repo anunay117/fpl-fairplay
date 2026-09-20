@@ -5,7 +5,7 @@
   "teamName": "Absolute Wirtz",
   "gwPoints": 36,
   "totalPoints": 384,
-  "overallRank": 10757,
+  "overallRank": 10752,
   "activeChip": null,
   "picks": [
     {
@@ -124,8 +124,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 2,
+      "eventPoints": 12,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {

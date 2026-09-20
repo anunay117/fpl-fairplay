@@ -5,7 +5,7 @@
   "teamName": "FPL AGing",
   "gwPoints": 38,
   "totalPoints": 282,
-  "overallRank": 5005914,
+  "overallRank": 5001153,
   "activeChip": null,
   "picks": [
     {
@@ -124,8 +124,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 2,
+      "eventPoints": 12,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
