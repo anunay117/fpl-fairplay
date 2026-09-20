@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 49,
   "totalPoints": 290,
-  "overallRank": 4875744,
+  "overallRank": 4875742,
   "activeChip": null,
   "picks": [
     {
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Saka",

@@ -5,7 +5,7 @@
   "teamName": "Gvardiols Of Galaxy",
   "gwPoints": 41,
   "totalPoints": 325,
-  "overallRank": 1815168,
+  "overallRank": 1815166,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",

@@ -5,7 +5,7 @@
   "teamName": "UnTzolisited Advice",
   "gwPoints": 33,
   "totalPoints": 313,
-  "overallRank": 2784420,
+  "overallRank": 2784419,
   "activeChip": null,
   "picks": [
     {
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (A)"
+      "fixtureLabel": null
     }
   ]
 }

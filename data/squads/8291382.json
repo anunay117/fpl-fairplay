@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 29,
   "totalPoints": 278,
-  "overallRank": 5894632,
+  "overallRank": 5894629,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
