@@ -5,7 +5,7 @@
   "teamName": "Berlin Ballers",
   "gwPoints": 2,
   "totalPoints": 352,
-  "overallRank": 737042,
+  "overallRank": 757286,
   "activeChip": null,
   "picks": [
     {
@@ -16,8 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 4,
+      "rawPoints": 4,
       "fixtureLabel": null
     },
     {
