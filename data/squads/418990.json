@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Yash Kapadia",
   "teamName": "Scouser XI",
-  "gwPoints": 0,
-  "totalPoints": 343,
-  "overallRank": 1068016,
+  "gwPoints": 5,
+  "totalPoints": 348,
+  "overallRank": 938647,
   "activeChip": null,
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -40,9 +40,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Muharemović",
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "ARS (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -76,9 +76,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",

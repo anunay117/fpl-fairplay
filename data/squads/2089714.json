@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Manjot Singh",
   "teamName": "YFC Joga Bonito XI",
-  "gwPoints": 0,
-  "totalPoints": 299,
-  "overallRank": 4537299,
+  "gwPoints": 3,
+  "totalPoints": 302,
+  "overallRank": 4465726,
   "activeChip": null,
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Hall",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Egan",

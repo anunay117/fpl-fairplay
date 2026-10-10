@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Himanshu Rajawat",
   "teamName": "WhatATeam!",
-  "gwPoints": 0,
-  "totalPoints": 349,
-  "overallRank": 760275,
+  "gwPoints": 1,
+  "totalPoints": 350,
+  "overallRank": 822885,
   "activeChip": "3xc",
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Davis",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "B.Fernandes",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "ARS (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Maguire",

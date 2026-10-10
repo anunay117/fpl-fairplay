@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Siddharth Purang",
   "teamName": "Unlucky 11",
-  "gwPoints": 0,
-  "totalPoints": 339,
-  "overallRank": 1261154,
+  "gwPoints": 1,
+  "totalPoints": 340,
+  "overallRank": 1344085,
   "activeChip": null,
   "picks": [
     {
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Egan",

@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Ibrahim Ilmi",
   "teamName": "Absolute Wirtz",
-  "gwPoints": 0,
-  "totalPoints": 392,
-  "overallRank": 20466,
+  "gwPoints": 3,
+  "totalPoints": 395,
+  "overallRank": 19461,
   "activeChip": null,
   "picks": [
     {
@@ -40,9 +40,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -88,9 +88,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Jacquet",

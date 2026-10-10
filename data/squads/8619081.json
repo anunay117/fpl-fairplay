@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "mohit maheshwari",
   "teamName": "mohit's Team",
-  "gwPoints": 0,
-  "totalPoints": 306,
-  "overallRank": 3921583,
+  "gwPoints": 1,
+  "totalPoints": 307,
+  "overallRank": 4037317,
   "activeChip": null,
   "picks": [
     {
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",

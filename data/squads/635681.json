@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Utkarsh Jaiswal",
   "teamName": "Godspeed Gunners",
-  "gwPoints": 0,
-  "totalPoints": 321,
-  "overallRank": 2533443,
+  "gwPoints": 3,
+  "totalPoints": 324,
+  "overallRank": 2479396,
   "activeChip": null,
   "picks": [
     {
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Tarkowski",
@@ -64,9 +64,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",
