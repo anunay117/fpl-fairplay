@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 12,
-  "totalPoints": 328,
-  "overallRank": 2815326,
+  "gwPoints": 20,
+  "totalPoints": 336,
+  "overallRank": 2665066,
   "activeChip": null,
   "picks": [
     {
@@ -52,8 +52,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -100,8 +100,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -112,8 +112,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -149,7 +149,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -185,7 +185,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
+      "rawPoints": 1,
       "fixtureLabel": null
     }
   ]
