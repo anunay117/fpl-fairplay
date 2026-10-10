@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T22:01:23.137Z",
+  "updatedAt": "2026-10-10T22:10:55.606Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -50,21 +50,6 @@
       },
       {
         "rank": 4,
-        "managerName": "Anunay Gupta",
-        "teamName": "Jetha ke Jabaaz",
-        "entryId": 296314,
-        "totalPoints": 416,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 2,
-        "overallRank": 338930
-      },
-      {
-        "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -76,6 +61,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
+        "overallRank": 338930
+      },
+      {
+        "rank": 4,
+        "managerName": "Anunay Gupta",
+        "teamName": "Jetha ke Jabaaz",
+        "entryId": 296314,
+        "totalPoints": 416,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
         "overallRank": 338930
       },
       {
@@ -170,21 +170,6 @@
       },
       {
         "rank": 12,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 391,
-        "gwPoints": 42,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -4,
-        "overallRank": 1119281
-      },
-      {
-        "rank": 12,
         "managerName": "Siddharth Purang",
         "teamName": "Unlucky 11",
         "entryId": 3544319,
@@ -196,6 +181,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 1119281
+      },
+      {
+        "rank": 12,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 391,
+        "gwPoints": 42,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -4,
         "overallRank": 1119281
       },
       {
@@ -767,21 +767,6 @@
       },
       {
         "rank": 4,
-        "managerName": "Anunay Gupta",
-        "teamName": "Jetha ke Jabaaz",
-        "entryId": 296314,
-        "totalPoints": 416,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 2,
-        "overallRank": 338930
-      },
-      {
-        "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -793,6 +778,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
+        "overallRank": 338930
+      },
+      {
+        "rank": 4,
+        "managerName": "Anunay Gupta",
+        "teamName": "Jetha ke Jabaaz",
+        "entryId": 296314,
+        "totalPoints": 416,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
         "overallRank": 338930
       },
       {
@@ -887,21 +887,6 @@
       },
       {
         "rank": 12,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 391,
-        "gwPoints": 42,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -4,
-        "overallRank": 1119281
-      },
-      {
-        "rank": 12,
         "managerName": "Siddharth Purang",
         "teamName": "Unlucky 11",
         "entryId": 3544319,
@@ -913,6 +898,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 1119281
+      },
+      {
+        "rank": 12,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 391,
+        "gwPoints": 42,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -4,
         "overallRank": 1119281
       },
       {
