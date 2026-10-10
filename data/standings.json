@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T18:10:47.538Z",
+  "updatedAt": "2026-10-10T18:20:49.835Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4850
+        "overallRank": 4702
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 192454
+        "overallRank": 187631
       },
       {
         "rank": 3,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 338435
+        "overallRank": 325362
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 377331
+        "overallRank": 368993
       },
       {
         "rank": 4,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 377331
+        "overallRank": 368993
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 423035
+        "overallRank": 413717
       },
       {
         "rank": 7,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 6,
-        "overallRank": 523630
+        "overallRank": 512481
       },
       {
         "rank": 8,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 569033
+        "overallRank": 557349
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 582695
+        "overallRank": 570812
       },
       {
         "rank": 10,
@@ -151,37 +151,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 878451
+        "overallRank": 862471
       },
       {
         "rank": 11,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 399,
-        "gwPoints": 50,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -3,
-        "overallRank": 882156
-      },
-      {
-        "rank": 12,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
         "entryId": 1443127,
-        "totalPoints": 398,
-        "gwPoints": 77,
+        "totalPoints": 397,
+        "gwPoints": 76,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 4,
-        "overallRank": 928589
+        "rankChange": 5,
+        "overallRank": 950999
+      },
+      {
+        "rank": 12,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 396,
+        "gwPoints": 47,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -4,
+        "overallRank": 982758
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1034010
+        "overallRank": 1016213
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1215479
+        "overallRank": 1196079
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1557377
+        "overallRank": 1534900
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1971114
+        "overallRank": 1945556
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1997819
+        "overallRank": 1972242
       },
       {
         "rank": 18,
@@ -271,37 +271,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2642009
+        "overallRank": 2613957
       },
       {
-        "rank": 18,
+        "rank": 19,
         "managerName": "Vatsal Choudhary",
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
-        "totalPoints": 366,
-        "gwPoints": 50,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 3,
-        "overallRank": 2642009
-      },
-      {
-        "rank": 20,
-        "managerName": "Two To Tangoal",
-        "teamName": "Cockroach FPL Party",
-        "entryId": 6786553,
-        "totalPoints": 366,
+        "totalPoints": 364,
         "gwPoints": 48,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
+        "rankChange": 2,
+        "overallRank": 2746312
+      },
+      {
+        "rank": 20,
+        "managerName": "Two To Tangoal",
+        "teamName": "Cockroach FPL Party",
+        "entryId": 6786553,
+        "totalPoints": 364,
+        "gwPoints": 46,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
         "rankChange": 0,
-        "overallRank": 2659028
+        "overallRank": 2763449
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2899845
+        "overallRank": 2870292
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4143671
+        "overallRank": 4113261
       },
       {
         "rank": 23,
@@ -346,22 +346,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4274283
+        "overallRank": 4243468
       },
       {
         "rank": 24,
         "managerName": "mohit maheshwari",
         "teamName": "mohit's Team",
         "entryId": 8619081,
-        "totalPoints": 342,
-        "gwPoints": 36,
+        "totalPoints": 341,
+        "gwPoints": 35,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 4387936
+        "overallRank": 4431296
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5225437
+        "overallRank": 5195899
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4850
+        "overallRank": 4702
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 192454
+        "overallRank": 187631
       },
       {
         "rank": 3,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 338435
+        "overallRank": 325362
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 377331
+        "overallRank": 368993
       },
       {
         "rank": 4,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 377331
+        "overallRank": 368993
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 423035
+        "overallRank": 413717
       },
       {
         "rank": 7,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 6,
-        "overallRank": 523630
+        "overallRank": 512481
       },
       {
         "rank": 8,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 569033
+        "overallRank": 557349
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 582695
+        "overallRank": 570812
       },
       {
         "rank": 10,
@@ -868,37 +868,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 878451
+        "overallRank": 862471
       },
       {
         "rank": 11,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 399,
-        "gwPoints": 50,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -3,
-        "overallRank": 882156
-      },
-      {
-        "rank": 12,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
         "entryId": 1443127,
-        "totalPoints": 398,
-        "gwPoints": 77,
+        "totalPoints": 397,
+        "gwPoints": 76,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 4,
-        "overallRank": 928589
+        "rankChange": 5,
+        "overallRank": 950999
+      },
+      {
+        "rank": 12,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 396,
+        "gwPoints": 47,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -4,
+        "overallRank": 982758
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1034010
+        "overallRank": 1016213
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1215479
+        "overallRank": 1196079
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1557377
+        "overallRank": 1534900
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1971114
+        "overallRank": 1945556
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1997819
+        "overallRank": 1972242
       },
       {
         "rank": 18,
@@ -988,37 +988,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2642009
+        "overallRank": 2613957
       },
       {
-        "rank": 18,
+        "rank": 19,
         "managerName": "Vatsal Choudhary",
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
-        "totalPoints": 366,
-        "gwPoints": 50,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 3,
-        "overallRank": 2642009
-      },
-      {
-        "rank": 20,
-        "managerName": "Two To Tangoal",
-        "teamName": "Cockroach FPL Party",
-        "entryId": 6786553,
-        "totalPoints": 366,
+        "totalPoints": 364,
         "gwPoints": 48,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
+        "rankChange": 2,
+        "overallRank": 2746312
+      },
+      {
+        "rank": 20,
+        "managerName": "Two To Tangoal",
+        "teamName": "Cockroach FPL Party",
+        "entryId": 6786553,
+        "totalPoints": 364,
+        "gwPoints": 46,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
         "rankChange": 0,
-        "overallRank": 2659028
+        "overallRank": 2763449
       },
       {
         "rank": 21,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2899845
+        "overallRank": 2870292
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4143671
+        "overallRank": 4113261
       },
       {
         "rank": 23,
@@ -1063,22 +1063,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4274283
+        "overallRank": 4243468
       },
       {
         "rank": 24,
         "managerName": "mohit maheshwari",
         "teamName": "mohit's Team",
         "entryId": 8619081,
-        "totalPoints": 342,
-        "gwPoints": 36,
+        "totalPoints": 341,
+        "gwPoints": 35,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 4387936
+        "overallRank": 4431296
       }
     ],
     "eliminated": [
@@ -1102,8 +1102,8 @@
     "gw": 6,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 55.3,
-    "aboveAverageCount": 10,
+    "averagePoints": 54.9,
+    "aboveAverageCount": 11,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
       "teamName": "Absolute Wirtz",
@@ -1122,13 +1122,13 @@
       "managerName": "Mayank Sharma",
       "teamName": "euceladus",
       "entryId": 1443127,
-      "gwPoints": 77
+      "gwPoints": 76
     },
     "bottomScorer": {
       "managerName": "mohit maheshwari",
       "teamName": "mohit's Team",
       "entryId": 8619081,
-      "gwPoints": 36
+      "gwPoints": 35
     },
     "risers": [
       {
@@ -1144,10 +1144,10 @@
         "entryId": 1443127,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
-        "rank": 12,
+        "rank": 11,
         "prevRank": 16,
-        "movement": 4,
-        "gwPoints": 77
+        "movement": 5,
+        "gwPoints": 76
       },
       {
         "entryId": 494423,
@@ -1170,21 +1170,21 @@
         "gwPoints": 46
       },
       {
+        "entryId": 5165386,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "rank": 12,
+        "prevRank": 8,
+        "movement": -4,
+        "gwPoints": 47
+      },
+      {
         "entryId": 1595599,
         "managerName": "Gurjot Singh",
         "teamName": "Carrick-ter Assassin",
         "rank": 13,
         "prevRank": 9,
         "movement": -4,
-        "gwPoints": 50
-      },
-      {
-        "entryId": 5165386,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "rank": 11,
-        "prevRank": 8,
-        "movement": -3,
         "gwPoints": 50
       }
     ],
@@ -1200,7 +1200,7 @@
       "888498": -1,
       "1172057": 1,
       "1386216": -4,
-      "1443127": 4,
+      "1443127": 5,
       "1576706": 1,
       "1595599": -4,
       "2089714": 1,
@@ -1209,8 +1209,8 @@
       "3357191": -2,
       "3544319": -2,
       "3717778": 2,
-      "5165386": -3,
-      "5504060": 3,
+      "5165386": -4,
+      "5504060": 2,
       "6786553": 0,
       "8291382": 0,
       "8619081": -2
@@ -1628,15 +1628,15 @@
           "points": 0
         },
         {
-          "entryId": 5165386,
-          "managerName": "Himanshu Rajawat",
-          "teamName": "WhatATeam!",
-          "points": 0
-        },
-        {
           "entryId": 1443127,
           "managerName": "Mayank Sharma",
           "teamName": "euceladus",
+          "points": 0
+        },
+        {
+          "entryId": 5165386,
+          "managerName": "Himanshu Rajawat",
+          "teamName": "WhatATeam!",
           "points": 0
         },
         {
