@@ -5,7 +5,7 @@
   "teamName": "Champions XI",
   "gwPoints": 13,
   "totalPoints": 331,
-  "overallRank": 2552277,
+  "overallRank": 2574522,
   "activeChip": null,
   "picks": [
     {
@@ -185,7 +185,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 7,
+      "rawPoints": 6,
       "fixtureLabel": null
     }
   ]
