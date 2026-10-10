@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T13:20:54.318Z",
+  "updatedAt": "2026-10-10T13:31:20.717Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 18344
+        "overallRank": 18546
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 299376
+        "overallRank": 300935
       },
       {
         "rank": 3,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 320210
+        "overallRank": 322163
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 394350
+        "overallRank": 396495
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 418419
+        "overallRank": 420626
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 447011
+        "overallRank": 449430
       },
       {
         "rank": 7,
@@ -106,10 +106,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 685506
+        "overallRank": 688599
       },
       {
         "rank": 8,
+        "managerName": "Yash Kapadia",
+        "teamName": "Scouser XI",
+        "entryId": 418990,
+        "totalPoints": 360,
+        "gwPoints": 17,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
+        "overallRank": 789512
+      },
+      {
+        "rank": 9,
         "managerName": "Gurjot Singh",
         "teamName": "Carrick-ter Assassin",
         "entryId": 1595599,
@@ -120,11 +135,11 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 798639
+        "rankChange": 0,
+        "overallRank": 801930
       },
       {
-        "rank": 9,
+        "rank": 10,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
@@ -135,23 +150,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 850329
-      },
-      {
-        "rank": 10,
-        "managerName": "Yash Kapadia",
-        "teamName": "Scouser XI",
-        "entryId": 418990,
-        "totalPoints": 358,
-        "gwPoints": 15,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 872733
+        "rankChange": -2,
+        "overallRank": 853812
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1134162
+        "overallRank": 1138108
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1355830
+        "overallRank": 1360085
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1361588
+        "overallRank": 1365865
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1728792
+        "overallRank": 1733531
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2303796
+        "overallRank": 2309010
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2317363
+        "overallRank": 2322594
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2379748
+        "overallRank": 2385076
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2413341
+        "overallRank": 2418668
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2628041
+        "overallRank": 2633513
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2789405
+        "overallRank": 2794710
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 3142015
+        "overallRank": 3147431
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3570379
+        "overallRank": 3575877
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4567404
+        "overallRank": 4572601
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4608010
+        "overallRank": 4613143
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5557915
+        "overallRank": 5562720
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 18344
+        "overallRank": 18546
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 299376
+        "overallRank": 300935
       },
       {
         "rank": 3,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 320210
+        "overallRank": 322163
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 394350
+        "overallRank": 396495
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 418419
+        "overallRank": 420626
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 447011
+        "overallRank": 449430
       },
       {
         "rank": 7,
@@ -823,10 +823,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 685506
+        "overallRank": 688599
       },
       {
         "rank": 8,
+        "managerName": "Yash Kapadia",
+        "teamName": "Scouser XI",
+        "entryId": 418990,
+        "totalPoints": 360,
+        "gwPoints": 17,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
+        "overallRank": 789512
+      },
+      {
+        "rank": 9,
         "managerName": "Gurjot Singh",
         "teamName": "Carrick-ter Assassin",
         "entryId": 1595599,
@@ -837,11 +852,11 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 798639
+        "rankChange": 0,
+        "overallRank": 801930
       },
       {
-        "rank": 9,
+        "rank": 10,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
@@ -852,23 +867,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 850329
-      },
-      {
-        "rank": 10,
-        "managerName": "Yash Kapadia",
-        "teamName": "Scouser XI",
-        "entryId": 418990,
-        "totalPoints": 358,
-        "gwPoints": 15,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 872733
+        "rankChange": -2,
+        "overallRank": 853812
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1134162
+        "overallRank": 1138108
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1355830
+        "overallRank": 1360085
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1361588
+        "overallRank": 1365865
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1728792
+        "overallRank": 1733531
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2303796
+        "overallRank": 2309010
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2317363
+        "overallRank": 2322594
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2379748
+        "overallRank": 2385076
       },
       {
         "rank": 18,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2413341
+        "overallRank": 2418668
       },
       {
         "rank": 19,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2628041
+        "overallRank": 2633513
       },
       {
         "rank": 20,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2789405
+        "overallRank": 2794710
       },
       {
         "rank": 21,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 3142015
+        "overallRank": 3147431
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3570379
+        "overallRank": 3575877
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4567404
+        "overallRank": 4572601
       },
       {
         "rank": 24,
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4608010
+        "overallRank": 4613143
       }
     ],
     "eliminated": [
@@ -1102,7 +1102,7 @@
     "gw": 6,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 11.8,
+    "averagePoints": 11.9,
     "aboveAverageCount": 18,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
@@ -1132,13 +1132,13 @@
     },
     "risers": [
       {
-        "entryId": 1595599,
-        "managerName": "Gurjot Singh",
-        "teamName": "Carrick-ter Assassin",
+        "entryId": 418990,
+        "managerName": "Yash Kapadia",
+        "teamName": "Scouser XI",
         "rank": 8,
-        "prevRank": 9,
-        "movement": 1,
-        "gwPoints": 14
+        "prevRank": 10,
+        "movement": 2,
+        "gwPoints": 17
       },
       {
         "entryId": 2276854,
@@ -1173,9 +1173,9 @@
         "entryId": 5165386,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
-        "rank": 9,
+        "rank": 10,
         "prevRank": 8,
-        "movement": -1,
+        "movement": -2,
         "gwPoints": 9
       },
       {
@@ -1194,7 +1194,7 @@
       "97962": 0,
       "156976": 0,
       "296314": 0,
-      "418990": 0,
+      "418990": 2,
       "494423": 0,
       "635681": 1,
       "888498": -3,
@@ -1202,14 +1202,14 @@
       "1386216": 0,
       "1443127": 1,
       "1576706": 0,
-      "1595599": 1,
+      "1595599": 0,
       "2089714": 1,
       "2276854": 1,
       "2347093": 0,
       "3357191": 0,
       "3544319": -1,
       "3717778": 1,
-      "5165386": -1,
+      "5165386": -2,
       "5504060": 1,
       "6786553": -1,
       "8291382": 0,
@@ -1610,6 +1610,12 @@
           "points": 0
         },
         {
+          "entryId": 418990,
+          "managerName": "Yash Kapadia",
+          "teamName": "Scouser XI",
+          "points": 0
+        },
+        {
           "entryId": 1595599,
           "managerName": "Gurjot Singh",
           "teamName": "Carrick-ter Assassin",
@@ -1619,12 +1625,6 @@
           "entryId": 5165386,
           "managerName": "Himanshu Rajawat",
           "teamName": "WhatATeam!",
-          "points": 0
-        },
-        {
-          "entryId": 418990,
-          "managerName": "Yash Kapadia",
-          "teamName": "Scouser XI",
           "points": 0
         },
         {
