@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T13:10:44.594Z",
+  "updatedAt": "2026-10-10T13:20:54.318Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,22 +16,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 18766
+        "overallRank": 18344
       },
       {
         "rank": 2,
         "managerName": "Nirbhay Vadera Varma",
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
-        "totalPoints": 377,
-        "gwPoints": 9,
+        "totalPoints": 375,
+        "gwPoints": 7,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 264094
+        "overallRank": 299376
       },
       {
         "rank": 3,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 325622
+        "overallRank": 320210
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 400826
+        "overallRank": 394350
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 425266
+        "overallRank": 418419
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 454439
+        "overallRank": 447011
       },
       {
         "rank": 7,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 695620
+        "overallRank": 685506
       },
       {
         "rank": 8,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 810165
+        "overallRank": 798639
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 862288
+        "overallRank": 850329
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 885039
+        "overallRank": 872733
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1149308
+        "overallRank": 1134162
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1372906
+        "overallRank": 1355830
       },
       {
         "rank": 13,
@@ -196,22 +196,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1378648
+        "overallRank": 1361588
       },
       {
         "rank": 14,
         "managerName": "Vikramjeet Singh",
         "teamName": "MultaniFC",
         "entryId": 2347093,
-        "totalPoints": 343,
-        "gwPoints": 11,
+        "totalPoints": 342,
+        "gwPoints": 10,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1683117
+        "overallRank": 1728792
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2328148
+        "overallRank": 2303796
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2341583
+        "overallRank": 2317363
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2404622
+        "overallRank": 2379748
       },
       {
         "rank": 18,
@@ -271,22 +271,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2438495
+        "overallRank": 2413341
       },
       {
         "rank": 19,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 331,
-        "gwPoints": 13,
+        "totalPoints": 330,
+        "gwPoints": 12,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2574522
+        "overallRank": 2628041
       },
       {
         "rank": 20,
@@ -301,22 +301,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2816273
+        "overallRank": 2789405
       },
       {
         "rank": 21,
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
-        "totalPoints": 325,
-        "gwPoints": 7,
+        "totalPoints": 324,
+        "gwPoints": 6,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 3086164
+        "overallRank": 3142015
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3600358
+        "overallRank": 3570379
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4598401
+        "overallRank": 4567404
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4639260
+        "overallRank": 4608010
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5588777
+        "overallRank": 5557915
       }
     ]
   },
@@ -733,22 +733,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 18766
+        "overallRank": 18344
       },
       {
         "rank": 2,
         "managerName": "Nirbhay Vadera Varma",
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
-        "totalPoints": 377,
-        "gwPoints": 9,
+        "totalPoints": 375,
+        "gwPoints": 7,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 264094
+        "overallRank": 299376
       },
       {
         "rank": 3,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 325622
+        "overallRank": 320210
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 400826
+        "overallRank": 394350
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 425266
+        "overallRank": 418419
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 454439
+        "overallRank": 447011
       },
       {
         "rank": 7,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 695620
+        "overallRank": 685506
       },
       {
         "rank": 8,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 810165
+        "overallRank": 798639
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 862288
+        "overallRank": 850329
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 885039
+        "overallRank": 872733
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1149308
+        "overallRank": 1134162
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1372906
+        "overallRank": 1355830
       },
       {
         "rank": 13,
@@ -913,22 +913,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1378648
+        "overallRank": 1361588
       },
       {
         "rank": 14,
         "managerName": "Vikramjeet Singh",
         "teamName": "MultaniFC",
         "entryId": 2347093,
-        "totalPoints": 343,
-        "gwPoints": 11,
+        "totalPoints": 342,
+        "gwPoints": 10,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1683117
+        "overallRank": 1728792
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2328148
+        "overallRank": 2303796
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2341583
+        "overallRank": 2317363
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2404622
+        "overallRank": 2379748
       },
       {
         "rank": 18,
@@ -988,22 +988,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2438495
+        "overallRank": 2413341
       },
       {
         "rank": 19,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 331,
-        "gwPoints": 13,
+        "totalPoints": 330,
+        "gwPoints": 12,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2574522
+        "overallRank": 2628041
       },
       {
         "rank": 20,
@@ -1018,22 +1018,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2816273
+        "overallRank": 2789405
       },
       {
         "rank": 21,
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
-        "totalPoints": 325,
-        "gwPoints": 7,
+        "totalPoints": 324,
+        "gwPoints": 6,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 3086164
+        "overallRank": 3142015
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3600358
+        "overallRank": 3570379
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4598401
+        "overallRank": 4567404
       },
       {
         "rank": 24,
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4639260
+        "overallRank": 4608010
       }
     ],
     "eliminated": [
@@ -1102,14 +1102,14 @@
     "gw": 6,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 12,
-    "aboveAverageCount": 12,
+    "averagePoints": 11.8,
+    "aboveAverageCount": 18,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
       "teamName": "Absolute Wirtz",
       "entryId": 156976,
       "totalPoints": 405,
-      "gapToSecond": 28
+      "gapToSecond": 30
     },
     "seasonHigh": {
       "managerName": "Rajat Aggarwal",
