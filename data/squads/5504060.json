@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 44,
   "totalPoints": 360,
-  "overallRank": 2637605,
+  "overallRank": 2637603,
   "activeChip": null,
   "picks": [
     {
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Schade",

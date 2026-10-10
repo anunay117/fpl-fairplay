@@ -5,7 +5,7 @@
   "teamName": "UnTzolisited Advice",
   "gwPoints": 53,
   "totalPoints": 375,
-  "overallRank": 1753914,
+  "overallRank": 1753913,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     }
   ]
 }

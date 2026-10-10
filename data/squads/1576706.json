@@ -5,7 +5,7 @@
   "teamName": "FPL AGing",
   "gwPoints": 51,
   "totalPoints": 343,
-  "overallRank": 3821740,
+  "overallRank": 3821735,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "E.Le Fée",
