@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 41,
   "totalPoints": 373,
-  "overallRank": 2045110,
+  "overallRank": 2045111,
   "activeChip": null,
   "picks": [
     {
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",

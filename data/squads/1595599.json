@@ -5,7 +5,7 @@
   "teamName": "Carrick-ter Assassin",
   "gwPoints": 50,
   "totalPoints": 395,
-  "overallRank": 950351,
+  "overallRank": 950352,
   "activeChip": null,
   "picks": [
     {
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (A)"
+      "fixtureLabel": null
     },
     {
       "name": "M.Sangaré",

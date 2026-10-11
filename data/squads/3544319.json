@@ -5,7 +5,7 @@
   "teamName": "Unlucky 11",
   "gwPoints": 52,
   "totalPoints": 391,
-  "overallRank": 1121734,
+  "overallRank": 1121735,
   "activeChip": null,
   "picks": [
     {
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Schade",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     }
   ]
 }

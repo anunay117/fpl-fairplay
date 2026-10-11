@@ -5,7 +5,7 @@
   "teamName": "FPL AGing",
   "gwPoints": 51,
   "totalPoints": 343,
-  "overallRank": 4113056,
+  "overallRank": 4113057,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Gonzalo",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Silva",

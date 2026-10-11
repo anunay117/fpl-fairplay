@@ -5,7 +5,7 @@
   "teamName": "Berlin Ballers",
   "gwPoints": 58,
   "totalPoints": 408,
-  "overallRank": 528541,
+  "overallRank": 528542,
   "activeChip": null,
   "picks": [
     {
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Steele",

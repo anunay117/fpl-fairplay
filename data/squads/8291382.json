@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 50,
   "totalPoints": 330,
-  "overallRank": 5070563,
+  "overallRank": 5070564,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (A)"
+      "fixtureLabel": null
     },
     {
       "name": "King",

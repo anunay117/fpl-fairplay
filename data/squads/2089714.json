@@ -5,7 +5,7 @@
   "teamName": "YFC Joga Bonito XI",
   "gwPoints": 46,
   "totalPoints": 345,
-  "overallRank": 3983043,
+  "overallRank": 3983044,
   "activeChip": null,
   "picks": [
     {
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     }
   ]
 }

@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 34,
   "totalPoints": 340,
-  "overallRank": 4374812,
+  "overallRank": 4374813,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Hato",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (H)"
+      "fixtureLabel": null
     },
     {
       "name": "B.Fernandes",
