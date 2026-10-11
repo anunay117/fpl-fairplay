@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T03:20:47.326Z",
+  "updatedAt": "2026-10-11T03:31:03.570Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -50,21 +50,6 @@
       },
       {
         "rank": 4,
-        "managerName": "Anunay Gupta",
-        "teamName": "Jetha ke Jabaaz",
-        "entryId": 296314,
-        "totalPoints": 416,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 2,
-        "overallRank": 339690
-      },
-      {
-        "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -76,6 +61,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
+        "overallRank": 339690
+      },
+      {
+        "rank": 4,
+        "managerName": "Anunay Gupta",
+        "teamName": "Jetha ke Jabaaz",
+        "entryId": 296314,
+        "totalPoints": 416,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
         "overallRank": 339690
       },
       {
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5070597
+        "overallRank": 5070596
       }
     ]
   },
@@ -767,21 +767,6 @@
       },
       {
         "rank": 4,
-        "managerName": "Anunay Gupta",
-        "teamName": "Jetha ke Jabaaz",
-        "entryId": 296314,
-        "totalPoints": 416,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 2,
-        "overallRank": 339690
-      },
-      {
-        "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -793,6 +778,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
+        "overallRank": 339690
+      },
+      {
+        "rank": 4,
+        "managerName": "Anunay Gupta",
+        "teamName": "Jetha ke Jabaaz",
+        "entryId": 296314,
+        "totalPoints": 416,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
         "overallRank": 339690
       },
       {
