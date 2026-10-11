@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T02:50:49.741Z",
+  "updatedAt": "2026-10-11T03:01:23.591Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -50,21 +50,6 @@
       },
       {
         "rank": 4,
-        "managerName": "Anunay Gupta",
-        "teamName": "Jetha ke Jabaaz",
-        "entryId": 296314,
-        "totalPoints": 416,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 2,
-        "overallRank": 339690
-      },
-      {
-        "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -76,6 +61,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
+        "overallRank": 339690
+      },
+      {
+        "rank": 4,
+        "managerName": "Anunay Gupta",
+        "teamName": "Jetha ke Jabaaz",
+        "entryId": 296314,
+        "totalPoints": 416,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
         "overallRank": 339690
       },
       {
@@ -170,21 +170,6 @@
       },
       {
         "rank": 12,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 391,
-        "gwPoints": 42,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -4,
-        "overallRank": 1121739
-      },
-      {
-        "rank": 12,
         "managerName": "Siddharth Purang",
         "teamName": "Unlucky 11",
         "entryId": 3544319,
@@ -196,6 +181,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 1121739
+      },
+      {
+        "rank": 12,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 391,
+        "gwPoints": 42,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -4,
         "overallRank": 1121739
       },
       {
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3983069
+        "overallRank": 3983068
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4113082
+        "overallRank": 4113081
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 4374839
+        "overallRank": 4374838
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5070599
+        "overallRank": 5070597
       }
     ]
   },
@@ -767,21 +767,6 @@
       },
       {
         "rank": 4,
-        "managerName": "Anunay Gupta",
-        "teamName": "Jetha ke Jabaaz",
-        "entryId": 296314,
-        "totalPoints": 416,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 2,
-        "overallRank": 339690
-      },
-      {
-        "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
@@ -793,6 +778,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
+        "overallRank": 339690
+      },
+      {
+        "rank": 4,
+        "managerName": "Anunay Gupta",
+        "teamName": "Jetha ke Jabaaz",
+        "entryId": 296314,
+        "totalPoints": 416,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
         "overallRank": 339690
       },
       {
@@ -887,21 +887,6 @@
       },
       {
         "rank": 12,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 391,
-        "gwPoints": 42,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -4,
-        "overallRank": 1121739
-      },
-      {
-        "rank": 12,
         "managerName": "Siddharth Purang",
         "teamName": "Unlucky 11",
         "entryId": 3544319,
@@ -913,6 +898,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 1121739
+      },
+      {
+        "rank": 12,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 391,
+        "gwPoints": 42,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -4,
         "overallRank": 1121739
       },
       {
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3983069
+        "overallRank": 3983068
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4113082
+        "overallRank": 4113081
       },
       {
         "rank": 24,
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 4374839
+        "overallRank": 4374838
       }
     ],
     "eliminated": [
