@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "N.Williams",

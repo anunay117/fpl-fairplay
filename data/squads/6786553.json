@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Gabriel",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "B.Fernandes",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (H)"
+      "fixtureLabel": null
     }
   ]
 }

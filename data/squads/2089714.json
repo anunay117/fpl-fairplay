@@ -5,7 +5,7 @@
   "teamName": "YFC Joga Bonito XI",
   "gwPoints": 46,
   "totalPoints": 345,
-  "overallRank": 4235599,
+  "overallRank": 4235598,
   "activeChip": null,
   "picks": [
     {
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Gonzalo",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",

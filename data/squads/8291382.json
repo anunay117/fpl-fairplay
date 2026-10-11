@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 52,
   "totalPoints": 332,
-  "overallRank": 5173595,
+  "overallRank": 5173594,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
