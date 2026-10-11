@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T14:10:44.455Z",
+  "updatedAt": "2026-10-11T14:20:49.140Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4755
+        "overallRank": 4703
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 186104
+        "overallRank": 185288
       },
       {
         "rank": 3,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 327163
+        "overallRank": 326004
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 345017
+        "overallRank": 343804
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 365402
+        "overallRank": 364100
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 409349
+        "overallRank": 407993
       },
       {
         "rank": 7,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 6,
-        "overallRank": 507694
+        "overallRank": 505246
       },
       {
         "rank": 8,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 510555
+        "overallRank": 509016
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 580657
+        "overallRank": 578847
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 853838
+        "overallRank": 851849
       },
       {
         "rank": 11,
@@ -166,25 +166,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1005969
+        "overallRank": 1003604
       },
       {
         "rank": 12,
         "managerName": "Siddharth Purang",
         "teamName": "Unlucky 11",
         "entryId": 3544319,
-        "totalPoints": 394,
-        "gwPoints": 55,
+        "totalPoints": 392,
+        "gwPoints": 53,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1054494
+        "overallRank": 1137759
       },
       {
-        "rank": 13,
+        "rank": 12,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
@@ -195,8 +195,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1140300
+        "rankChange": -4,
+        "overallRank": 1137759
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1285986
+        "overallRank": 1283419
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1471259
+        "overallRank": 1468532
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1816703
+        "overallRank": 1813674
       },
       {
         "rank": 17,
@@ -256,37 +256,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2076135
+        "overallRank": 2069912
       },
       {
         "rank": 18,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 371,
-        "gwPoints": 53,
+        "totalPoints": 369,
+        "gwPoints": 51,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2276572
+        "overallRank": 2399451
       },
       {
         "rank": 19,
         "managerName": "Utkarsh Jaiswal",
         "teamName": "Godspeed Gunners",
         "entryId": 635681,
-        "totalPoints": 367,
-        "gwPoints": 46,
+        "totalPoints": 368,
+        "gwPoints": 47,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2521413
+        "overallRank": 2453138
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2816097
+        "overallRank": 2812832
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2867092
+        "overallRank": 2863746
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4103327
+        "overallRank": 4099754
       },
       {
         "rank": 23,
@@ -346,22 +346,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4160567
+        "overallRank": 4156936
       },
       {
         "rank": 24,
         "managerName": "mohit maheshwari",
         "teamName": "mohit's Team",
         "entryId": 8619081,
-        "totalPoints": 342,
-        "gwPoints": 36,
+        "totalPoints": 343,
+        "gwPoints": 37,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 4348663
+        "overallRank": 4271541
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5117816
+        "overallRank": 5114517
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4755
+        "overallRank": 4703
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 186104
+        "overallRank": 185288
       },
       {
         "rank": 3,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 327163
+        "overallRank": 326004
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 345017
+        "overallRank": 343804
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 365402
+        "overallRank": 364100
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 409349
+        "overallRank": 407993
       },
       {
         "rank": 7,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 6,
-        "overallRank": 507694
+        "overallRank": 505246
       },
       {
         "rank": 8,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 510555
+        "overallRank": 509016
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 580657
+        "overallRank": 578847
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 853838
+        "overallRank": 851849
       },
       {
         "rank": 11,
@@ -883,25 +883,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1005969
+        "overallRank": 1003604
       },
       {
         "rank": 12,
         "managerName": "Siddharth Purang",
         "teamName": "Unlucky 11",
         "entryId": 3544319,
-        "totalPoints": 394,
-        "gwPoints": 55,
+        "totalPoints": 392,
+        "gwPoints": 53,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1054494
+        "overallRank": 1137759
       },
       {
-        "rank": 13,
+        "rank": 12,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
@@ -912,8 +912,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1140300
+        "rankChange": -4,
+        "overallRank": 1137759
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1285986
+        "overallRank": 1283419
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1471259
+        "overallRank": 1468532
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1816703
+        "overallRank": 1813674
       },
       {
         "rank": 17,
@@ -973,37 +973,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 2076135
+        "overallRank": 2069912
       },
       {
         "rank": 18,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 371,
-        "gwPoints": 53,
+        "totalPoints": 369,
+        "gwPoints": 51,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2276572
+        "overallRank": 2399451
       },
       {
         "rank": 19,
         "managerName": "Utkarsh Jaiswal",
         "teamName": "Godspeed Gunners",
         "entryId": 635681,
-        "totalPoints": 367,
-        "gwPoints": 46,
+        "totalPoints": 368,
+        "gwPoints": 47,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2521413
+        "overallRank": 2453138
       },
       {
         "rank": 20,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2816097
+        "overallRank": 2812832
       },
       {
         "rank": 21,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2867092
+        "overallRank": 2863746
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4103327
+        "overallRank": 4099754
       },
       {
         "rank": 23,
@@ -1063,22 +1063,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4160567
+        "overallRank": 4156936
       },
       {
         "rank": 24,
         "managerName": "mohit maheshwari",
         "teamName": "mohit's Team",
         "entryId": 8619081,
-        "totalPoints": 342,
-        "gwPoints": 36,
+        "totalPoints": 343,
+        "gwPoints": 37,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 4348663
+        "overallRank": 4271541
       }
     ],
     "eliminated": [
@@ -1102,7 +1102,7 @@
     "gw": 6,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 55.1,
+    "averagePoints": 55,
     "aboveAverageCount": 11,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
@@ -1128,7 +1128,7 @@
       "managerName": "mohit maheshwari",
       "teamName": "mohit's Team",
       "entryId": 8619081,
-      "gwPoints": 36
+      "gwPoints": 37
     },
     "risers": [
       {
@@ -1161,15 +1161,6 @@
     ],
     "fallers": [
       {
-        "entryId": 5165386,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "rank": 13,
-        "prevRank": 8,
-        "movement": -5,
-        "gwPoints": 43
-      },
-      {
         "entryId": 1386216,
         "managerName": "Nirbhay Vadera Varma",
         "teamName": "ØhDearGawd",
@@ -1177,6 +1168,15 @@
         "prevRank": 2,
         "movement": -4,
         "gwPoints": 46
+      },
+      {
+        "entryId": 5165386,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "rank": 12,
+        "prevRank": 8,
+        "movement": -4,
+        "gwPoints": 43
       },
       {
         "entryId": 2347093,
@@ -1209,7 +1209,7 @@
       "3357191": -1,
       "3544319": 0,
       "3717778": 2,
-      "5165386": -5,
+      "5165386": -4,
       "5504060": 0,
       "6786553": 0,
       "8291382": 0,
