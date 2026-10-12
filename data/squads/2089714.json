@@ -5,7 +5,7 @@
   "teamName": "YFC Joga Bonito XI",
   "gwPoints": 59,
   "totalPoints": 358,
-  "overallRank": 4372078,
+  "overallRank": 4372664,
   "activeChip": null,
   "picks": [
     {
@@ -40,8 +40,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
