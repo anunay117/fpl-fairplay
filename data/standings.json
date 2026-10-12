@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T12:40:59.021Z",
+  "updatedAt": "2026-10-12T12:50:47.280Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 819055
+        "overallRank": 819056
       },
       {
         "rank": 11,
@@ -185,21 +185,6 @@
       },
       {
         "rank": 13,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 401,
-        "gwPoints": 52,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1374386
-      },
-      {
-        "rank": 13,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
@@ -214,6 +199,21 @@
         "overallRank": 1374386
       },
       {
+        "rank": 13,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 401,
+        "gwPoints": 52,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -5,
+        "overallRank": 1374387
+      },
+      {
         "rank": 15,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1653961
+        "overallRank": 1653963
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1726436
+        "overallRank": 1726437
       },
       {
         "rank": 17,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2068923
+        "overallRank": 2068922
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2379384
+        "overallRank": 2379383
       },
       {
         "rank": 20,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4467872
+        "overallRank": 4467873
       },
       {
         "rank": 23,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5751571
+        "overallRank": 5751572
       }
     ]
   },
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 819055
+        "overallRank": 819056
       },
       {
         "rank": 11,
@@ -902,21 +902,6 @@
       },
       {
         "rank": 13,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 401,
-        "gwPoints": 52,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1374386
-      },
-      {
-        "rank": 13,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
@@ -931,6 +916,21 @@
         "overallRank": 1374386
       },
       {
+        "rank": 13,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 401,
+        "gwPoints": 52,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -5,
+        "overallRank": 1374387
+      },
+      {
         "rank": 15,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1653961
+        "overallRank": 1653963
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1726436
+        "overallRank": 1726437
       },
       {
         "rank": 17,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2068923
+        "overallRank": 2068922
       },
       {
         "rank": 19,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2379384
+        "overallRank": 2379383
       },
       {
         "rank": 20,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4467872
+        "overallRank": 4467873
       },
       {
         "rank": 23,
