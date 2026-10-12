@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T22:31:16.738Z",
+  "updatedAt": "2026-10-12T22:40:53.488Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1923016
+        "overallRank": 1923017
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2125041
+        "overallRank": 2125042
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2438070
+        "overallRank": 2438071
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2534452
+        "overallRank": 2534453
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3439941
+        "overallRank": 3439942
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4430818
+        "overallRank": 4430817
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4530115
+        "overallRank": 4530114
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4565280
+        "overallRank": 4565279
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5666256
+        "overallRank": 5666255
       }
     ]
   },
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1923016
+        "overallRank": 1923017
       },
       {
         "rank": 18,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2125041
+        "overallRank": 2125042
       },
       {
         "rank": 19,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2438070
+        "overallRank": 2438071
       },
       {
         "rank": 20,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2534452
+        "overallRank": 2534453
       },
       {
         "rank": 21,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3439941
+        "overallRank": 3439942
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4430818
+        "overallRank": 4430817
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4530115
+        "overallRank": 4530114
       },
       {
         "rank": 24,
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4565280
+        "overallRank": 4565279
       }
     ],
     "eliminated": [
@@ -1571,7 +1571,13 @@
           "entryId": 2276854,
           "managerName": "Rudra Manoj Joshi",
           "teamName": "Reece's Pieces",
-          "points": 84
+          "points": 86
+        },
+        {
+          "entryId": 3717778,
+          "managerName": "Ritee Mishra",
+          "teamName": "Why always you?",
+          "points": 82
         },
         {
           "entryId": 156976,
@@ -1580,22 +1586,16 @@
           "points": 80
         },
         {
-          "entryId": 3717778,
-          "managerName": "Ritee Mishra",
-          "teamName": "Why always you?",
-          "points": 80
-        },
-        {
           "entryId": 49714,
           "managerName": "Prince Srivastava",
           "teamName": "Why always me?",
-          "points": 78
+          "points": 80
         },
         {
           "entryId": 494423,
           "managerName": "Arka Ghosh",
           "teamName": "BrunoDosTres",
-          "points": 76
+          "points": 78
         },
         {
           "entryId": 1443127,
@@ -1604,33 +1604,45 @@
           "points": 75
         },
         {
+          "entryId": 3357191,
+          "managerName": "Abhinav Verman",
+          "teamName": "Berlin Ballers",
+          "points": 74
+        },
+        {
+          "entryId": 296314,
+          "managerName": "Anunay Gupta",
+          "teamName": "Jetha ke Jabaaz",
+          "points": 73
+        },
+        {
+          "entryId": 3544319,
+          "managerName": "Siddharth Purang",
+          "teamName": "Unlucky 11",
+          "points": 73
+        },
+        {
           "entryId": 888498,
           "managerName": "Divyansh Gupta",
           "teamName": "UnTzolisited Advice",
           "points": 73
         },
         {
-          "entryId": 3357191,
-          "managerName": "Abhinav Verman",
-          "teamName": "Berlin Ballers",
+          "entryId": 1595599,
+          "managerName": "Gurjot Singh",
+          "teamName": "Carrick-ter Assassin",
           "points": 72
         },
         {
-          "entryId": 296314,
-          "managerName": "Anunay Gupta",
-          "teamName": "Jetha ke Jabaaz",
-          "points": 71
+          "entryId": 62675,
+          "managerName": "Vivek Agarwal",
+          "teamName": "Gvardiols Of Galaxy",
+          "points": 72
         },
         {
           "entryId": 418990,
           "managerName": "Yash Kapadia",
           "teamName": "Scouser XI",
-          "points": 71
-        },
-        {
-          "entryId": 3544319,
-          "managerName": "Siddharth Purang",
-          "teamName": "Unlucky 11",
           "points": 71
         },
         {
@@ -1640,33 +1652,21 @@
           "points": 71
         },
         {
-          "entryId": 1595599,
-          "managerName": "Gurjot Singh",
-          "teamName": "Carrick-ter Assassin",
-          "points": 70
-        },
-        {
-          "entryId": 62675,
-          "managerName": "Vivek Agarwal",
-          "teamName": "Gvardiols Of Galaxy",
-          "points": 70
-        },
-        {
           "entryId": 97962,
           "managerName": "Rajat Aggarwal",
           "teamName": "Childish Firmino",
           "points": 66
         },
         {
-          "entryId": 635681,
-          "managerName": "Utkarsh Jaiswal",
-          "teamName": "Godspeed Gunners",
-          "points": 63
-        },
-        {
           "entryId": 6786553,
           "managerName": "Two To Tangoal",
           "teamName": "Cockroach FPL Party",
+          "points": 65
+        },
+        {
+          "entryId": 635681,
+          "managerName": "Utkarsh Jaiswal",
+          "teamName": "Godspeed Gunners",
           "points": 63
         },
         {
@@ -1679,37 +1679,37 @@
           "entryId": 2347093,
           "managerName": "Vikramjeet Singh",
           "teamName": "MultaniFC",
-          "points": 58
+          "points": 60
         },
         {
           "entryId": 8291382,
           "managerName": "Ash Kallen",
           "teamName": "Not Too Xabi",
-          "points": 58
+          "points": 60
         },
         {
           "entryId": 2089714,
           "managerName": "Manjot Singh",
           "teamName": "YFC Joga Bonito XI",
-          "points": 56
+          "points": 58
         },
         {
           "entryId": 1386216,
           "managerName": "Nirbhay Vadera Varma",
           "teamName": "ØhDearGawd",
-          "points": 52
+          "points": 56
         },
         {
           "entryId": 5165386,
           "managerName": "Himanshu Rajawat",
           "teamName": "WhatATeam!",
-          "points": 52
+          "points": 54
         },
         {
           "entryId": 5504060,
           "managerName": "Vatsal Choudhary",
           "teamName": "OrderOfDevil's",
-          "points": 52
+          "points": 54
         },
         {
           "entryId": 8619081,
@@ -1723,7 +1723,7 @@
           "entryId": 2276854,
           "managerName": "Rudra Manoj Joshi",
           "teamName": "Reece's Pieces",
-          "points": 84
+          "points": 86
         }
       ]
     }
