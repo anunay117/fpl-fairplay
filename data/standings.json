@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T22:20:53.464Z",
+  "updatedAt": "2026-10-12T22:31:16.738Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4565279
+        "overallRank": 4565280
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5666255
+        "overallRank": 5666256
       }
     ]
   },
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4565279
+        "overallRank": 4565280
       }
     ],
     "eliminated": [
@@ -1676,15 +1676,15 @@
           "points": 63
         },
         {
-          "entryId": 8291382,
-          "managerName": "Ash Kallen",
-          "teamName": "Not Too Xabi",
-          "points": 60
-        },
-        {
           "entryId": 2347093,
           "managerName": "Vikramjeet Singh",
           "teamName": "MultaniFC",
+          "points": 58
+        },
+        {
+          "entryId": 8291382,
+          "managerName": "Ash Kallen",
+          "teamName": "Not Too Xabi",
           "points": 58
         },
         {
