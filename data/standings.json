@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T13:31:19.653Z",
+  "updatedAt": "2026-10-12T13:41:02.847Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 956805
+        "overallRank": 956804
       },
       {
         "rank": 12,
@@ -181,22 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 994627
-      },
-      {
-        "rank": 13,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 401,
-        "gwPoints": 52,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1374386
+        "overallRank": 994626
       },
       {
         "rank": 13,
@@ -214,6 +199,21 @@
         "overallRank": 1374387
       },
       {
+        "rank": 13,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 401,
+        "gwPoints": 52,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -5,
+        "overallRank": 1374386
+      },
+      {
         "rank": 15,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1653963
+        "overallRank": 1653961
       },
       {
         "rank": 16,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1990678
+        "overallRank": 1990680
       },
       {
         "rank": 18,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3523882
+        "overallRank": 3523884
       },
       {
         "rank": 22,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 956805
+        "overallRank": 956804
       },
       {
         "rank": 12,
@@ -898,22 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 994627
-      },
-      {
-        "rank": 13,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 401,
-        "gwPoints": 52,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1374386
+        "overallRank": 994626
       },
       {
         "rank": 13,
@@ -931,6 +916,21 @@
         "overallRank": 1374387
       },
       {
+        "rank": 13,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 401,
+        "gwPoints": 52,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -5,
+        "overallRank": 1374386
+      },
+      {
         "rank": 15,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1653963
+        "overallRank": 1653961
       },
       {
         "rank": 16,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1990678
+        "overallRank": 1990680
       },
       {
         "rank": 18,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3523882
+        "overallRank": 3523884
       },
       {
         "rank": 22,
