@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T11:40:47.877Z",
+  "updatedAt": "2026-10-12T11:50:47.847Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -185,21 +185,6 @@
       },
       {
         "rank": 13,
-        "managerName": "Ritee Mishra",
-        "teamName": "Why always you?",
-        "entryId": 3717778,
-        "totalPoints": 401,
-        "gwPoints": 80,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 3,
-        "overallRank": 1374386
-      },
-      {
-        "rank": 13,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
@@ -211,6 +196,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -5,
+        "overallRank": 1374386
+      },
+      {
+        "rank": 13,
+        "managerName": "Ritee Mishra",
+        "teamName": "Why always you?",
+        "entryId": 3717778,
+        "totalPoints": 401,
+        "gwPoints": 80,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 3,
         "overallRank": 1374386
       },
       {
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3523884
+        "overallRank": 3523883
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4467875
+        "overallRank": 4467873
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4502782
+        "overallRank": 4502780
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4518801
+        "overallRank": 4518799
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5751575
+        "overallRank": 5751572
       }
     ]
   },
@@ -902,21 +902,6 @@
       },
       {
         "rank": 13,
-        "managerName": "Ritee Mishra",
-        "teamName": "Why always you?",
-        "entryId": 3717778,
-        "totalPoints": 401,
-        "gwPoints": 80,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 3,
-        "overallRank": 1374386
-      },
-      {
-        "rank": 13,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
@@ -928,6 +913,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -5,
+        "overallRank": 1374386
+      },
+      {
+        "rank": 13,
+        "managerName": "Ritee Mishra",
+        "teamName": "Why always you?",
+        "entryId": 3717778,
+        "totalPoints": 401,
+        "gwPoints": 80,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 3,
         "overallRank": 1374386
       },
       {
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3523884
+        "overallRank": 3523883
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4467875
+        "overallRank": 4467873
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4502782
+        "overallRank": 4502780
       },
       {
         "rank": 24,
@@ -1078,7 +1078,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4518801
+        "overallRank": 4518799
       }
     ],
     "eliminated": [
