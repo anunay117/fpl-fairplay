@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 50,
   "totalPoints": 356,
-  "overallRank": 4520189,
+  "overallRank": 4502087,
   "activeChip": null,
   "picks": [
     {
@@ -161,7 +161,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -173,7 +173,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 4,
+      "rawPoints": 10,
       "fixtureLabel": null
     },
     {

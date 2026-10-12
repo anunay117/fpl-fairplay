@@ -5,7 +5,7 @@
   "teamName": "Cockroach FPL Party",
   "gwPoints": 64,
   "totalPoints": 382,
-  "overallRank": 2595742,
+  "overallRank": 2576075,
   "activeChip": null,
   "picks": [
     {
@@ -124,8 +124,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
