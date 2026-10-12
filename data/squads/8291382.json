@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 58,
   "totalPoints": 338,
-  "overallRank": 5751564,
+  "overallRank": 5751565,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "fixtureLabel": null
     }
   ]
 }

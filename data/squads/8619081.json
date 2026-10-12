@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Thomas",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Virgil",

@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "COV (A)"
+      "fixtureLabel": null
     }
   ]
 }
