@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T01:31:03.154Z",
+  "updatedAt": "2026-10-12T01:41:04.451Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -185,21 +185,6 @@
       },
       {
         "rank": 13,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 401,
-        "gwPoints": 52,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1374387
-      },
-      {
-        "rank": 13,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
@@ -211,6 +196,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
+        "overallRank": 1374387
+      },
+      {
+        "rank": 13,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 401,
+        "gwPoints": 52,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -5,
         "overallRank": 1374387
       },
       {
@@ -902,21 +902,6 @@
       },
       {
         "rank": 13,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 401,
-        "gwPoints": 52,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -5,
-        "overallRank": 1374387
-      },
-      {
-        "rank": 13,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
@@ -928,6 +913,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
+        "overallRank": 1374387
+      },
+      {
+        "rank": 13,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 401,
+        "gwPoints": 52,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -5,
         "overallRank": 1374387
       },
       {
