@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Arka Ghosh",
   "teamName": "BrunoDosTres",
-  "gwPoints": 78,
-  "totalPoints": 435,
-  "overallRank": 262458,
+  "gwPoints": 82,
+  "totalPoints": 439,
+  "overallRank": 219365,
   "activeChip": null,
   "picks": [
     {
@@ -33,18 +33,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "De Cuyper",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 15,
-      "rawPoints": 15,
-      "fixtureLabel": null
-    },
-    {
       "name": "Hall",
       "team": "NEW",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
@@ -57,27 +45,27 @@
       "fixtureLabel": null
     },
     {
-      "name": "Rogers",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "MID",
+      "name": "De Cuyper",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
+      "eventPoints": 15,
+      "rawPoints": 15,
       "fixtureLabel": null
     },
     {
-      "name": "Szoboszlai",
-      "team": "LIV",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
-      "position": "MID",
+      "name": "Gvardiol",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 4,
+      "rawPoints": 4,
       "fixtureLabel": null
     },
     {
@@ -90,6 +78,18 @@
       "isStarting": true,
       "eventPoints": 16,
       "rawPoints": 8,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Rogers",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 9,
+      "rawPoints": 9,
       "fixtureLabel": null
     },
     {
@@ -117,18 +117,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "Wissa",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
       "name": "João Pedro",
       "team": "CHE",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
@@ -138,6 +126,18 @@
       "isStarting": true,
       "eventPoints": 12,
       "rawPoints": 12,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Wissa",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Gvardiol",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
-      "position": "DEF",
+      "name": "Szoboszlai",
+      "team": "LIV",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
+      "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 4,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

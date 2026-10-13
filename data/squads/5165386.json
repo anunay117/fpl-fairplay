@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Himanshu Rajawat",
   "teamName": "WhatATeam!",
-  "gwPoints": 54,
-  "totalPoints": 403,
-  "overallRank": 1318637,
+  "gwPoints": 56,
+  "totalPoints": 405,
+  "overallRank": 1309267,
   "activeChip": "3xc",
   "picks": [
     {
@@ -33,18 +33,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "Davis",
-      "team": "IPS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
-    },
-    {
       "name": "Mitchell",
       "team": "CRY",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t31.png",
@@ -57,15 +45,39 @@
       "fixtureLabel": null
     },
     {
-      "name": "Tzolis",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "name": "Davis",
+      "team": "IPS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Barnes",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
       "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Groß",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -93,27 +105,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Barnes",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "MID",
+      "name": "Calvert-Lewin",
+      "team": "LEE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 2,
       "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Groß",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Calvert-Lewin",
-      "team": "LEE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
-      "position": "FWD",
+      "name": "Tzolis",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

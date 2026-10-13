@@ -3,9 +3,9 @@
   "gw": 6,
   "managerName": "Vikramjeet Singh",
   "teamName": "MultaniFC",
-  "gwPoints": 60,
-  "totalPoints": 392,
-  "overallRank": 1923013,
+  "gwPoints": 63,
+  "totalPoints": 395,
+  "overallRank": 1863011,
   "activeChip": null,
   "picks": [
     {
@@ -57,15 +57,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Groß",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "MID",
+      "name": "Shaw",
+      "team": "MUN",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
+      "eventPoints": 3,
+      "rawPoints": 3,
       "fixtureLabel": null
     },
     {
@@ -105,27 +105,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Haaland",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
-      "position": "FWD",
-      "isCaptain": true,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 12,
-      "rawPoints": 6,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Isak",
-      "team": "LIV",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
-      "position": "FWD",
+      "name": "Groß",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -141,6 +129,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "Haaland",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "position": "FWD",
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 12,
+      "rawPoints": 6,
+      "fixtureLabel": null
+    },
+    {
       "name": "Kinsky",
       "team": "TOT",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Shaw",
-      "team": "MUN",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
-      "position": "DEF",
+      "name": "Isak",
+      "team": "LIV",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 3,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
