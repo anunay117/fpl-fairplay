@@ -25,7 +25,8 @@ jobs:
         with:
           node-version: 20
 
-      - run: node scripts/build-data.js
+      - id: build
+        run: node scripts/build-data.js
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
@@ -40,3 +41,9 @@ jobs:
             git commit -m "Update FPL data [skip ci]"
             git push
           fi
+
+      - name: Fail if Slack notification wasn't delivered
+        if: steps.build.outputs.slack_failed == 'true'
+        run: |
+          echo "::error::Slack webhook rejected the gameweek notification - check the SLACK_WEBHOOK_URL secret."
+          exit 1

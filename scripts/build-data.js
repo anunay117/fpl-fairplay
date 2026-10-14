@@ -435,19 +435,33 @@ async function fetchSquad(entryId, gw, elementsById, teamsById, liveStatsById, f
   };
 }
 
+// Returns true when the message was delivered (or there's no webhook configured, so there's
+// nothing to deliver), false when Slack rejected it or was unreachable.
 async function sendSlackMessage(text) {
   const webhookUrl = process.env.SLACK_WEBHOOK_URL;
-  if (!webhookUrl) return;
+  if (!webhookUrl) return true;
   try {
     const res = await fetch(webhookUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text }),
     });
-    if (!res.ok) console.error(`Slack webhook failed: ${res.status} ${res.statusText}`);
+    if (!res.ok) {
+      const body = await res.text().catch(() => "");
+      console.error(`Slack webhook failed: ${res.status} ${res.statusText} ${body}`.trim());
+      return false;
+    }
+    return true;
   } catch (e) {
     console.error(`Slack webhook error: ${e.message}`);
+    return false;
   }
+}
+
+// Lets the workflow fail the run (so GitHub emails a notification) after the data commit
+// step has still gone through.
+function flagSlackFailure() {
+  if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, "slack_failed=true\n");
 }
 
 function readJsonIfExists(file, fallback) {
@@ -600,7 +614,6 @@ async function main() {
     const classicTop3 = [...classic.managers].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity)).slice(0, 3);
     const h2hTop2 = [...h2h.managers].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity)).slice(0, 2);
 
-    state.lastNotifiedGw = latestFinishedGw;
     // *bold* / _italic_ is the same plain-text syntax in both Slack and WhatsApp, so this
     // renders correctly if copy-pasted from Slack straight into a WhatsApp chat.
     const classicLines = classicTop3
@@ -639,10 +652,25 @@ async function main() {
     }
 
     state.lastFinishMessage = messages.join("\n\n---\n\n");
-    for (const msg of messages) {
-      await sendSlackMessage(msg);
+
+    // Only mark the gameweek notified once every message has been delivered, so a dead
+    // webhook gets retried on the next run instead of silently dropping the update.
+    // sentParts remembers how many messages already went out for this GW so a retry
+    // doesn't re-post them.
+    if (state.sentParts?.gw !== latestFinishedGw) state.sentParts = { gw: latestFinishedGw, count: 0 };
+    while (state.sentParts.count < messages.length) {
+      if (!(await sendSlackMessage(messages[state.sentParts.count]))) break;
+      state.sentParts.count++;
     }
-    console.log("New gameweek finished:\n" + state.lastFinishMessage);
+
+    if (state.sentParts.count === messages.length) {
+      state.lastNotifiedGw = latestFinishedGw;
+      delete state.sentParts;
+      console.log("New gameweek finished:\n" + state.lastFinishMessage);
+    } else {
+      flagSlackFailure();
+      console.error(`GW${latestFinishedGw} Slack notification not delivered - will retry on the next run.`);
+    }
   }
 
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2));
