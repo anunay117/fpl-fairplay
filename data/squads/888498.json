@@ -3,9 +3,9 @@
   "gw": 7,
   "managerName": "Divyansh Gupta",
   "teamName": "UnTzolisited Advice",
-  "gwPoints": 7,
-  "totalPoints": 406,
-  "overallRank": 1641133,
+  "gwPoints": 10,
+  "totalPoints": 409,
+  "overallRank": 1515003,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
