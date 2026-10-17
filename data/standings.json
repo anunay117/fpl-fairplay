@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T18:20:49.289Z",
+  "updatedAt": "2026-10-17T18:31:04.290Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 14381
+        "overallRank": 15066
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 109119
+        "overallRank": 112791
       },
       {
         "rank": 3,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 125859
+        "overallRank": 129764
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 268036
+        "overallRank": 275432
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 404862
+        "overallRank": 414557
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 569697
+        "overallRank": 582288
       },
       {
         "rank": 6,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 569697
+        "overallRank": 582288
       },
       {
         "rank": 8,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 693331
+        "overallRank": 706962
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 783794
+        "overallRank": 798685
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 907472
+        "overallRank": 923582
       },
       {
         "rank": 11,
@@ -166,22 +166,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 986546
+        "overallRank": 1003376
       },
       {
         "rank": 12,
         "managerName": "Rajat Aggarwal",
         "teamName": "Childish Firmino",
         "entryId": 97962,
-        "totalPoints": 443,
-        "gwPoints": 19,
+        "totalPoints": 445,
+        "gwPoints": 21,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1097616
+        "overallRank": 1029850
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 1214220
+        "overallRank": 1232422
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1477027
+        "overallRank": 1497271
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1492454
+        "overallRank": 1512607
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1703308
+        "overallRank": 1724435
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1870850
+        "overallRank": 1891977
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1927092
+        "overallRank": 1949052
       },
       {
         "rank": 19,
@@ -286,10 +286,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2285377
+        "overallRank": 2308241
       },
       {
         "rank": 20,
+        "managerName": "Vatsal Choudhary",
+        "teamName": "OrderOfDevil's",
+        "entryId": 5504060,
+        "totalPoints": 390,
+        "gwPoints": 20,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 1,
+        "overallRank": 4405023
+      },
+      {
+        "rank": 21,
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
@@ -300,23 +315,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 0,
-        "overallRank": 4462338
-      },
-      {
-        "rank": 21,
-        "managerName": "Vatsal Choudhary",
-        "teamName": "OrderOfDevil's",
-        "entryId": 5504060,
-        "totalPoints": 388,
-        "gwPoints": 18,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 4523016
+        "rankChange": -1,
+        "overallRank": 4485338
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4769743
+        "overallRank": 4792084
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 5085680
+        "overallRank": 5107661
       },
       {
         "rank": 23,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5085680
+        "overallRank": 5107661
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5332480
+        "overallRank": 5354369
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 14381
+        "overallRank": 15066
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 109119
+        "overallRank": 112791
       },
       {
         "rank": 3,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 125859
+        "overallRank": 129764
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 268036
+        "overallRank": 275432
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 404862
+        "overallRank": 414557
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 569697
+        "overallRank": 582288
       },
       {
         "rank": 6,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 569697
+        "overallRank": 582288
       },
       {
         "rank": 8,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 693331
+        "overallRank": 706962
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 783794
+        "overallRank": 798685
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 907472
+        "overallRank": 923582
       },
       {
         "rank": 11,
@@ -883,22 +883,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 986546
+        "overallRank": 1003376
       },
       {
         "rank": 12,
         "managerName": "Rajat Aggarwal",
         "teamName": "Childish Firmino",
         "entryId": 97962,
-        "totalPoints": 443,
-        "gwPoints": 19,
+        "totalPoints": 445,
+        "gwPoints": 21,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -4,
-        "overallRank": 1097616
+        "overallRank": 1029850
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 1214220
+        "overallRank": 1232422
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1477027
+        "overallRank": 1497271
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1492454
+        "overallRank": 1512607
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1703308
+        "overallRank": 1724435
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1870850
+        "overallRank": 1891977
       },
       {
         "rank": 18,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1927092
+        "overallRank": 1949052
       },
       {
         "rank": 19,
@@ -1003,10 +1003,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2285377
+        "overallRank": 2308241
       },
       {
         "rank": 20,
+        "managerName": "Vatsal Choudhary",
+        "teamName": "OrderOfDevil's",
+        "entryId": 5504060,
+        "totalPoints": 390,
+        "gwPoints": 20,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 1,
+        "overallRank": 4405023
+      },
+      {
+        "rank": 21,
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
@@ -1017,23 +1032,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 0,
-        "overallRank": 4462338
-      },
-      {
-        "rank": 21,
-        "managerName": "Vatsal Choudhary",
-        "teamName": "OrderOfDevil's",
-        "entryId": 5504060,
-        "totalPoints": 388,
-        "gwPoints": 18,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 4523016
+        "rankChange": -1,
+        "overallRank": 4485338
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4769743
+        "overallRank": 4792084
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5085680
+        "overallRank": 5107661
       }
     ],
     "eliminated": [
@@ -1101,7 +1101,7 @@
     "gw": 7,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 32.2,
+    "averagePoints": 32.4,
     "aboveAverageCount": 13,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
@@ -1166,7 +1166,7 @@
         "rank": 12,
         "prevRank": 8,
         "movement": -4,
-        "gwPoints": 19
+        "gwPoints": 21
       },
       {
         "entryId": 8619081,
@@ -1209,8 +1209,8 @@
       "3544319": 1,
       "3717778": -1,
       "5165386": -1,
-      "5504060": 0,
-      "6786553": 0,
+      "5504060": 1,
+      "6786553": -1,
       "8291382": 2,
       "8619081": -3
     }
