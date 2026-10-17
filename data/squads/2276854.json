@@ -5,7 +5,7 @@
   "teamName": "Reece's Pieces",
   "gwPoints": 33,
   "totalPoints": 455,
-  "overallRank": 635171,
+  "overallRank": 634170,
   "activeChip": null,
   "picks": [
     {
@@ -40,8 +40,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
