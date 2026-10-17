@@ -1,11 +1,11 @@
 {
   "entryId": 5504060,
-  "gw": 6,
+  "gw": 7,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 54,
+  "gwPoints": 0,
   "totalPoints": 370,
-  "overallRank": 3629654,
+  "overallRank": 3580685,
   "activeChip": null,
   "picks": [
     {
@@ -16,9 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3,
-      "rawPoints": 3,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "Calafiori",
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "Hall",
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
+      "fixtureLabel": "AVL (H)"
     },
     {
       "name": "Davis",
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "MCI (A)"
     },
     {
       "name": "De Cuyper",
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 15,
-      "rawPoints": 15,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "B.Fernandes",
@@ -76,9 +76,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "LEE (A)"
     },
     {
       "name": "Schade",
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "LIV (H)"
     },
     {
       "name": "Groß",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "Rogers",
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
     },
     {
       "name": "Wissa",
@@ -124,9 +124,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "AVL (H)"
     },
     {
       "name": "Haaland",
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Verbruggen",
@@ -149,8 +149,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "M.Sangaré",
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "LIV (H)"
     },
     {
       "name": "Calvert-Lewin",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "MUN (H)"
     },
     {
       "name": "Ajer",
@@ -185,8 +185,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "LIV (H)"
     }
   ]
 }

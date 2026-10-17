@@ -1,11 +1,11 @@
 {
   "entryId": 49714,
-  "gw": 6,
+  "gw": 7,
   "managerName": "Prince Srivastava",
   "teamName": "Why always me?",
-  "gwPoints": 80,
+  "gwPoints": 0,
   "totalPoints": 442,
-  "overallRank": 177316,
+  "overallRank": 175142,
   "activeChip": null,
   "picks": [
     {
@@ -16,9 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3,
-      "rawPoints": 3,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "De Cuyper",
@@ -28,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 15,
-      "rawPoints": 15,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "Calafiori",
@@ -40,21 +40,21 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
-      "name": "Hall",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "name": "Konsa",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "Rogers",
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
     },
     {
       "name": "Groß",
@@ -76,21 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Gibbs-White",
-      "team": "NFO",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "Cherki",
@@ -98,11 +86,23 @@
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "MID",
       "isCaptain": false,
-      "isViceCaptain": true,
+      "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 10,
-      "rawPoints": 10,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
+    },
+    {
+      "name": "Foden",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Haaland",
@@ -112,9 +112,21 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 12,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
+    },
+    {
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
     },
     {
       "name": "Wissa",
@@ -124,21 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 12,
-      "rawPoints": 12,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "AVL (H)"
     },
     {
       "name": "Tzolakis",
@@ -149,32 +149,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Foden",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": false,
-      "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Konsa",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": false,
-      "eventPoints": 0,
-      "rawPoints": 4,
-      "fixtureLabel": null
+      "fixtureLabel": "FUL (A)"
     },
     {
       "name": "Truffert",
@@ -185,8 +161,32 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": -1,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "SUN (H)"
+    },
+    {
+      "name": "Hall",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": false,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "AVL (H)"
+    },
+    {
+      "name": "Gibbs-White",
+      "team": "NFO",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": false,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "ARS (H)"
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "entryId": 8619081,
-  "gw": 6,
+  "gw": 7,
   "managerName": "mohit maheshwari",
   "teamName": "mohit's Team",
-  "gwPoints": 54,
+  "gwPoints": 0,
   "totalPoints": 360,
-  "overallRank": 4439554,
+  "overallRank": 4395233,
   "activeChip": null,
   "picks": [
     {
@@ -16,21 +16,33 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
     },
     {
-      "name": "Thomas",
-      "team": "COV",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t9.png",
+      "name": "Egan",
+      "team": "HUL",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 4,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
+    },
+    {
+      "name": "Rúben",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Virgil",
@@ -42,19 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Egan",
-      "team": "HUL",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "fixtureLabel": "BRE (A)"
     },
     {
       "name": "B.Fernandes",
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "LEE (A)"
     },
     {
       "name": "Saka",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "Cherki",
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 10,
-      "rawPoints": 10,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Semenyo",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3,
-      "rawPoints": 3,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Groß",
@@ -112,21 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Kostoulas",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "João Pedro",
@@ -136,9 +124,21 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 24,
-      "rawPoints": 12,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
+    },
+    {
+      "name": "Kostoulas",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "Petrović",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
+      "fixtureLabel": "SUN (H)"
     },
     {
       "name": "Wissa",
@@ -161,20 +161,20 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "AVL (H)"
     },
     {
-      "name": "Hato",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "name": "Thomas",
+      "team": "COV",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t9.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
+      "fixtureLabel": "TOT (A)"
     },
     {
       "name": "Chilwell",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
+      "fixtureLabel": "BHA (A)"
     }
   ]
 }

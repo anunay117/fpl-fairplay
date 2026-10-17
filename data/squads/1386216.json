@@ -1,12 +1,12 @@
 {
   "entryId": 1386216,
-  "gw": 6,
+  "gw": 7,
   "managerName": "Nirbhay Vadera Varma",
   "teamName": "ØhDearGawd",
-  "gwPoints": 56,
+  "gwPoints": 0,
   "totalPoints": 424,
-  "overallRank": 543075,
-  "activeChip": null,
+  "overallRank": 535466,
+  "activeChip": "3xc",
   "picks": [
     {
       "name": "Raya",
@@ -16,33 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3,
-      "rawPoints": 3,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Thiaw",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
-      "name": "De Cuyper",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 15,
-      "rawPoints": 15,
-      "fixtureLabel": null
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "Konsa",
@@ -52,21 +28,45 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 4,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
+    },
+    {
+      "name": "De Cuyper",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
+    },
+    {
+      "name": "Gvardiol",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Ødegaard",
       "team": "ARS",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
       "position": "MID",
-      "isCaptain": true,
+      "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "Barnes",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "AVL (H)"
     },
     {
       "name": "King",
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "HUL (H)"
     },
     {
       "name": "Palmer",
@@ -100,9 +100,21 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 8,
-      "rawPoints": 8,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
+    },
+    {
+      "name": "Mbeumo",
+      "team": "MUN",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "LEE (A)"
     },
     {
       "name": "João Pedro",
@@ -112,33 +124,21 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 12,
-      "rawPoints": 12,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
     },
     {
       "name": "Haaland",
       "team": "MCI",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": true,
-      "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Wissa",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "FWD",
-      "isCaptain": false,
+      "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Forster",
@@ -150,31 +150,31 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
+      "fixtureLabel": "SUN (H)"
     },
     {
-      "name": "Mbeumo",
-      "team": "MUN",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
-      "position": "MID",
+      "name": "Wissa",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 8,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "AVL (H)"
     },
     {
-      "name": "Gvardiol",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "name": "Thiaw",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 4,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "AVL (H)"
     },
     {
       "name": "Egan",
@@ -185,8 +185,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
     }
   ]
 }

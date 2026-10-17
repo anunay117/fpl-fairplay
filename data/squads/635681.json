@@ -1,24 +1,24 @@
 {
   "entryId": 635681,
-  "gw": 6,
+  "gw": 7,
   "managerName": "Utkarsh Jaiswal",
   "teamName": "Godspeed Gunners",
-  "gwPoints": 63,
+  "gwPoints": 0,
   "totalPoints": 384,
-  "overallRank": 2589116,
-  "activeChip": null,
+  "overallRank": 2571741,
+  "activeChip": "bboost",
   "picks": [
     {
-      "name": "Tzolakis",
-      "team": "HUL",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
+      "name": "Verbruggen",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
       "position": "GKP",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "Calafiori",
@@ -28,45 +28,45 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
-      "name": "Tarkowski",
-      "team": "EVE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+      "name": "Gvardiol",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3,
-      "rawPoints": 3,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
-      "name": "N.Williams",
-      "team": "NFO",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+      "name": "De Cuyper",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
     },
     {
       "name": "Saka",
       "team": "ARS",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
       "position": "MID",
-      "isCaptain": true,
-      "isViceCaptain": false,
+      "isCaptain": false,
+      "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
       "name": "Rogers",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
     },
     {
       "name": "Cherki",
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 10,
-      "rawPoints": 10,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "Groß",
@@ -100,21 +100,33 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (H)"
+    },
+    {
+      "name": "Belloumi",
+      "team": "HUL",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
     },
     {
       "name": "Haaland",
       "team": "MCI",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": true,
+      "isCaptain": true,
+      "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (H)"
     },
     {
       "name": "João Pedro",
@@ -124,45 +136,33 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 12,
-      "rawPoints": 12,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
     },
     {
-      "name": "Kostoulas",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Verbruggen",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "name": "Tzolakis",
+      "team": "HUL",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
       "position": "GKP",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 9,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
     },
     {
-      "name": "Belloumi",
-      "team": "HUL",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
-      "position": "MID",
+      "name": "Tarkowski",
+      "team": "EVE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "CHE (H)"
     },
     {
       "name": "Konsa",
@@ -173,20 +173,20 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 4,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "NFO (A)"
     },
     {
-      "name": "Gvardiol",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
-      "position": "DEF",
+      "name": "McBurnie",
+      "team": "HUL",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t88.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 4,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
     }
   ]
 }
