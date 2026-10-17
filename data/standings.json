@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T22:29:27.666Z",
+  "updatedAt": "2026-10-17T02:55:36.031Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 543077
+        "overallRank": 543076
       },
       {
         "rank": 6,
@@ -91,22 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 544219
-      },
-      {
-        "rank": 7,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
-        "totalPoints": 424,
-        "gwPoints": 74,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 547369
+        "overallRank": 544218
       },
       {
         "rank": 7,
@@ -121,7 +106,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 547369
+        "overallRank": 547368
+      },
+      {
+        "rank": 7,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
+        "totalPoints": 424,
+        "gwPoints": 74,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 547368
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 604805
+        "overallRank": 604804
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 737391
+        "overallRank": 737390
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 917882
+        "overallRank": 917881
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1019642
+        "overallRank": 1019641
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -5,
-        "overallRank": 1309255
+        "overallRank": 1309254
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1412400
+        "overallRank": 1412399
       },
       {
         "rank": 15,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1819162
+        "overallRank": 1819161
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1862998
+        "overallRank": 1862997
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2261036
+        "overallRank": 2261035
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2589116
+        "overallRank": 2589115
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2689544
+        "overallRank": 2689543
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3629659
+        "overallRank": 3629657
       },
       {
         "rank": 22,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5892215
+        "overallRank": 5892216
       }
     ]
   },
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 543077
+        "overallRank": 543076
       },
       {
         "rank": 6,
@@ -808,22 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 544219
-      },
-      {
-        "rank": 7,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
-        "totalPoints": 424,
-        "gwPoints": 74,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 547369
+        "overallRank": 544218
       },
       {
         "rank": 7,
@@ -838,7 +823,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 547369
+        "overallRank": 547368
+      },
+      {
+        "rank": 7,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
+        "totalPoints": 424,
+        "gwPoints": 74,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 547368
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 604805
+        "overallRank": 604804
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 737391
+        "overallRank": 737390
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 917882
+        "overallRank": 917881
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1019642
+        "overallRank": 1019641
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -5,
-        "overallRank": 1309255
+        "overallRank": 1309254
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1412400
+        "overallRank": 1412399
       },
       {
         "rank": 15,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1819162
+        "overallRank": 1819161
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1862998
+        "overallRank": 1862997
       },
       {
         "rank": 18,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2261036
+        "overallRank": 2261035
       },
       {
         "rank": 19,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2589116
+        "overallRank": 2589115
       },
       {
         "rank": 20,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2689544
+        "overallRank": 2689543
       },
       {
         "rank": 21,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3629659
+        "overallRank": 3629657
       },
       {
         "rank": 23,
