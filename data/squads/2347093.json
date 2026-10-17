@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 32,
   "totalPoints": 427,
-  "overallRank": 1857376,
+  "overallRank": 1857375,
   "activeChip": null,
   "picks": [
     {
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Kinsky",

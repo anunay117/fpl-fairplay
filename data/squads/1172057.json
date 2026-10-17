@@ -5,7 +5,7 @@
   "teamName": "Champions XI",
   "gwPoints": 36,
   "totalPoints": 425,
-  "overallRank": 1972277,
+  "overallRank": 1972276,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",

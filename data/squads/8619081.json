@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 17,
   "totalPoints": 377,
-  "overallRank": 5251324,
+  "overallRank": 5251320,
   "activeChip": null,
   "picks": [
     {
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Thomas",
