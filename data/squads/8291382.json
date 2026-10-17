@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 21,
   "totalPoints": 361,
-  "overallRank": 5608281,
+  "overallRank": 5608284,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {

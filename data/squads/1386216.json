@@ -5,7 +5,7 @@
   "teamName": "ØhDearGawd",
   "gwPoints": 28,
   "totalPoints": 452,
-  "overallRank": 374962,
+  "overallRank": 375107,
   "activeChip": "3xc",
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
