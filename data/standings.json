@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T19:40:50.970Z",
+  "updatedAt": "2026-10-17T19:50:45.298Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -80,9 +80,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Siddharth Purang",
-        "teamName": "Unlucky 11",
-        "entryId": 3544319,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -95,9 +95,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
+        "managerName": "Siddharth Purang",
+        "teamName": "Unlucky 11",
+        "entryId": 3544319,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1497270
+        "overallRank": 1497271
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1512606
+        "overallRank": 1512607
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1724434
+        "overallRank": 1724435
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1891975
+        "overallRank": 1891976
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1949050
+        "overallRank": 1949051
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2308239
+        "overallRank": 2308240
       },
       {
         "rank": 20,
@@ -331,22 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4792071
-      },
-      {
-        "rank": 23,
-        "managerName": "Awanish Gaurav",
-        "teamName": "FPL AGing",
-        "entryId": 1576706,
-        "totalPoints": 380,
-        "gwPoints": 25,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 5107648
+        "overallRank": 4792072
       },
       {
         "rank": 23,
@@ -361,6 +346,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
+        "overallRank": 5107648
+      },
+      {
+        "rank": 23,
+        "managerName": "Awanish Gaurav",
+        "teamName": "FPL AGing",
+        "entryId": 1576706,
+        "totalPoints": 380,
+        "gwPoints": 25,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
         "overallRank": 5107648
       },
       {
@@ -797,9 +797,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Siddharth Purang",
-        "teamName": "Unlucky 11",
-        "entryId": 3544319,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -812,9 +812,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
+        "managerName": "Siddharth Purang",
+        "teamName": "Unlucky 11",
+        "entryId": 3544319,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1497270
+        "overallRank": 1497271
       },
       {
         "rank": 15,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1512606
+        "overallRank": 1512607
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1724434
+        "overallRank": 1724435
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1891975
+        "overallRank": 1891976
       },
       {
         "rank": 18,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1949050
+        "overallRank": 1949051
       },
       {
         "rank": 19,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2308239
+        "overallRank": 2308240
       },
       {
         "rank": 20,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4792071
+        "overallRank": 4792072
       },
       {
         "rank": 23,
@@ -1205,8 +1205,8 @@
       "2089714": 2,
       "2276854": 1,
       "2347093": 0,
-      "3357191": 1,
-      "3544319": 0,
+      "3357191": 0,
+      "3544319": 1,
       "3717778": -1,
       "5165386": -1,
       "5504060": 1,
