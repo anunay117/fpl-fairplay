@@ -3,9 +3,9 @@
   "gw": 7,
   "managerName": "Prince Srivastava",
   "teamName": "Why always me?",
-  "gwPoints": 1,
-  "totalPoints": 443,
-  "overallRank": 183777,
+  "gwPoints": 4,
+  "totalPoints": 446,
+  "overallRank": 194327,
   "activeChip": null,
   "picks": [
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -124,8 +124,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
