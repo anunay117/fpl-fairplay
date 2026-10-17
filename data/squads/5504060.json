@@ -3,9 +3,9 @@
   "gw": 7,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 0,
-  "totalPoints": 370,
-  "overallRank": 3580685,
+  "gwPoints": 1,
+  "totalPoints": 371,
+  "overallRank": 3665740,
   "activeChip": null,
   "picks": [
     {
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "EVE (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",
