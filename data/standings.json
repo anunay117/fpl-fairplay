@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T02:31:02.347Z",
+  "updatedAt": "2026-10-18T02:40:50.689Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -335,21 +335,6 @@
       },
       {
         "rank": 23,
-        "managerName": "Ash Kallen",
-        "teamName": "Not Too Xabi",
-        "entryId": 8291382,
-        "totalPoints": 380,
-        "gwPoints": 40,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 2,
-        "overallRank": 5107645
-      },
-      {
-        "rank": 23,
         "managerName": "Awanish Gaurav",
         "teamName": "FPL AGing",
         "entryId": 1576706,
@@ -361,6 +346,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 5107645
+      },
+      {
+        "rank": 23,
+        "managerName": "Ash Kallen",
+        "teamName": "Not Too Xabi",
+        "entryId": 8291382,
+        "totalPoints": 380,
+        "gwPoints": 40,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
         "overallRank": 5107645
       },
       {
