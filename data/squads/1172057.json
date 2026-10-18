@@ -3,9 +3,9 @@
   "gw": 7,
   "managerName": "Vipul Rustagi",
   "teamName": "Champions XI",
-  "gwPoints": 42,
-  "totalPoints": 431,
-  "overallRank": 2241432,
+  "gwPoints": 49,
+  "totalPoints": 438,
+  "overallRank": 2243370,
   "activeChip": null,
   "picks": [
     {
@@ -52,8 +52,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 3,
-      "rawPoints": 3,
+      "eventPoints": 5,
+      "rawPoints": 5,
       "fixtureLabel": null
     },
     {
@@ -161,7 +161,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
