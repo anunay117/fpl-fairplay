@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T23:50:54.757Z",
+  "updatedAt": "2026-10-18T00:01:17.448Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -80,9 +80,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
+        "managerName": "Siddharth Purang",
+        "teamName": "Unlucky 11",
+        "entryId": 3544319,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -95,9 +95,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Siddharth Purang",
-        "teamName": "Unlucky 11",
-        "entryId": 3544319,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -335,21 +335,6 @@
       },
       {
         "rank": 23,
-        "managerName": "Awanish Gaurav",
-        "teamName": "FPL AGing",
-        "entryId": 1576706,
-        "totalPoints": 380,
-        "gwPoints": 25,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 5107646
-      },
-      {
-        "rank": 23,
         "managerName": "Ash Kallen",
         "teamName": "Not Too Xabi",
         "entryId": 8291382,
@@ -361,6 +346,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
+        "overallRank": 5107646
+      },
+      {
+        "rank": 23,
+        "managerName": "Awanish Gaurav",
+        "teamName": "FPL AGing",
+        "entryId": 1576706,
+        "totalPoints": 380,
+        "gwPoints": 25,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
         "overallRank": 5107646
       },
       {
@@ -797,9 +797,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
+        "managerName": "Siddharth Purang",
+        "teamName": "Unlucky 11",
+        "entryId": 3544319,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -812,9 +812,9 @@
       },
       {
         "rank": 6,
-        "managerName": "Siddharth Purang",
-        "teamName": "Unlucky 11",
-        "entryId": 3544319,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
         "totalPoints": 458,
         "gwPoints": 34,
         "matchesWon": null,
@@ -1205,8 +1205,8 @@
       "2089714": 2,
       "2276854": 1,
       "2347093": 0,
-      "3357191": 0,
-      "3544319": 1,
+      "3357191": 1,
+      "3544319": 0,
       "3717778": -1,
       "5165386": -1,
       "5504060": 1,
