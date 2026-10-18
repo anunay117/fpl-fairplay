@@ -5,7 +5,7 @@
   "teamName": "Jetha ke Jabaaz",
   "gwPoints": 57,
   "totalPoints": 487,
-  "overallRank": 391241,
+  "overallRank": 391242,
   "activeChip": null,
   "picks": [
     {
@@ -28,8 +28,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 4,
+      "eventPoints": 3,
+      "rawPoints": 3,
       "fixtureLabel": null
     },
     {

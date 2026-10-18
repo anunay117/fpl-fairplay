@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T16:31:06.855Z",
+  "updatedAt": "2026-10-18T16:40:47.285Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 192087
+        "overallRank": 192088
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 312974
+        "overallRank": 312976
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 391241
+        "overallRank": 391242
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 400438
+        "overallRank": 400439
       },
       {
         "rank": 7,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 559195
+        "overallRank": 559196
       },
       {
         "rank": 8,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 686674
+        "overallRank": 686681
       },
       {
         "rank": 9,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 6,
-        "overallRank": 759086
+        "overallRank": 759090
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 888295
+        "overallRank": 888297
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1040286
+        "overallRank": 1040291
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1108527
+        "overallRank": 1108529
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1150090
+        "overallRank": 1150096
       },
       {
         "rank": 15,
@@ -226,22 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1574230
-      },
-      {
-        "rank": 16,
-        "managerName": "Ritee Mishra",
-        "teamName": "Why always you?",
-        "entryId": 3717778,
-        "totalPoints": 450,
-        "gwPoints": 47,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -2,
-        "overallRank": 1775824
+        "overallRank": 1574236
       },
       {
         "rank": 16,
@@ -256,7 +241,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1775824
+        "overallRank": 1775843
+      },
+      {
+        "rank": 16,
+        "managerName": "Ritee Mishra",
+        "teamName": "Why always you?",
+        "entryId": 3717778,
+        "totalPoints": 450,
+        "gwPoints": 47,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -2,
+        "overallRank": 1775843
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2098961
+        "overallRank": 2098975
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2154729
+        "overallRank": 2154737
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4541328
+        "overallRank": 4541364
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4682057
+        "overallRank": 4682097
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4771267
+        "overallRank": 4771301
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5001681
+        "overallRank": 5001724
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 5170832
+        "overallRank": 5170871
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5262323
+        "overallRank": 5262362
       }
     ]
   },
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 192087
+        "overallRank": 192088
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 312974
+        "overallRank": 312976
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 391241
+        "overallRank": 391242
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 400438
+        "overallRank": 400439
       },
       {
         "rank": 7,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 559195
+        "overallRank": 559196
       },
       {
         "rank": 8,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 686674
+        "overallRank": 686681
       },
       {
         "rank": 9,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 6,
-        "overallRank": 759086
+        "overallRank": 759090
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 888295
+        "overallRank": 888297
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1040286
+        "overallRank": 1040291
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1108527
+        "overallRank": 1108529
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1150090
+        "overallRank": 1150096
       },
       {
         "rank": 15,
@@ -943,22 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1574230
-      },
-      {
-        "rank": 16,
-        "managerName": "Ritee Mishra",
-        "teamName": "Why always you?",
-        "entryId": 3717778,
-        "totalPoints": 450,
-        "gwPoints": 47,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -2,
-        "overallRank": 1775824
+        "overallRank": 1574236
       },
       {
         "rank": 16,
@@ -973,7 +958,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1775824
+        "overallRank": 1775843
+      },
+      {
+        "rank": 16,
+        "managerName": "Ritee Mishra",
+        "teamName": "Why always you?",
+        "entryId": 3717778,
+        "totalPoints": 450,
+        "gwPoints": 47,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -2,
+        "overallRank": 1775843
       },
       {
         "rank": 18,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2098961
+        "overallRank": 2098975
       },
       {
         "rank": 19,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2154729
+        "overallRank": 2154737
       },
       {
         "rank": 20,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4541328
+        "overallRank": 4541364
       },
       {
         "rank": 21,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4682057
+        "overallRank": 4682097
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4771267
+        "overallRank": 4771301
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5001681
+        "overallRank": 5001724
       }
     ],
     "eliminated": [
