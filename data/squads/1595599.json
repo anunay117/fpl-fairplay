@@ -5,7 +5,7 @@
   "teamName": "Carrick-ter Assassin",
   "gwPoints": 45,
   "totalPoints": 463,
-  "overallRank": 1117561,
+  "overallRank": 1117560,
   "activeChip": null,
   "picks": [
     {
@@ -185,7 +185,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
+      "rawPoints": 0,
       "fixtureLabel": null
     }
   ]
