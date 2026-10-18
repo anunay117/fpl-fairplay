@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Maguire",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Davis",

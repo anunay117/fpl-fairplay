@@ -5,7 +5,7 @@
   "teamName": "YFC Joga Bonito XI",
   "gwPoints": 43,
   "totalPoints": 396,
-  "overallRank": 4958151,
+  "overallRank": 4958152,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",

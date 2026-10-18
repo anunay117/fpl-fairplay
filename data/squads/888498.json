@@ -5,7 +5,7 @@
   "teamName": "UnTzolisited Advice",
   "gwPoints": 46,
   "totalPoints": 445,
-  "overallRank": 1876644,
+  "overallRank": 1876645,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",

@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "fixtureLabel": null
     }
   ]
 }

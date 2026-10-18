@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 35,
   "totalPoints": 395,
-  "overallRank": 5031149,
+  "overallRank": 5031150,
   "activeChip": null,
   "picks": [
     {
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
