@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Saka",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Gonzalo",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Maguire",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Diop",

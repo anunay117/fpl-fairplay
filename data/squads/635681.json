@@ -5,7 +5,7 @@
   "teamName": "Godspeed Gunners",
   "gwPoints": 37,
   "totalPoints": 421,
-  "overallRank": 2308240,
+  "overallRank": 2308238,
   "activeChip": "bboost",
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Saka",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Belloumi",

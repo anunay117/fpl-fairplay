@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Mitchell",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (A)"
+      "fixtureLabel": null
     },
     {
       "name": "B.Fernandes",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Mbeumo",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Barnes",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Dubravka",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (A)"
+      "fixtureLabel": null
     }
   ]
 }

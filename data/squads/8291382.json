@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 40,
   "totalPoints": 380,
-  "overallRank": 5107635,
+  "overallRank": 5107633,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Affengruber",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Thomas",
