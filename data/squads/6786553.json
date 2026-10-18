@@ -3,9 +3,9 @@
   "gw": 7,
   "managerName": "Two To Tangoal",
   "teamName": "Cockroach FPL Party",
-  "gwPoints": 9,
-  "totalPoints": 392,
-  "overallRank": 4569150,
+  "gwPoints": 7,
+  "totalPoints": 390,
+  "overallRank": 4718298,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
