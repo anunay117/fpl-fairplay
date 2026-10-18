@@ -5,7 +5,7 @@
   "teamName": "WhatATeam!",
   "gwPoints": 44,
   "totalPoints": 449,
-  "overallRank": 1179906,
+  "overallRank": 1179910,
   "activeChip": null,
   "picks": [
     {
@@ -52,8 +52,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": -1,
+      "rawPoints": -1,
       "fixtureLabel": null
     },
     {
