@@ -5,7 +5,7 @@
   "teamName": "BrunoDosTres",
   "gwPoints": 90,
   "totalPoints": 529,
-  "overallRank": 48664,
+  "overallRank": 48656,
   "activeChip": "3xc",
   "picks": [
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
