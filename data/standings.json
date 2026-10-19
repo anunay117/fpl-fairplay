@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T22:50:52.423Z",
+  "updatedAt": "2026-10-19T23:01:23.852Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -140,21 +140,6 @@
       },
       {
         "rank": 10,
-        "managerName": "Yash Kapadia",
-        "teamName": "Scouser XI",
-        "entryId": 418990,
-        "totalPoints": 484,
-        "gwPoints": 70,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 1,
-        "overallRank": 801107
-      },
-      {
-        "rank": 10,
         "managerName": "Gurjot Singh",
         "teamName": "Carrick-ter Assassin",
         "entryId": 1595599,
@@ -166,6 +151,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 801107
+      },
+      {
+        "rank": 10,
+        "managerName": "Yash Kapadia",
+        "teamName": "Scouser XI",
+        "entryId": 418990,
+        "totalPoints": 484,
+        "gwPoints": 70,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 1,
         "overallRank": 801107
       },
       {
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4386661
+        "overallRank": 4386660
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4461190
+        "overallRank": 4461189
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4680386
+        "overallRank": 4680385
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4778275
+        "overallRank": 4778274
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4972621
+        "overallRank": 4972620
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5707080
+        "overallRank": 5707079
       }
     ]
   },
@@ -857,21 +857,6 @@
       },
       {
         "rank": 10,
-        "managerName": "Yash Kapadia",
-        "teamName": "Scouser XI",
-        "entryId": 418990,
-        "totalPoints": 484,
-        "gwPoints": 70,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 1,
-        "overallRank": 801107
-      },
-      {
-        "rank": 10,
         "managerName": "Gurjot Singh",
         "teamName": "Carrick-ter Assassin",
         "entryId": 1595599,
@@ -883,6 +868,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
+        "overallRank": 801107
+      },
+      {
+        "rank": 10,
+        "managerName": "Yash Kapadia",
+        "teamName": "Scouser XI",
+        "entryId": 418990,
+        "totalPoints": 484,
+        "gwPoints": 70,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 1,
         "overallRank": 801107
       },
       {
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4386661
+        "overallRank": 4386660
       },
       {
         "rank": 21,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4461190
+        "overallRank": 4461189
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 4680386
+        "overallRank": 4680385
       },
       {
         "rank": 23,
@@ -1063,7 +1063,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4778275
+        "overallRank": 4778274
       }
     ],
     "eliminated": [
