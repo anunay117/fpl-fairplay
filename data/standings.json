@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T22:20:47.379Z",
+  "updatedAt": "2026-10-19T22:31:09.441Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -140,21 +140,6 @@
       },
       {
         "rank": 10,
-        "managerName": "Gurjot Singh",
-        "teamName": "Carrick-ter Assassin",
-        "entryId": 1595599,
-        "totalPoints": 484,
-        "gwPoints": 66,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 801107
-      },
-      {
-        "rank": 10,
         "managerName": "Yash Kapadia",
         "teamName": "Scouser XI",
         "entryId": 418990,
@@ -166,6 +151,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
+        "overallRank": 801107
+      },
+      {
+        "rank": 10,
+        "managerName": "Gurjot Singh",
+        "teamName": "Carrick-ter Assassin",
+        "entryId": 1595599,
+        "totalPoints": 484,
+        "gwPoints": 66,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
         "overallRank": 801107
       },
       {
@@ -857,21 +857,6 @@
       },
       {
         "rank": 10,
-        "managerName": "Gurjot Singh",
-        "teamName": "Carrick-ter Assassin",
-        "entryId": 1595599,
-        "totalPoints": 484,
-        "gwPoints": 66,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 801107
-      },
-      {
-        "rank": 10,
         "managerName": "Yash Kapadia",
         "teamName": "Scouser XI",
         "entryId": 418990,
@@ -883,6 +868,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
+        "overallRank": 801107
+      },
+      {
+        "rank": 10,
+        "managerName": "Gurjot Singh",
+        "teamName": "Carrick-ter Assassin",
+        "entryId": 1595599,
+        "totalPoints": 484,
+        "gwPoints": 66,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
         "overallRank": 801107
       },
       {
@@ -1621,15 +1621,15 @@
           "points": 142
         },
         {
-          "entryId": 1595599,
-          "managerName": "Gurjot Singh",
-          "teamName": "Carrick-ter Assassin",
-          "points": 139
-        },
-        {
           "entryId": 418990,
           "managerName": "Yash Kapadia",
           "teamName": "Scouser XI",
+          "points": 139
+        },
+        {
+          "entryId": 1595599,
+          "managerName": "Gurjot Singh",
+          "teamName": "Carrick-ter Assassin",
           "points": 139
         },
         {
