@@ -3,9 +3,9 @@
   "gw": 7,
   "managerName": "Ritee Mishra",
   "teamName": "Why always you?",
-  "gwPoints": 60,
-  "totalPoints": 463,
-  "overallRank": 1681030,
+  "gwPoints": 71,
+  "totalPoints": 474,
+  "overallRank": 1251907,
   "activeChip": null,
   "picks": [
     {
@@ -21,9 +21,9 @@
       "fixtureLabel": null
     },
     {
-      "name": "Calafiori",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "name": "De Cuyper",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
@@ -33,21 +33,9 @@
       "fixtureLabel": null
     },
     {
-      "name": "Bogle",
-      "team": "LEE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "De Cuyper",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "name": "Calafiori",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
@@ -69,10 +57,10 @@
       "fixtureLabel": null
     },
     {
-      "name": "King",
-      "team": "FUL",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
-      "position": "MID",
+      "name": "Bogle",
+      "team": "LEE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
@@ -81,9 +69,9 @@
       "fixtureLabel": null
     },
     {
-      "name": "Palmer",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "name": "King",
+      "team": "FUL",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
       "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
@@ -105,27 +93,27 @@
       "fixtureLabel": null
     },
     {
-      "name": "Cherki",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
+      "name": "Palmer",
       "team": "CHE",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
+      "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 2,
       "rawPoints": 2,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Manzambi",
+      "team": "AVL",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t7.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 11,
+      "rawPoints": 11,
       "fixtureLabel": null
     },
     {
@@ -141,6 +129,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
+    },
+    {
       "name": "Verbruggen",
       "team": "BHA",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Manzambi",
-      "team": "AVL",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t7.png",
+      "name": "Cherki",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 11,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
