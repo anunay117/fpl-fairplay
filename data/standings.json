@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T22:55:09.344Z",
+  "updatedAt": "2026-10-21T03:14:48.136Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -200,21 +200,6 @@
       },
       {
         "rank": 14,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 470,
-        "gwPoints": 65,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -1,
-        "overallRank": 1418326
-      },
-      {
-        "rank": 14,
         "managerName": "Vivek Agarwal",
         "teamName": "Gvardiols Of Galaxy",
         "entryId": 62675,
@@ -226,6 +211,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
+        "overallRank": 1418326
+      },
+      {
+        "rank": 14,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 470,
+        "gwPoints": 65,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -1,
         "overallRank": 1418326
       },
       {
@@ -917,21 +917,6 @@
       },
       {
         "rank": 14,
-        "managerName": "Himanshu Rajawat",
-        "teamName": "WhatATeam!",
-        "entryId": 5165386,
-        "totalPoints": 470,
-        "gwPoints": 65,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -1,
-        "overallRank": 1418326
-      },
-      {
-        "rank": 14,
         "managerName": "Vivek Agarwal",
         "teamName": "Gvardiols Of Galaxy",
         "entryId": 62675,
@@ -943,6 +928,21 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
+        "overallRank": 1418326
+      },
+      {
+        "rank": 14,
+        "managerName": "Himanshu Rajawat",
+        "teamName": "WhatATeam!",
+        "entryId": 5165386,
+        "totalPoints": 470,
+        "gwPoints": 65,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -1,
         "overallRank": 1418326
       },
       {
