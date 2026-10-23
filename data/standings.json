@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:20:49.647Z",
+  "updatedAt": "2026-10-23T22:31:16.531Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -1563,6 +1563,12 @@
           "points": 175
         },
         {
+          "entryId": 49714,
+          "managerName": "Prince Srivastava",
+          "teamName": "Why always me?",
+          "points": 163
+        },
+        {
           "entryId": 1443127,
           "managerName": "Mayank Sharma",
           "teamName": "euceladus",
@@ -1575,9 +1581,9 @@
           "points": 162
         },
         {
-          "entryId": 49714,
-          "managerName": "Prince Srivastava",
-          "teamName": "Why always me?",
+          "entryId": 3717778,
+          "managerName": "Ritee Mishra",
+          "teamName": "Why always you?",
           "points": 161
         },
         {
@@ -1585,12 +1591,6 @@
           "managerName": "Rudra Manoj Joshi",
           "teamName": "Reece's Pieces",
           "points": 156
-        },
-        {
-          "entryId": 3717778,
-          "managerName": "Ritee Mishra",
-          "teamName": "Why always you?",
-          "points": 153
         },
         {
           "entryId": 156976,
@@ -1608,6 +1608,12 @@
           "entryId": 3357191,
           "managerName": "Abhinav Verman",
           "teamName": "Berlin Ballers",
+          "points": 145
+        },
+        {
+          "entryId": 8291382,
+          "managerName": "Ash Kallen",
+          "teamName": "Not Too Xabi",
           "points": 143
         },
         {
@@ -1629,27 +1635,21 @@
           "points": 141
         },
         {
-          "entryId": 8291382,
-          "managerName": "Ash Kallen",
-          "teamName": "Not Too Xabi",
-          "points": 141
-        },
-        {
           "entryId": 1386216,
           "managerName": "Nirbhay Vadera Varma",
           "teamName": "ØhDearGawd",
           "points": 138
         },
         {
-          "entryId": 635681,
-          "managerName": "Utkarsh Jaiswal",
-          "teamName": "Godspeed Gunners",
-          "points": 135
-        },
-        {
           "entryId": 1172057,
           "managerName": "Vipul Rustagi",
           "teamName": "Champions XI",
+          "points": 137
+        },
+        {
+          "entryId": 635681,
+          "managerName": "Utkarsh Jaiswal",
+          "teamName": "Godspeed Gunners",
           "points": 135
         },
         {
