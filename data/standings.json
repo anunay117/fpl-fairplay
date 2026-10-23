@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T19:01:22.695Z",
+  "updatedAt": "2026-10-23T19:10:47.742Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 16105
+        "overallRank": 16653
       },
       {
         "rank": 2,
@@ -31,22 +31,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 38830
+        "overallRank": 39887
       },
       {
         "rank": 3,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
-        "totalPoints": 517,
-        "gwPoints": 0,
+        "totalPoints": 518,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 126970
+        "overallRank": 120939
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 258591
+        "overallRank": 263223
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 382349
+        "overallRank": 388926
       },
       {
         "rank": 6,
@@ -91,15 +91,15 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 429999
+        "overallRank": 436748
       },
       {
         "rank": 7,
         "managerName": "Abhinav Verman",
         "teamName": "Berlin Ballers",
         "entryId": 3357191,
-        "totalPoints": 493,
-        "gwPoints": 0,
+        "totalPoints": 494,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 633296
+        "overallRank": 642335
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 787888
+        "overallRank": 798139
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 795260
+        "overallRank": 805548
       },
       {
         "rank": 10,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 795260
+        "overallRank": 805548
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 837899
+        "overallRank": 848882
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1324554
+        "overallRank": 1338026
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1352112
+        "overallRank": 1365658
       },
       {
         "rank": 15,
@@ -226,22 +226,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1571630
+        "overallRank": 1586031
       },
       {
         "rank": 16,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
-        "totalPoints": 463,
-        "gwPoints": 0,
+        "totalPoints": 464,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1659977
+        "overallRank": 1625554
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1873318
+        "overallRank": 1889076
       },
       {
         "rank": 18,
@@ -271,22 +271,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2032565
+        "overallRank": 2048900
       },
       {
         "rank": 19,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 453,
-        "gwPoints": 0,
+        "totalPoints": 454,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2196937
+        "overallRank": 2158499
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4382302
+        "overallRank": 4403735
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4427070
+        "overallRank": 4448394
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4652233
+        "overallRank": 4673432
       },
       {
         "rank": 23,
@@ -346,22 +346,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4761145
+        "overallRank": 4782695
       },
       {
         "rank": 24,
         "managerName": "Ash Kallen",
         "teamName": "Not Too Xabi",
         "entryId": 8291382,
-        "totalPoints": 409,
-        "gwPoints": 0,
+        "totalPoints": 410,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4947000
+        "overallRank": 4904287
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5674864
+        "overallRank": 5696500
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 16105
+        "overallRank": 16653
       },
       {
         "rank": 2,
@@ -748,22 +748,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 38830
+        "overallRank": 39887
       },
       {
         "rank": 3,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
-        "totalPoints": 517,
-        "gwPoints": 0,
+        "totalPoints": 518,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 126970
+        "overallRank": 120939
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 258591
+        "overallRank": 263223
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 382349
+        "overallRank": 388926
       },
       {
         "rank": 6,
@@ -808,15 +808,15 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 429999
+        "overallRank": 436748
       },
       {
         "rank": 7,
         "managerName": "Abhinav Verman",
         "teamName": "Berlin Ballers",
         "entryId": 3357191,
-        "totalPoints": 493,
-        "gwPoints": 0,
+        "totalPoints": 494,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 633296
+        "overallRank": 642335
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 787888
+        "overallRank": 798139
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 795260
+        "overallRank": 805548
       },
       {
         "rank": 10,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 795260
+        "overallRank": 805548
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 837899
+        "overallRank": 848882
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1324554
+        "overallRank": 1338026
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1352112
+        "overallRank": 1365658
       },
       {
         "rank": 15,
@@ -943,22 +943,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1571630
+        "overallRank": 1586031
       },
       {
         "rank": 16,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
-        "totalPoints": 463,
-        "gwPoints": 0,
+        "totalPoints": 464,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1659977
+        "overallRank": 1625554
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1873318
+        "overallRank": 1889076
       },
       {
         "rank": 18,
@@ -988,22 +988,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2032565
+        "overallRank": 2048900
       },
       {
         "rank": 19,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 453,
-        "gwPoints": 0,
+        "totalPoints": 454,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2196937
+        "overallRank": 2158499
       },
       {
         "rank": 20,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4382302
+        "overallRank": 4403735
       },
       {
         "rank": 22,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4652233
+        "overallRank": 4673432
       },
       {
         "rank": 23,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4761145
+        "overallRank": 4782695
       }
     ],
     "eliminated": [
@@ -1085,7 +1085,7 @@
         "managerName": "Ash Kallen",
         "teamName": "Not Too Xabi",
         "entryId": 8291382,
-        "totalPoints": 409,
+        "totalPoints": 410,
         "gwPoints": 31,
         "matchesWon": null,
         "matchesDrawn": null,
@@ -1100,8 +1100,8 @@
     "gw": 8,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 0,
-    "aboveAverageCount": 0,
+    "averagePoints": 0.2,
+    "aboveAverageCount": 5,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
       "teamName": "Absolute Wirtz",
@@ -1117,10 +1117,10 @@
       "gw": 2
     },
     "topScorer": {
-      "managerName": "Ibrahim Ilmi",
-      "teamName": "Absolute Wirtz",
-      "entryId": 156976,
-      "gwPoints": 0
+      "managerName": "Prince Srivastava",
+      "teamName": "Why always me?",
+      "entryId": 49714,
+      "gwPoints": 1
     },
     "bottomScorer": {
       "managerName": "Ibrahim Ilmi",
