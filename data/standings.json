@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T22:57:00.631Z",
+  "updatedAt": "2026-10-23T03:18:56.919Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -196,22 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1251891
-      },
-      {
-        "rank": 14,
-        "managerName": "Vivek Agarwal",
-        "teamName": "Gvardiols Of Galaxy",
-        "entryId": 62675,
-        "totalPoints": 470,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -2,
-        "overallRank": 1418314
+        "overallRank": 1251892
       },
       {
         "rank": 14,
@@ -226,7 +211,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1418314
+        "overallRank": 1418315
+      },
+      {
+        "rank": 14,
+        "managerName": "Vivek Agarwal",
+        "teamName": "Gvardiols Of Galaxy",
+        "entryId": 62675,
+        "totalPoints": 470,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -2,
+        "overallRank": 1418315
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1478765
+        "overallRank": 1478766
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1775393
+        "overallRank": 1775394
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2154265
+        "overallRank": 2154266
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2325033
+        "overallRank": 2325034
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4292988
+        "overallRank": 4292989
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 4,
-        "overallRank": 4349890
+        "overallRank": 4349891
       },
       {
         "rank": 22,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4946348
+        "overallRank": 4946347
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5820820
+        "overallRank": 5820818
       }
     ]
   },
@@ -913,22 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 1251891
-      },
-      {
-        "rank": 14,
-        "managerName": "Vivek Agarwal",
-        "teamName": "Gvardiols Of Galaxy",
-        "entryId": 62675,
-        "totalPoints": 470,
-        "gwPoints": 59,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -2,
-        "overallRank": 1418314
+        "overallRank": 1251892
       },
       {
         "rank": 14,
@@ -943,7 +928,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1418314
+        "overallRank": 1418315
+      },
+      {
+        "rank": 14,
+        "managerName": "Vivek Agarwal",
+        "teamName": "Gvardiols Of Galaxy",
+        "entryId": 62675,
+        "totalPoints": 470,
+        "gwPoints": 59,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": -2,
+        "overallRank": 1418315
       },
       {
         "rank": 16,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1478765
+        "overallRank": 1478766
       },
       {
         "rank": 17,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1775393
+        "overallRank": 1775394
       },
       {
         "rank": 18,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2154265
+        "overallRank": 2154266
       },
       {
         "rank": 19,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2325033
+        "overallRank": 2325034
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4946348
+        "overallRank": 4946347
       }
     ],
     "eliminated": [
