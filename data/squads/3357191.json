@@ -5,7 +5,7 @@
   "teamName": "Berlin Ballers",
   "gwPoints": 41,
   "totalPoints": 534,
-  "overallRank": 348237,
+  "overallRank": 348238,
   "activeChip": null,
   "picks": [
     {
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Gibbs-White",
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Evanilson",

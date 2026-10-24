@@ -5,7 +5,7 @@
   "teamName": "Gvardiols Of Galaxy",
   "gwPoints": 41,
   "totalPoints": 511,
-  "overallRank": 943274,
+  "overallRank": 943275,
   "activeChip": null,
   "picks": [
     {
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Havertz",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Kinsky",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CHE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Barnes",

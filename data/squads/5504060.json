@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 24,
   "totalPoints": 442,
-  "overallRank": 4719620,
+  "overallRank": 4719618,
   "activeChip": null,
   "picks": [
     {
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Calvert-Lewin",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "TOT (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",
