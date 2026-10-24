@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T13:10:48.010Z",
+  "updatedAt": "2026-10-24T13:20:42.888Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 881949
+        "overallRank": 881950
       },
       {
         "rank": 12,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1741226
+        "overallRank": 1741227
       },
       {
         "rank": 18,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4390682
+        "overallRank": 4390680
       },
       {
         "rank": 22,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 5177123
+        "overallRank": 5177125
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5307661
+        "overallRank": 5307658
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6043351
+        "overallRank": 6043349
       }
     ]
   },
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 881949
+        "overallRank": 881950
       },
       {
         "rank": 12,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1741226
+        "overallRank": 1741227
       },
       {
         "rank": 18,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4390682
+        "overallRank": 4390680
       },
       {
         "rank": 22,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5307661
+        "overallRank": 5307658
       }
     ],
     "eliminated": [
