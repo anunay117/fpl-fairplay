@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Utkarsh Jaiswal",
   "teamName": "Godspeed Gunners",
-  "gwPoints": 20,
-  "totalPoints": 476,
-  "overallRank": 2690765,
+  "gwPoints": 22,
+  "totalPoints": 478,
+  "overallRank": 2665592,
   "activeChip": null,
   "picks": [
     {
@@ -76,8 +76,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
