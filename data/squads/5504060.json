@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 16,
   "totalPoints": 434,
-  "overallRank": 4444582,
+  "overallRank": 4444581,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Hall",
