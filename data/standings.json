@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T15:31:06.596Z",
+  "updatedAt": "2026-10-25T15:40:50.211Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 23076
+        "overallRank": 22934
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 53683
+        "overallRank": 53659
       },
       {
         "rank": 3,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 57844
+        "overallRank": 57847
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 270989
+        "overallRank": 272454
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 323503
+        "overallRank": 325240
       },
       {
         "rank": 6,
@@ -91,7 +91,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 393990
+        "overallRank": 402418
+      },
+      {
+        "rank": 7,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
+        "totalPoints": 540,
+        "gwPoints": 47,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 426915
       },
       {
         "rank": 7,
@@ -106,22 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 424129
-      },
-      {
-        "rank": 8,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
-        "totalPoints": 536,
-        "gwPoints": 43,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -1,
-        "overallRank": 515208
+        "overallRank": 426915
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 654462
+        "overallRank": 658957
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 759539
+        "overallRank": 765015
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 5,
-        "overallRank": 1164413
+        "overallRank": 1181911
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1273863
+        "overallRank": 1283934
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1332983
+        "overallRank": 1355337
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 1413040
+        "overallRank": 1436515
       },
       {
         "rank": 15,
@@ -226,52 +226,52 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1524946
+        "overallRank": 1537307
       },
       {
         "rank": 16,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
-        "totalPoints": 503,
-        "gwPoints": 29,
+        "totalPoints": 504,
+        "gwPoints": 30,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1746741
+        "overallRank": 1723584
       },
       {
         "rank": 17,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 490,
-        "gwPoints": 37,
+        "totalPoints": 491,
+        "gwPoints": 38,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 2455415
+        "overallRank": 2419501
       },
       {
         "rank": 18,
         "managerName": "Vikramjeet Singh",
         "teamName": "MultaniFC",
         "entryId": 2347093,
-        "totalPoints": 484,
-        "gwPoints": 21,
+        "totalPoints": 485,
+        "gwPoints": 22,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2812385
+        "overallRank": 2788077
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 3045496
+        "overallRank": 3083298
       },
       {
         "rank": 20,
@@ -301,22 +301,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 3055069
+        "overallRank": 3077592
       },
       {
         "rank": 21,
         "managerName": "Vatsal Choudhary",
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
-        "totalPoints": 464,
-        "gwPoints": 46,
+        "totalPoints": 463,
+        "gwPoints": 45,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4080731
+        "overallRank": 4170743
       },
       {
         "rank": 22,
@@ -331,22 +331,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4600167
+        "overallRank": 4646250
       },
       {
         "rank": 23,
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
-        "totalPoints": 451,
-        "gwPoints": 29,
+        "totalPoints": 452,
+        "gwPoints": 30,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 4895331
+        "overallRank": 4873400
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4903519
+        "overallRank": 4945075
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6375236
+        "overallRank": 6412426
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 23076
+        "overallRank": 22934
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 53683
+        "overallRank": 53659
       },
       {
         "rank": 3,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 57844
+        "overallRank": 57847
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 270989
+        "overallRank": 272454
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 323503
+        "overallRank": 325240
       },
       {
         "rank": 6,
@@ -808,7 +808,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 393990
+        "overallRank": 402418
+      },
+      {
+        "rank": 7,
+        "managerName": "Abhinav Verman",
+        "teamName": "Berlin Ballers",
+        "entryId": 3357191,
+        "totalPoints": 540,
+        "gwPoints": 47,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 426915
       },
       {
         "rank": 7,
@@ -823,22 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 424129
-      },
-      {
-        "rank": 8,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "entryId": 3357191,
-        "totalPoints": 536,
-        "gwPoints": 43,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -1,
-        "overallRank": 515208
+        "overallRank": 426915
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 654462
+        "overallRank": 658957
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 759539
+        "overallRank": 765015
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 5,
-        "overallRank": 1164413
+        "overallRank": 1181911
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1273863
+        "overallRank": 1283934
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 1332983
+        "overallRank": 1355337
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -6,
-        "overallRank": 1413040
+        "overallRank": 1436515
       },
       {
         "rank": 15,
@@ -943,52 +943,52 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1524946
+        "overallRank": 1537307
       },
       {
         "rank": 16,
         "managerName": "Ritee Mishra",
         "teamName": "Why always you?",
         "entryId": 3717778,
-        "totalPoints": 503,
-        "gwPoints": 29,
+        "totalPoints": 504,
+        "gwPoints": 30,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 1746741
+        "overallRank": 1723584
       },
       {
         "rank": 17,
         "managerName": "Vipul Rustagi",
         "teamName": "Champions XI",
         "entryId": 1172057,
-        "totalPoints": 490,
-        "gwPoints": 37,
+        "totalPoints": 491,
+        "gwPoints": 38,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 2455415
+        "overallRank": 2419501
       },
       {
         "rank": 18,
         "managerName": "Vikramjeet Singh",
         "teamName": "MultaniFC",
         "entryId": 2347093,
-        "totalPoints": 484,
-        "gwPoints": 21,
+        "totalPoints": 485,
+        "gwPoints": 22,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2812385
+        "overallRank": 2788077
       },
       {
         "rank": 20,
@@ -1003,22 +1003,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 3055069
+        "overallRank": 3077592
       },
       {
         "rank": 21,
         "managerName": "Vatsal Choudhary",
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
-        "totalPoints": 464,
-        "gwPoints": 46,
+        "totalPoints": 463,
+        "gwPoints": 45,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4080731
+        "overallRank": 4170743
       },
       {
         "rank": 22,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4600167
+        "overallRank": 4646250
       },
       {
         "rank": 24,
@@ -1048,7 +1048,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4903519
+        "overallRank": 4945075
       }
     ],
     "eliminated": [
@@ -1057,7 +1057,7 @@
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
-        "totalPoints": 451,
+        "totalPoints": 452,
         "gwPoints": 39,
         "matchesWon": null,
         "matchesDrawn": null,
@@ -1100,8 +1100,8 @@
     "gw": 8,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 38.8,
-    "aboveAverageCount": 14,
+    "averagePoints": 39,
+    "aboveAverageCount": 13,
     "leagueLeader": {
       "managerName": "Arka Ghosh",
       "teamName": "BrunoDosTres",
@@ -1174,7 +1174,7 @@
         "rank": 16,
         "prevRank": 13,
         "movement": -3,
-        "gwPoints": 29
+        "gwPoints": 30
       },
       {
         "entryId": 6786553,
@@ -1183,7 +1183,7 @@
         "rank": 23,
         "prevRank": 20,
         "movement": -3,
-        "gwPoints": 29
+        "gwPoints": 30
       }
     ],
     "movementByEntry": {
@@ -1204,7 +1204,7 @@
       "2089714": 1,
       "2276854": -6,
       "2347093": -1,
-      "3357191": -1,
+      "3357191": 0,
       "3544319": 0,
       "3717778": -3,
       "5165386": 0,

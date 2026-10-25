@@ -5,7 +5,7 @@
   "teamName": "Scouser XI",
   "gwPoints": 56,
   "totalPoints": 540,
-  "overallRank": 424129,
+  "overallRank": 426915,
   "activeChip": null,
   "picks": [
     {
@@ -76,8 +76,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 11,
-      "rawPoints": 11,
+      "eventPoints": 10,
+      "rawPoints": 10,
       "fixtureLabel": null
     },
     {
