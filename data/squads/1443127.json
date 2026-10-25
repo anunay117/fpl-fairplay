@@ -5,7 +5,7 @@
   "teamName": "euceladus",
   "gwPoints": 29,
   "totalPoints": 513,
-  "overallRank": 1339016,
+  "overallRank": 1324555,
   "activeChip": null,
   "picks": [
     {
@@ -112,8 +112,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
