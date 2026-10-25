@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Ibrahim Ilmi",
   "teamName": "Absolute Wirtz",
-  "gwPoints": 28,
-  "totalPoints": 569,
-  "overallRank": 42235,
+  "gwPoints": 26,
+  "totalPoints": 567,
+  "overallRank": 52153,
   "activeChip": null,
   "picks": [
     {
@@ -16,8 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -52,8 +52,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": -1,
+      "rawPoints": -1,
       "fixtureLabel": null
     },
     {
