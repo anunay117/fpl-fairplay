@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 16,
   "totalPoints": 479,
-  "overallRank": 2543140,
+  "overallRank": 2543139,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Kinsky",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "M.Sangaré",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Shaw",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (H)"
+      "fixtureLabel": null
     }
   ]
 }

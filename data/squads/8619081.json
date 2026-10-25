@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 26,
   "totalPoints": 425,
-  "overallRank": 5867373,
+  "overallRank": 5867372,
   "activeChip": "wildcard",
   "picks": [
     {
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Vuskovic",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Belloumi",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     }
   ]
 }

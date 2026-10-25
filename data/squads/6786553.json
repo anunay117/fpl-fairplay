@@ -5,7 +5,7 @@
   "teamName": "Cockroach FPL Party",
   "gwPoints": 28,
   "totalPoints": 450,
-  "overallRank": 4312860,
+  "overallRank": 4312859,
   "activeChip": null,
   "picks": [
     {
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Mendy",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Ødegaard",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (A)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Hughes",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "fixtureLabel": null
     }
   ]
 }
