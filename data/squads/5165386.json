@@ -5,7 +5,7 @@
   "teamName": "WhatATeam!",
   "gwPoints": 38,
   "totalPoints": 508,
-  "overallRank": 1537172,
+  "overallRank": 1537173,
   "activeChip": null,
   "picks": [
     {
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Dubravka",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "fixtureLabel": null
     }
   ]
 }

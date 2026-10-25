@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 22,
   "totalPoints": 485,
-  "overallRank": 2778978,
+  "overallRank": 2778979,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",

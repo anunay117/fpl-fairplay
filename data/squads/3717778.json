@@ -5,7 +5,7 @@
   "teamName": "Why always you?",
   "gwPoints": 30,
   "totalPoints": 504,
-  "overallRank": 1711161,
+  "overallRank": 1711162,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",

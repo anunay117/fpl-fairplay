@@ -5,7 +5,7 @@
   "teamName": "Carrick-ter Assassin",
   "gwPoints": 41,
   "totalPoints": 527,
-  "overallRank": 762448,
+  "overallRank": 762450,
   "activeChip": null,
   "picks": [
     {
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",

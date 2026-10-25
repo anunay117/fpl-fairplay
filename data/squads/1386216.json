@@ -5,7 +5,7 @@
   "teamName": "ØhDearGawd",
   "gwPoints": 42,
   "totalPoints": 548,
-  "overallRank": 270040,
+  "overallRank": 270041,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",

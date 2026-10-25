@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 44,
   "totalPoints": 462,
-  "overallRank": 4247344,
+  "overallRank": 4247343,
   "activeChip": null,
   "picks": [
     {
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
