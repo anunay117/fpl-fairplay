@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Vipul Rustagi",
   "teamName": "Champions XI",
-  "gwPoints": 43,
-  "totalPoints": 496,
-  "overallRank": 2261847,
+  "gwPoints": 51,
+  "totalPoints": 504,
+  "overallRank": 2062936,
   "activeChip": null,
   "picks": [
     {
@@ -16,7 +16,7 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 8,
+      "eventPoints": 16,
       "rawPoints": 8,
       "fixtureLabel": null
     },
@@ -69,18 +69,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "Palmer",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": -1,
-      "rawPoints": -1,
-      "fixtureLabel": null
-    },
-    {
       "name": "Rogers",
       "team": "CHE",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
@@ -105,6 +93,30 @@
       "fixtureLabel": null
     },
     {
+      "name": "Palmer",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": -1,
+      "rawPoints": -1,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Groß",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": null
+    },
+    {
       "name": "Gonzalo",
       "team": "FUL",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
@@ -114,18 +126,6 @@
       "isStarting": true,
       "eventPoints": 2,
       "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": true,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -153,11 +153,11 @@
       "fixtureLabel": null
     },
     {
-      "name": "Groß",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "MID",
-      "isCaptain": false,
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
+      "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,

@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Divyansh Gupta",
   "teamName": "UnTzolisited Advice",
-  "gwPoints": 47,
-  "totalPoints": 516,
-  "overallRank": 1269576,
+  "gwPoints": 49,
+  "totalPoints": 518,
+  "overallRank": 1369712,
   "activeChip": null,
   "picks": [
     {
@@ -57,15 +57,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Cherki",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "name": "Rogers",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
       "position": "MID",
       "isCaptain": false,
-      "isViceCaptain": false,
+      "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -105,22 +105,10 @@
       "fixtureLabel": null
     },
     {
-      "name": "Rogers",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "name": "Cherki",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": true,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
@@ -141,6 +129,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "Calvert-Lewin",
+      "team": "LEE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
+    },
+    {
       "name": "Verbruggen",
       "team": "BHA",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Calvert-Lewin",
-      "team": "LEE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
       "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

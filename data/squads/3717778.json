@@ -5,7 +5,7 @@
   "teamName": "Why always you?",
   "gwPoints": 35,
   "totalPoints": 509,
-  "overallRank": 1576222,
+  "overallRank": 1790308,
   "activeChip": null,
   "picks": [
     {
@@ -18,6 +18,18 @@
       "isStarting": true,
       "eventPoints": 7,
       "rawPoints": 7,
+      "fixtureLabel": null
+    },
+    {
+      "name": "De Cuyper",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -42,18 +54,6 @@
       "isStarting": true,
       "eventPoints": 5,
       "rawPoints": 5,
-      "fixtureLabel": null
-    },
-    {
-      "name": "De Cuyper",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -105,22 +105,10 @@
       "fixtureLabel": null
     },
     {
-      "name": "Wissa",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
+      "name": "Groß",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
@@ -141,6 +129,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "Wissa",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
+    },
+    {
       "name": "Verbruggen",
       "team": "BHA",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
@@ -153,10 +153,10 @@
       "fixtureLabel": null
     },
     {
-      "name": "Groß",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
-      "position": "MID",
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,

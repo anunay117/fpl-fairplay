@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Manjot Singh",
   "teamName": "YFC Joga Bonito XI",
-  "gwPoints": 38,
-  "totalPoints": 456,
-  "overallRank": 4774513,
+  "gwPoints": 43,
+  "totalPoints": 461,
+  "overallRank": 4765393,
   "activeChip": null,
   "picks": [
     {
@@ -21,9 +21,9 @@
       "fixtureLabel": null
     },
     {
-      "name": "Calafiori",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "name": "Gvardiol",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
@@ -33,9 +33,9 @@
       "fixtureLabel": null
     },
     {
-      "name": "Gvardiol",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "name": "Calafiori",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
@@ -54,6 +54,30 @@
       "isStarting": true,
       "eventPoints": 14,
       "rawPoints": 14,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Hall",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 5,
+      "rawPoints": 5,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Cherki",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -81,18 +105,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "Cherki",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": true,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
       "name": "Palmer",
       "team": "CHE",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
@@ -102,30 +114,6 @@
       "isStarting": true,
       "eventPoints": -1,
       "rawPoints": -1,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Haaland",
-      "team": "MCI",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
-      "position": "FWD",
-      "isCaptain": true,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 16,
-      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
@@ -141,6 +129,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "Haaland",
+      "team": "MCI",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+      "position": "FWD",
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 16,
+      "rawPoints": 8,
+      "fixtureLabel": null
+    },
+    {
       "name": "Dubravka",
       "team": "TOT",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Hall",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "DEF",
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 5,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

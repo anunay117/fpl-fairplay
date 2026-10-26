@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Anunay Gupta",
   "teamName": "Jetha ke Jabaaz",
-  "gwPoints": 42,
-  "totalPoints": 541,
-  "overallRank": 450033,
+  "gwPoints": 46,
+  "totalPoints": 545,
+  "overallRank": 453393,
   "activeChip": null,
   "picks": [
     {
@@ -18,6 +18,18 @@
       "isStarting": true,
       "eventPoints": 2,
       "rawPoints": 2,
+      "fixtureLabel": null
+    },
+    {
+      "name": "De Cuyper",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -45,15 +57,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "De Cuyper",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "name": "O'Shea",
+      "team": "IPS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
       "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -69,15 +81,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Saka",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "name": "Barnes",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
       "position": "MID",
       "isCaptain": false,
-      "isViceCaptain": true,
+      "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
@@ -93,18 +105,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "Barnes",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 8,
-      "rawPoints": 8,
-      "fixtureLabel": null
-    },
-    {
       "name": "Groß",
       "team": "BHA",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
@@ -114,6 +114,18 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Barry",
+      "team": "EVE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+      "position": "FWD",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -129,18 +141,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
       "name": "Kinsky",
       "team": "TOT",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
@@ -153,27 +153,27 @@
       "fixtureLabel": null
     },
     {
-      "name": "Barry",
-      "team": "EVE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+      "name": "Saka",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "isStarting": false,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": null
+    },
+    {
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
       "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "O'Shea",
-      "team": "IPS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": false,
-      "eventPoints": 0,
-      "rawPoints": 2,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

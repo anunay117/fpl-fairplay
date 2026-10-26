@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Awanish Gaurav",
   "teamName": "FPL AGing",
-  "gwPoints": 39,
-  "totalPoints": 451,
-  "overallRank": 5072260,
+  "gwPoints": 42,
+  "totalPoints": 454,
+  "overallRank": 5196532,
   "activeChip": null,
   "picks": [
     {
@@ -33,6 +33,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "Calafiori",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
+    },
+    {
       "name": "De Cuyper",
       "team": "BHA",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
@@ -45,15 +57,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Calafiori",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
-      "position": "DEF",
-      "isCaptain": false,
+      "name": "Mbeumo",
+      "team": "MUN",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+      "position": "MID",
+      "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 4,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -93,15 +105,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Mbeumo",
-      "team": "MUN",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+      "name": "E.Le Fée",
+      "team": "SUN",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t56.png",
       "position": "MID",
-      "isCaptain": true,
+      "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 2,
+      "eventPoints": 3,
+      "rawPoints": 3,
       "fixtureLabel": null
     },
     {
@@ -129,18 +141,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
       "name": "Kinsky",
       "team": "TOT",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "E.Le Fée",
-      "team": "SUN",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t56.png",
-      "position": "MID",
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 3,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

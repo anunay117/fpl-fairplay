@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Himanshu Rajawat",
   "teamName": "WhatATeam!",
-  "gwPoints": 40,
-  "totalPoints": 510,
-  "overallRank": 1549295,
+  "gwPoints": 42,
+  "totalPoints": 512,
+  "overallRank": 1661462,
   "activeChip": null,
   "picks": [
     {
@@ -57,24 +57,12 @@
       "fixtureLabel": null
     },
     {
-      "name": "Saka",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
-      "position": "MID",
+      "name": "Davis",
+      "team": "IPS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Mbeumo",
-      "team": "MUN",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": true,
       "isStarting": true,
       "eventPoints": 2,
       "rawPoints": 2,
@@ -105,6 +93,30 @@
       "fixtureLabel": null
     },
     {
+      "name": "Groß",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Mbeumo",
+      "team": "MUN",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "isStarting": true,
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
+    },
+    {
       "name": "Haaland",
       "team": "MCI",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
@@ -114,18 +126,6 @@
       "isStarting": true,
       "eventPoints": 16,
       "rawPoints": 8,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
@@ -153,9 +153,9 @@
       "fixtureLabel": null
     },
     {
-      "name": "Groß",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "name": "Saka",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
       "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
@@ -165,15 +165,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Davis",
-      "team": "IPS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t40.png",
-      "position": "DEF",
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

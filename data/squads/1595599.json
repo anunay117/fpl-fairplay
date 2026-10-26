@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Gurjot Singh",
   "teamName": "Carrick-ter Assassin",
-  "gwPoints": 43,
-  "totalPoints": 529,
-  "overallRank": 777790,
+  "gwPoints": 51,
+  "totalPoints": 537,
+  "overallRank": 663474,
   "activeChip": null,
   "picks": [
     {
@@ -57,21 +57,21 @@
       "fixtureLabel": null
     },
     {
-      "name": "Cunha",
-      "team": "MUN",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
-      "position": "MID",
+      "name": "N.Williams",
+      "team": "NFO",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
-      "name": "Rogers",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "name": "Cunha",
+      "team": "MUN",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t1.png",
       "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
@@ -93,24 +93,24 @@
       "fixtureLabel": null
     },
     {
+      "name": "Rogers",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
+    },
+    {
       "name": "Groß",
       "team": "BHA",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
       "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": true,
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "N.Williams",
-      "team": "NFO",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
-      "position": "DEF",
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
+      "position": "FWD",
       "isCaptain": false,
-      "isViceCaptain": false,
+      "isViceCaptain": true,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 8,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {

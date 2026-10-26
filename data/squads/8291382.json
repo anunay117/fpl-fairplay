@@ -3,9 +3,9 @@
   "gw": 8,
   "managerName": "Ash Kallen",
   "teamName": "Not Too Xabi",
-  "gwPoints": 58,
-  "totalPoints": 479,
-  "overallRank": 3268328,
+  "gwPoints": 60,
+  "totalPoints": 481,
+  "overallRank": 3431937,
   "activeChip": null,
   "picks": [
     {
@@ -33,6 +33,18 @@
       "fixtureLabel": null
     },
     {
+      "name": "Affengruber",
+      "team": "FUL",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
+      "position": "DEF",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 6,
+      "rawPoints": 6,
+      "fixtureLabel": null
+    },
+    {
       "name": "Vuskovic",
       "team": "BHA",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
@@ -45,10 +57,46 @@
       "fixtureLabel": null
     },
     {
-      "name": "Affengruber",
+      "name": "Tavernier",
+      "team": "BOU",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t91.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 10,
+      "rawPoints": 10,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Gibbs-White",
+      "team": "NFO",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 2,
+      "rawPoints": 2,
+      "fixtureLabel": null
+    },
+    {
+      "name": "Barnes",
+      "team": "NEW",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 8,
+      "rawPoints": 8,
+      "fixtureLabel": null
+    },
+    {
+      "name": "King",
       "team": "FUL",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
-      "position": "DEF",
+      "position": "MID",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
@@ -69,51 +117,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Gibbs-White",
-      "team": "NFO",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t17.png",
-      "position": "MID",
+      "name": "Kostoulas",
+      "team": "BHA",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
       "eventPoints": 2,
       "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "King",
-      "team": "FUL",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Tavernier",
-      "team": "BOU",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t91.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 10,
-      "rawPoints": 10,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Barnes",
-      "team": "NEW",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t4.png",
-      "position": "MID",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 8,
-      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
@@ -129,18 +141,6 @@
       "fixtureLabel": null
     },
     {
-      "name": "João Pedro",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "FWD",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": null
-    },
-    {
       "name": "Dubravka",
       "team": "TOT",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t6.png",
@@ -153,15 +153,15 @@
       "fixtureLabel": null
     },
     {
-      "name": "Kostoulas",
-      "team": "BHA",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+      "name": "João Pedro",
+      "team": "CHE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
       "position": "FWD",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
