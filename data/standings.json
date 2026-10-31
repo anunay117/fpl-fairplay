@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T10:16:17.837Z",
+  "updatedAt": "2026-10-31T12:31:08.724Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -9,14 +9,14 @@
         "teamName": "BrunoDosTres",
         "entryId": 494423,
         "totalPoints": 587,
-        "gwPoints": 55,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 27063
+        "rankChange": 0,
+        "overallRank": 26664
       },
       {
         "rank": 2,
@@ -24,14 +24,14 @@
         "teamName": "Absolute Wirtz",
         "entryId": 156976,
         "totalPoints": 573,
-        "gwPoints": 32,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 83662
+        "rankChange": 0,
+        "overallRank": 82871
       },
       {
         "rank": 3,
@@ -39,14 +39,14 @@
         "teamName": "Why always me?",
         "entryId": 49714,
         "totalPoints": 572,
-        "gwPoints": 49,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 89747
+        "overallRank": 88166
       },
       {
         "rank": 4,
@@ -54,14 +54,14 @@
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
         "totalPoints": 566,
-        "gwPoints": 60,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 136660
+        "overallRank": 135348
       },
       {
         "rank": 5,
@@ -69,59 +69,59 @@
         "teamName": "Unlucky 11",
         "entryId": 3544319,
         "totalPoints": 550,
-        "gwPoints": 49,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 356048
+        "overallRank": 352501
       },
       {
         "rank": 6,
-        "managerName": "Yash Kapadia",
-        "teamName": "Scouser XI",
-        "entryId": 418990,
-        "totalPoints": 548,
-        "gwPoints": 64,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 4,
-        "overallRank": 399405
-      },
-      {
-        "rank": 7,
         "managerName": "Anunay Gupta",
         "teamName": "Jetha ke Jabaaz",
         "entryId": 296314,
         "totalPoints": 545,
-        "gwPoints": 46,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 453390
+        "rankChange": 0,
+        "overallRank": 445436
       },
       {
-        "rank": 8,
+        "rank": 7,
         "managerName": "Abhinav Verman",
         "teamName": "Berlin Ballers",
         "entryId": 3357191,
         "totalPoints": 545,
-        "gwPoints": 52,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 463670
+        "rankChange": 0,
+        "overallRank": 453871
+      },
+      {
+        "rank": 8,
+        "managerName": "Yash Kapadia",
+        "teamName": "Scouser XI",
+        "entryId": 418990,
+        "totalPoints": 544,
+        "gwPoints": 0,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 487691
       },
       {
         "rank": 9,
@@ -129,14 +129,14 @@
         "teamName": "Childish Firmino",
         "entryId": 97962,
         "totalPoints": 541,
-        "gwPoints": 58,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3,
-        "overallRank": 567100
+        "rankChange": 0,
+        "overallRank": 556222
       },
       {
         "rank": 10,
@@ -144,14 +144,14 @@
         "teamName": "Carrick-ter Assassin",
         "entryId": 1595599,
         "totalPoints": 537,
-        "gwPoints": 51,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 663469
+        "rankChange": 0,
+        "overallRank": 656656
       },
       {
         "rank": 11,
@@ -159,14 +159,14 @@
         "teamName": "Gvardiols Of Galaxy",
         "entryId": 62675,
         "totalPoints": 521,
-        "gwPoints": 51,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3,
-        "overallRank": 1223919
+        "rankChange": 0,
+        "overallRank": 1206838
       },
       {
         "rank": 12,
@@ -174,14 +174,14 @@
         "teamName": "Reece's Pieces",
         "entryId": 2276854,
         "totalPoints": 521,
-        "gwPoints": 29,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -4,
-        "overallRank": 1230810
+        "rankChange": 0,
+        "overallRank": 1209988
       },
       {
         "rank": 13,
@@ -189,14 +189,14 @@
         "teamName": "euceladus",
         "entryId": 1443127,
         "totalPoints": 521,
-        "gwPoints": 37,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -2,
-        "overallRank": 1239234
+        "rankChange": 0,
+        "overallRank": 1217751
       },
       {
         "rank": 14,
@@ -204,14 +204,14 @@
         "teamName": "UnTzolisited Advice",
         "entryId": 888498,
         "totalPoints": 518,
-        "gwPoints": 49,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2,
-        "overallRank": 1369693
+        "rankChange": 0,
+        "overallRank": 1346799
       },
       {
         "rank": 15,
@@ -219,14 +219,14 @@
         "teamName": "WhatATeam!",
         "entryId": 5165386,
         "totalPoints": 512,
-        "gwPoints": 42,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1661441
+        "overallRank": 1623553
       },
       {
         "rank": 16,
@@ -234,14 +234,14 @@
         "teamName": "Why always you?",
         "entryId": 3717778,
         "totalPoints": 509,
-        "gwPoints": 35,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3,
-        "overallRank": 1790285
+        "rankChange": 0,
+        "overallRank": 1763406
       },
       {
         "rank": 17,
@@ -249,14 +249,14 @@
         "teamName": "Champions XI",
         "entryId": 1172057,
         "totalPoints": 504,
-        "gwPoints": 51,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2,
-        "overallRank": 2062906
+        "rankChange": 0,
+        "overallRank": 2032613
       },
       {
         "rank": 18,
@@ -264,14 +264,14 @@
         "teamName": "MultaniFC",
         "entryId": 2347093,
         "totalPoints": 498,
-        "gwPoints": 35,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 2399054
+        "rankChange": 0,
+        "overallRank": 2366064
       },
       {
         "rank": 19,
@@ -279,14 +279,14 @@
         "teamName": "Godspeed Gunners",
         "entryId": 635681,
         "totalPoints": 496,
-        "gwPoints": 40,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 2514793
+        "rankChange": 0,
+        "overallRank": 2481021
       },
       {
         "rank": 20,
@@ -294,14 +294,14 @@
         "teamName": "Not Too Xabi",
         "entryId": 8291382,
         "totalPoints": 481,
-        "gwPoints": 60,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 3431876
+        "rankChange": 0,
+        "overallRank": 3393561
       },
       {
         "rank": 21,
@@ -309,14 +309,14 @@
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
         "totalPoints": 468,
-        "gwPoints": 50,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 4298680
+        "rankChange": 0,
+        "overallRank": 4244889
       },
       {
         "rank": 22,
@@ -324,29 +324,29 @@
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
         "totalPoints": 462,
-        "gwPoints": 40,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": -2,
-        "overallRank": 4671399
-      },
-      {
-        "rank": 23,
-        "managerName": "Manjot Singh",
-        "teamName": "YFC Joga Bonito XI",
-        "entryId": 2089714,
-        "totalPoints": 461,
-        "gwPoints": 43,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4765307
+        "overallRank": 4647968
+      },
+      {
+        "rank": 23,
+        "managerName": "Manjot Singh",
+        "teamName": "YFC Joga Bonito XI",
+        "entryId": 2089714,
+        "totalPoints": 457,
+        "gwPoints": 0,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 4984413
       },
       {
         "rank": 24,
@@ -354,14 +354,14 @@
         "teamName": "FPL AGing",
         "entryId": 1576706,
         "totalPoints": 454,
-        "gwPoints": 42,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5196428
+        "overallRank": 5153334
       },
       {
         "rank": 25,
@@ -369,14 +369,14 @@
         "teamName": "mohit's Team",
         "entryId": 8619081,
         "totalPoints": 432,
-        "gwPoints": 33,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6542622
+        "overallRank": 6501028
       }
     ]
   },
@@ -717,8 +717,8 @@
   "lastManStanding": {
     "status": "in_progress",
     "startGw": 5,
-    "currentGw": 8,
-    "liveGw": null,
+    "currentGw": 9,
+    "liveGw": 9,
     "survivors": [
       {
         "rank": 1,
@@ -726,14 +726,14 @@
         "teamName": "BrunoDosTres",
         "entryId": 494423,
         "totalPoints": 587,
-        "gwPoints": 55,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 27063
+        "rankChange": 0,
+        "overallRank": 26664
       },
       {
         "rank": 2,
@@ -741,14 +741,14 @@
         "teamName": "Absolute Wirtz",
         "entryId": 156976,
         "totalPoints": 573,
-        "gwPoints": 32,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 83662
+        "rankChange": 0,
+        "overallRank": 82871
       },
       {
         "rank": 3,
@@ -756,14 +756,14 @@
         "teamName": "Why always me?",
         "entryId": 49714,
         "totalPoints": 572,
-        "gwPoints": 49,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 89747
+        "overallRank": 88166
       },
       {
         "rank": 4,
@@ -771,14 +771,14 @@
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
         "totalPoints": 566,
-        "gwPoints": 60,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 136660
+        "overallRank": 135348
       },
       {
         "rank": 5,
@@ -786,59 +786,59 @@
         "teamName": "Unlucky 11",
         "entryId": 3544319,
         "totalPoints": 550,
-        "gwPoints": 49,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 356048
+        "overallRank": 352501
       },
       {
         "rank": 6,
-        "managerName": "Yash Kapadia",
-        "teamName": "Scouser XI",
-        "entryId": 418990,
-        "totalPoints": 548,
-        "gwPoints": 64,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 4,
-        "overallRank": 399405
-      },
-      {
-        "rank": 7,
         "managerName": "Anunay Gupta",
         "teamName": "Jetha ke Jabaaz",
         "entryId": 296314,
         "totalPoints": 545,
-        "gwPoints": 46,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 453390
+        "rankChange": 0,
+        "overallRank": 445436
       },
       {
-        "rank": 8,
+        "rank": 7,
         "managerName": "Abhinav Verman",
         "teamName": "Berlin Ballers",
         "entryId": 3357191,
         "totalPoints": 545,
-        "gwPoints": 52,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 463670
+        "rankChange": 0,
+        "overallRank": 453871
+      },
+      {
+        "rank": 8,
+        "managerName": "Yash Kapadia",
+        "teamName": "Scouser XI",
+        "entryId": 418990,
+        "totalPoints": 544,
+        "gwPoints": 0,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 487691
       },
       {
         "rank": 9,
@@ -846,14 +846,14 @@
         "teamName": "Childish Firmino",
         "entryId": 97962,
         "totalPoints": 541,
-        "gwPoints": 58,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3,
-        "overallRank": 567100
+        "rankChange": 0,
+        "overallRank": 556222
       },
       {
         "rank": 10,
@@ -861,14 +861,14 @@
         "teamName": "Carrick-ter Assassin",
         "entryId": 1595599,
         "totalPoints": 537,
-        "gwPoints": 51,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 663469
+        "rankChange": 0,
+        "overallRank": 656656
       },
       {
         "rank": 11,
@@ -876,14 +876,14 @@
         "teamName": "Gvardiols Of Galaxy",
         "entryId": 62675,
         "totalPoints": 521,
-        "gwPoints": 51,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 3,
-        "overallRank": 1223919
+        "rankChange": 0,
+        "overallRank": 1206838
       },
       {
         "rank": 13,
@@ -891,14 +891,14 @@
         "teamName": "euceladus",
         "entryId": 1443127,
         "totalPoints": 521,
-        "gwPoints": 37,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -2,
-        "overallRank": 1239234
+        "rankChange": 0,
+        "overallRank": 1217751
       },
       {
         "rank": 14,
@@ -906,14 +906,14 @@
         "teamName": "UnTzolisited Advice",
         "entryId": 888498,
         "totalPoints": 518,
-        "gwPoints": 49,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2,
-        "overallRank": 1369693
+        "rankChange": 0,
+        "overallRank": 1346799
       },
       {
         "rank": 15,
@@ -921,14 +921,14 @@
         "teamName": "WhatATeam!",
         "entryId": 5165386,
         "totalPoints": 512,
-        "gwPoints": 42,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1661441
+        "overallRank": 1623553
       },
       {
         "rank": 16,
@@ -936,14 +936,14 @@
         "teamName": "Why always you?",
         "entryId": 3717778,
         "totalPoints": 509,
-        "gwPoints": 35,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -3,
-        "overallRank": 1790285
+        "rankChange": 0,
+        "overallRank": 1763406
       },
       {
         "rank": 17,
@@ -951,14 +951,14 @@
         "teamName": "Champions XI",
         "entryId": 1172057,
         "totalPoints": 504,
-        "gwPoints": 51,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 2,
-        "overallRank": 2062906
+        "rankChange": 0,
+        "overallRank": 2032613
       },
       {
         "rank": 18,
@@ -966,14 +966,14 @@
         "teamName": "MultaniFC",
         "entryId": 2347093,
         "totalPoints": 498,
-        "gwPoints": 35,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 2399054
+        "rankChange": 0,
+        "overallRank": 2366064
       },
       {
         "rank": 19,
@@ -981,14 +981,14 @@
         "teamName": "Godspeed Gunners",
         "entryId": 635681,
         "totalPoints": 496,
-        "gwPoints": 40,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 2514793
+        "rankChange": 0,
+        "overallRank": 2481021
       },
       {
         "rank": 21,
@@ -996,29 +996,29 @@
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
         "totalPoints": 468,
-        "gwPoints": 50,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 1,
-        "overallRank": 4298680
-      },
-      {
-        "rank": 23,
-        "managerName": "Manjot Singh",
-        "teamName": "YFC Joga Bonito XI",
-        "entryId": 2089714,
-        "totalPoints": 461,
-        "gwPoints": 43,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4765307
+        "overallRank": 4244889
+      },
+      {
+        "rank": 23,
+        "managerName": "Manjot Singh",
+        "teamName": "YFC Joga Bonito XI",
+        "entryId": 2089714,
+        "totalPoints": 457,
+        "gwPoints": 0,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 4984413
       },
       {
         "rank": 24,
@@ -1026,14 +1026,14 @@
         "teamName": "FPL AGing",
         "entryId": 1576706,
         "totalPoints": 454,
-        "gwPoints": 42,
+        "gwPoints": 0,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5196428
+        "overallRank": 5153334
       }
     ],
     "eliminated": [
@@ -1096,11 +1096,11 @@
     ]
   },
   "gwSummary": {
-    "gw": 8,
+    "gw": 9,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 46.1,
-    "aboveAverageCount": 13,
+    "averagePoints": 0,
+    "aboveAverageCount": 0,
     "leagueLeader": {
       "managerName": "Arka Ghosh",
       "teamName": "BrunoDosTres",
@@ -1116,100 +1116,44 @@
       "gw": 2
     },
     "topScorer": {
-      "managerName": "Yash Kapadia",
-      "teamName": "Scouser XI",
-      "entryId": 418990,
-      "gwPoints": 64
+      "managerName": "Arka Ghosh",
+      "teamName": "BrunoDosTres",
+      "entryId": 494423,
+      "gwPoints": 0
     },
     "bottomScorer": {
-      "managerName": "Rudra Manoj Joshi",
-      "teamName": "Reece's Pieces",
-      "entryId": 2276854,
-      "gwPoints": 29
+      "managerName": "Arka Ghosh",
+      "teamName": "BrunoDosTres",
+      "entryId": 494423,
+      "gwPoints": 0
     },
-    "risers": [
-      {
-        "entryId": 418990,
-        "managerName": "Yash Kapadia",
-        "teamName": "Scouser XI",
-        "rank": 6,
-        "prevRank": 10,
-        "movement": 4,
-        "gwPoints": 64
-      },
-      {
-        "entryId": 97962,
-        "managerName": "Rajat Aggarwal",
-        "teamName": "Childish Firmino",
-        "rank": 9,
-        "prevRank": 12,
-        "movement": 3,
-        "gwPoints": 58
-      },
-      {
-        "entryId": 62675,
-        "managerName": "Vivek Agarwal",
-        "teamName": "Gvardiols Of Galaxy",
-        "rank": 11,
-        "prevRank": 14,
-        "movement": 3,
-        "gwPoints": 51
-      }
-    ],
-    "fallers": [
-      {
-        "entryId": 2276854,
-        "managerName": "Rudra Manoj Joshi",
-        "teamName": "Reece's Pieces",
-        "rank": 12,
-        "prevRank": 8,
-        "movement": -4,
-        "gwPoints": 29
-      },
-      {
-        "entryId": 3717778,
-        "managerName": "Ritee Mishra",
-        "teamName": "Why always you?",
-        "rank": 16,
-        "prevRank": 13,
-        "movement": -3,
-        "gwPoints": 35
-      },
-      {
-        "entryId": 1443127,
-        "managerName": "Mayank Sharma",
-        "teamName": "euceladus",
-        "rank": 13,
-        "prevRank": 11,
-        "movement": -2,
-        "gwPoints": 37
-      }
-    ],
+    "risers": [],
+    "fallers": [],
     "movementByEntry": {
       "49714": 0,
-      "62675": 3,
-      "97962": 3,
-      "156976": -1,
-      "296314": -1,
-      "418990": 4,
-      "494423": 1,
-      "635681": -1,
-      "888498": 2,
-      "1172057": 2,
+      "62675": 0,
+      "97962": 0,
+      "156976": 0,
+      "296314": 0,
+      "418990": 0,
+      "494423": 0,
+      "635681": 0,
+      "888498": 0,
+      "1172057": 0,
       "1386216": 0,
-      "1443127": -2,
+      "1443127": 0,
       "1576706": 0,
-      "1595599": -1,
+      "1595599": 0,
       "2089714": 0,
-      "2276854": -4,
-      "2347093": -1,
-      "3357191": -1,
+      "2276854": 0,
+      "2347093": 0,
+      "3357191": 0,
       "3544319": 0,
-      "3717778": -3,
+      "3717778": 0,
       "5165386": 0,
-      "5504060": 1,
-      "6786553": -2,
-      "8291382": 1,
+      "5504060": 0,
+      "6786553": 0,
+      "8291382": 0,
       "8619081": 0
     }
   },
