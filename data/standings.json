@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T17:50:49.901Z",
+  "updatedAt": "2026-10-31T18:01:19.277Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 12340
+        "overallRank": 12655
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 21561
+        "overallRank": 18987
       },
       {
         "rank": 3,
@@ -46,7 +46,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 169544
+        "overallRank": 172114
       },
       {
         "rank": 4,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 228316
+        "overallRank": 231584
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 244773
+        "overallRank": 248298
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 383028
+        "overallRank": 387060
       },
       {
         "rank": 7,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 471107
+        "overallRank": 476749
       },
       {
         "rank": 8,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 595020
+        "overallRank": 601262
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 735792
+        "overallRank": 742842
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 741905
+        "overallRank": 748970
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 750433
+        "overallRank": 757525
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 804349
+        "overallRank": 811695
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 810823
+        "overallRank": 818204
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 873652
+        "overallRank": 880124
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1308931
+        "overallRank": 1318054
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1468177
+        "overallRank": 1477643
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1792505
+        "overallRank": 1802381
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1985636
+        "overallRank": 1994120
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2292090
+        "overallRank": 2302246
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3469695
+        "overallRank": 3479317
       },
       {
         "rank": 21,
@@ -316,10 +316,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3896820
+        "overallRank": 3906053
       },
       {
         "rank": 22,
+        "managerName": "Awanish Gaurav",
+        "teamName": "FPL AGing",
+        "entryId": 1576706,
+        "totalPoints": 487,
+        "gwPoints": 33,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
+        "overallRank": 4690357
+      },
+      {
+        "rank": 23,
         "managerName": "Manjot Singh",
         "teamName": "YFC Joga Bonito XI",
         "entryId": 2089714,
@@ -330,11 +345,11 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 4705092
+        "rankChange": 0,
+        "overallRank": 4713447
       },
       {
-        "rank": 23,
+        "rank": 24,
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
@@ -345,23 +360,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": -1,
-        "overallRank": 4811668
-      },
-      {
-        "rank": 24,
-        "managerName": "Awanish Gaurav",
-        "teamName": "FPL AGing",
-        "entryId": 1576706,
-        "totalPoints": 481,
-        "gwPoints": 27,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 5041452
+        "rankChange": -2,
+        "overallRank": 4819896
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6148855
+        "overallRank": 6155693
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 12340
+        "overallRank": 12655
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 21561
+        "overallRank": 18987
       },
       {
         "rank": 3,
@@ -763,7 +763,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 169544
+        "overallRank": 172114
       },
       {
         "rank": 4,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 228316
+        "overallRank": 231584
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 244773
+        "overallRank": 248298
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 383028
+        "overallRank": 387060
       },
       {
         "rank": 7,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 471107
+        "overallRank": 476749
       },
       {
         "rank": 8,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 595020
+        "overallRank": 601262
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 735792
+        "overallRank": 742842
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 741905
+        "overallRank": 748970
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 750433
+        "overallRank": 757525
       },
       {
         "rank": 13,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 810823
+        "overallRank": 818204
       },
       {
         "rank": 14,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 873652
+        "overallRank": 880124
       },
       {
         "rank": 15,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1308931
+        "overallRank": 1318054
       },
       {
         "rank": 16,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1468177
+        "overallRank": 1477643
       },
       {
         "rank": 17,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 1792505
+        "overallRank": 1802381
       },
       {
         "rank": 18,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 1985636
+        "overallRank": 1994120
       },
       {
         "rank": 19,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2292090
+        "overallRank": 2302246
       },
       {
         "rank": 21,
@@ -1003,10 +1003,25 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3896820
+        "overallRank": 3906053
       },
       {
         "rank": 22,
+        "managerName": "Awanish Gaurav",
+        "teamName": "FPL AGing",
+        "entryId": 1576706,
+        "totalPoints": 487,
+        "gwPoints": 33,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 2,
+        "overallRank": 4690357
+      },
+      {
+        "rank": 23,
         "managerName": "Manjot Singh",
         "teamName": "YFC Joga Bonito XI",
         "entryId": 2089714,
@@ -1017,23 +1032,8 @@
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
-        "rankChange": 1,
-        "overallRank": 4705092
-      },
-      {
-        "rank": 24,
-        "managerName": "Awanish Gaurav",
-        "teamName": "FPL AGing",
-        "entryId": 1576706,
-        "totalPoints": 481,
-        "gwPoints": 27,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
         "rankChange": 0,
-        "overallRank": 5041452
+        "overallRank": 4713447
       }
     ],
     "eliminated": [
@@ -1052,7 +1052,7 @@
         "eliminatedGw": 8
       },
       {
-        "rank": 23,
+        "rank": 24,
         "managerName": "Two To Tangoal",
         "teamName": "Cockroach FPL Party",
         "entryId": 6786553,
@@ -1099,7 +1099,7 @@
     "gw": 9,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 33.5,
+    "averagePoints": 33.8,
     "aboveAverageCount": 10,
     "leagueLeader": {
       "managerName": "Ibrahim Ilmi",
@@ -1138,6 +1138,15 @@
         "gwPoints": 42
       },
       {
+        "entryId": 1576706,
+        "managerName": "Awanish Gaurav",
+        "teamName": "FPL AGing",
+        "rank": 22,
+        "prevRank": 24,
+        "movement": 2,
+        "gwPoints": 33
+      },
+      {
         "entryId": 156976,
         "managerName": "Ibrahim Ilmi",
         "teamName": "Absolute Wirtz",
@@ -1145,15 +1154,6 @@
         "prevRank": 2,
         "movement": 1,
         "gwPoints": 56
-      },
-      {
-        "entryId": 3357191,
-        "managerName": "Abhinav Verman",
-        "teamName": "Berlin Ballers",
-        "rank": 5,
-        "prevRank": 6,
-        "movement": 1,
-        "gwPoints": 44
       }
     ],
     "fallers": [
@@ -1176,13 +1176,13 @@
         "gwPoints": 26
       },
       {
-        "entryId": 494423,
-        "managerName": "Arka Ghosh",
-        "teamName": "BrunoDosTres",
-        "rank": 2,
-        "prevRank": 1,
-        "movement": -1,
-        "gwPoints": 36
+        "entryId": 6786553,
+        "managerName": "Two To Tangoal",
+        "teamName": "Cockroach FPL Party",
+        "rank": 24,
+        "prevRank": 22,
+        "movement": -2,
+        "gwPoints": 23
       }
     ],
     "movementByEntry": {
@@ -1198,9 +1198,9 @@
       "1172057": -1,
       "1386216": 0,
       "1443127": 1,
-      "1576706": 0,
+      "1576706": 2,
       "1595599": -3,
-      "2089714": 1,
+      "2089714": 0,
       "2276854": 1,
       "2347093": -1,
       "3357191": 1,
@@ -1208,7 +1208,7 @@
       "3717778": 0,
       "5165386": 1,
       "5504060": 0,
-      "6786553": -1,
+      "6786553": -2,
       "8291382": 0,
       "8619081": 0
     }
