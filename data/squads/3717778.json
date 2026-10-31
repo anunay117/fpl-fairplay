@@ -3,9 +3,9 @@
   "gw": 9,
   "managerName": "Ritee Mishra",
   "teamName": "Why always you?",
-  "gwPoints": 0,
-  "totalPoints": 509,
-  "overallRank": 1763406,
+  "gwPoints": 1,
+  "totalPoints": 510,
+  "overallRank": 1788168,
   "activeChip": null,
   "picks": [
     {
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",

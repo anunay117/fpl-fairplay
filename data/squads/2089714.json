@@ -3,9 +3,9 @@
   "gw": 9,
   "managerName": "Manjot Singh",
   "teamName": "YFC Joga Bonito XI",
-  "gwPoints": 0,
-  "totalPoints": 457,
-  "overallRank": 4984413,
+  "gwPoints": 1,
+  "totalPoints": 458,
+  "overallRank": 5014028,
   "activeChip": null,
   "picks": [
     {
@@ -112,9 +112,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",

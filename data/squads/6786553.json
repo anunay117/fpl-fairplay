@@ -3,9 +3,9 @@
   "gw": 9,
   "managerName": "Two To Tangoal",
   "teamName": "Cockroach FPL Party",
-  "gwPoints": 0,
-  "totalPoints": 462,
-  "overallRank": 4647968,
+  "gwPoints": 2,
+  "totalPoints": 464,
+  "overallRank": 4612316,
   "activeChip": null,
   "picks": [
     {
@@ -100,9 +100,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
