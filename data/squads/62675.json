@@ -3,9 +3,9 @@
   "gw": 9,
   "managerName": "Vivek Agarwal",
   "teamName": "Gvardiols Of Galaxy",
-  "gwPoints": 45,
-  "totalPoints": 566,
-  "overallRank": 744152,
+  "gwPoints": 50,
+  "totalPoints": 571,
+  "overallRank": 677796,
   "activeChip": null,
   "picks": [
     {
@@ -16,8 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
