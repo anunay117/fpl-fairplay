@@ -5,7 +5,7 @@
   "teamName": "Godspeed Gunners",
   "gwPoints": 8,
   "totalPoints": 504,
-  "overallRank": 2508469,
+  "overallRank": 2508470,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Henderson",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "fixtureLabel": null
     },
     {
       "name": "McBurnie",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Tarkowski",

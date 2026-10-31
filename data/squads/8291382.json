@@ -5,7 +5,7 @@
   "teamName": "Not Too Xabi",
   "gwPoints": 8,
   "totalPoints": 489,
-  "overallRank": 3397806,
+  "overallRank": 3397807,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Van Hecke",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "King",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Barnes",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Kostoulas",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Dubravka",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",

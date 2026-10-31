@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BOU (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Mbeumo",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Schade",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Ajer",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NFO (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Thomas",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (H)"
+      "fixtureLabel": null
     }
   ]
 }

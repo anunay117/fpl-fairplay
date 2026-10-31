@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LEE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BHA (H)"
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Barry",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (H)"
+      "fixtureLabel": null
     }
   ]
 }
