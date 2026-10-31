@@ -5,7 +5,7 @@
   "teamName": "Champions XI",
   "gwPoints": 31,
   "totalPoints": 535,
-  "overallRank": 2144712,
+  "overallRank": 2144711,
   "activeChip": null,
   "picks": [
     {
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
