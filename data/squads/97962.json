@@ -5,7 +5,7 @@
   "teamName": "Childish Firmino",
   "gwPoints": 2,
   "totalPoints": 543,
-  "overallRank": 545806,
+  "overallRank": 545793,
   "activeChip": null,
   "picks": [
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {

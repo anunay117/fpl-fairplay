@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 2,
   "totalPoints": 500,
-  "overallRank": 2338179,
+  "overallRank": 2338107,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
