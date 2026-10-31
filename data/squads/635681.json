@@ -5,7 +5,7 @@
   "teamName": "Godspeed Gunners",
   "gwPoints": 9,
   "totalPoints": 505,
-  "overallRank": 2490121,
+  "overallRank": 2490190,
   "activeChip": null,
   "picks": [
     {
@@ -64,8 +64,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
+      "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {

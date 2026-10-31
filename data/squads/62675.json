@@ -5,7 +5,7 @@
   "teamName": "Gvardiols Of Galaxy",
   "gwPoints": 17,
   "totalPoints": 538,
-  "overallRank": 958204,
+  "overallRank": 958244,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 9,
-      "rawPoints": 9,
+      "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
