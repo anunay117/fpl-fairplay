@@ -5,7 +5,7 @@
   "teamName": "YFC Joga Bonito XI",
   "gwPoints": 58,
   "totalPoints": 515,
-  "overallRank": 4046880,
+  "overallRank": 4046881,
   "activeChip": null,
   "picks": [
     {
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Ødegaard",

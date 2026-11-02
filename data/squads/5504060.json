@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 38,
   "totalPoints": 506,
-  "overallRank": 4541862,
+  "overallRank": 4541863,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Ajer",

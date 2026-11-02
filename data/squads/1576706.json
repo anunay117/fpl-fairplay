@@ -5,7 +5,7 @@
   "teamName": "FPL AGing",
   "gwPoints": 54,
   "totalPoints": 508,
-  "overallRank": 4425888,
+  "overallRank": 4425889,
   "activeChip": null,
   "picks": [
     {
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Leno",
