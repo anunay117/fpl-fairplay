@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T07:40:52.835Z",
+  "updatedAt": "2026-11-03T07:50:48.578Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2934423
+        "overallRank": 2934424
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 4065098
+        "overallRank": 4065099
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4088481
+        "overallRank": 4088482
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4305575
+        "overallRank": 4305576
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 4585971
+        "overallRank": 4585972
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6482459
+        "overallRank": 6482460
       }
     ]
   },
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 3,
-        "overallRank": 4065098
+        "overallRank": 4065099
       },
       {
         "rank": 22,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 4088481
+        "overallRank": 4088482
       },
       {
         "rank": 24,
@@ -1033,7 +1033,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -3,
-        "overallRank": 4585971
+        "overallRank": 4585972
       }
     ],
     "eliminated": [
