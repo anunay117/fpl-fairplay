@@ -5,7 +5,7 @@
   "teamName": "WhatATeam!",
   "gwPoints": 0,
   "totalPoints": 599,
-  "overallRank": 541768,
+  "overallRank": 550663,
   "activeChip": null,
   "picks": [
     {
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "EVE (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
