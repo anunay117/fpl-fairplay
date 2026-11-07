@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T12:31:02.793Z",
+  "updatedAt": "2026-11-07T12:40:45.237Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -16,7 +16,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 23407
+        "overallRank": 24625
       },
       {
         "rank": 2,
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 60958
+        "overallRank": 63722
       },
       {
         "rank": 3,
@@ -46,22 +46,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 156259
+        "overallRank": 162500
       },
       {
         "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
-        "totalPoints": 627,
-        "gwPoints": 0,
+        "totalPoints": 628,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 174632
+        "overallRank": 171784
       },
       {
         "rank": 5,
@@ -76,22 +76,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 351061
+        "overallRank": 362666
       },
       {
         "rank": 6,
         "managerName": "Nirbhay Vadera Varma",
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
-        "totalPoints": 609,
-        "gwPoints": 0,
+        "totalPoints": 610,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 418328
+        "overallRank": 413466
       },
       {
         "rank": 7,
@@ -106,7 +106,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 459794
+        "overallRank": 473808
       },
       {
         "rank": 8,
@@ -121,52 +121,52 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 568291
+        "overallRank": 584488
       },
       {
         "rank": 9,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
-        "totalPoints": 599,
-        "gwPoints": 0,
+        "totalPoints": 601,
+        "gwPoints": 2,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 625153
+        "overallRank": 595224
       },
       {
         "rank": 10,
         "managerName": "Rajat Aggarwal",
         "teamName": "Childish Firmino",
         "entryId": 97962,
-        "totalPoints": 594,
-        "gwPoints": 0,
+        "totalPoints": 595,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 757108
+        "overallRank": 749438
       },
       {
         "rank": 11,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
         "entryId": 1443127,
-        "totalPoints": 591,
-        "gwPoints": 0,
+        "totalPoints": 592,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 834152
+        "overallRank": 826001
       },
       {
         "rank": 12,
@@ -181,37 +181,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 922485
+        "overallRank": 944000
       },
       {
         "rank": 13,
         "managerName": "Vivek Agarwal",
         "teamName": "Gvardiols Of Galaxy",
         "entryId": 62675,
-        "totalPoints": 585,
-        "gwPoints": 0,
+        "totalPoints": 586,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1011693
+        "overallRank": 1002220
       },
       {
         "rank": 14,
         "managerName": "Divyansh Gupta",
         "teamName": "UnTzolisited Advice",
         "entryId": 888498,
-        "totalPoints": 582,
-        "gwPoints": 0,
+        "totalPoints": 583,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1114599
+        "overallRank": 1104644
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1190964
+        "overallRank": 1215795
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2045522
+        "overallRank": 2077552
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2152013
+        "overallRank": 2184391
       },
       {
         "rank": 18,
@@ -271,52 +271,52 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2358396
+        "overallRank": 2392075
       },
       {
         "rank": 19,
         "managerName": "Vikramjeet Singh",
         "teamName": "MultaniFC",
         "entryId": 2347093,
-        "totalPoints": 543,
-        "gwPoints": 0,
+        "totalPoints": 544,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2868043
+        "overallRank": 2849772
       },
       {
         "rank": 20,
         "managerName": "Ash Kallen",
         "teamName": "Not Too Xabi",
         "entryId": 8291382,
-        "totalPoints": 537,
-        "gwPoints": 0,
+        "totalPoints": 538,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3184257
+        "overallRank": 3165535
       },
       {
         "rank": 21,
         "managerName": "Awanish Gaurav",
         "teamName": "FPL AGing",
         "entryId": 1576706,
-        "totalPoints": 533,
-        "gwPoints": 16,
+        "totalPoints": 535,
+        "gwPoints": 18,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3413292
+        "overallRank": 3337820
       },
       {
         "rank": 22,
@@ -331,37 +331,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4065497
+        "overallRank": 4102445
       },
       {
         "rank": 23,
         "managerName": "Manjot Singh",
         "teamName": "YFC Joga Bonito XI",
         "entryId": 2089714,
-        "totalPoints": 513,
-        "gwPoints": 0,
+        "totalPoints": 514,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4604496
+        "overallRank": 4583741
       },
       {
         "rank": 24,
         "managerName": "Vatsal Choudhary",
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
-        "totalPoints": 508,
-        "gwPoints": 0,
+        "totalPoints": 509,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4868099
+        "overallRank": 4846454
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6849110
+        "overallRank": 6876711
       }
     ]
   },
@@ -733,7 +733,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 23407
+        "overallRank": 24625
       },
       {
         "rank": 2,
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 60958
+        "overallRank": 63722
       },
       {
         "rank": 3,
@@ -763,22 +763,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 156259
+        "overallRank": 162500
       },
       {
         "rank": 4,
         "managerName": "Prince Srivastava",
         "teamName": "Why always me?",
         "entryId": 49714,
-        "totalPoints": 627,
-        "gwPoints": 0,
+        "totalPoints": 628,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 174632
+        "overallRank": 171784
       },
       {
         "rank": 5,
@@ -793,22 +793,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 351061
+        "overallRank": 362666
       },
       {
         "rank": 6,
         "managerName": "Nirbhay Vadera Varma",
         "teamName": "ØhDearGawd",
         "entryId": 1386216,
-        "totalPoints": 609,
-        "gwPoints": 0,
+        "totalPoints": 610,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 418328
+        "overallRank": 413466
       },
       {
         "rank": 7,
@@ -823,7 +823,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 459794
+        "overallRank": 473808
       },
       {
         "rank": 8,
@@ -838,52 +838,52 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 568291
+        "overallRank": 584488
       },
       {
         "rank": 9,
         "managerName": "Himanshu Rajawat",
         "teamName": "WhatATeam!",
         "entryId": 5165386,
-        "totalPoints": 599,
-        "gwPoints": 0,
+        "totalPoints": 601,
+        "gwPoints": 2,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 625153
+        "overallRank": 595224
       },
       {
         "rank": 10,
         "managerName": "Rajat Aggarwal",
         "teamName": "Childish Firmino",
         "entryId": 97962,
-        "totalPoints": 594,
-        "gwPoints": 0,
+        "totalPoints": 595,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 757108
+        "overallRank": 749438
       },
       {
         "rank": 11,
         "managerName": "Mayank Sharma",
         "teamName": "euceladus",
         "entryId": 1443127,
-        "totalPoints": 591,
-        "gwPoints": 0,
+        "totalPoints": 592,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 834152
+        "overallRank": 826001
       },
       {
         "rank": 12,
@@ -898,37 +898,37 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 922485
+        "overallRank": 944000
       },
       {
         "rank": 13,
         "managerName": "Vivek Agarwal",
         "teamName": "Gvardiols Of Galaxy",
         "entryId": 62675,
-        "totalPoints": 585,
-        "gwPoints": 0,
+        "totalPoints": 586,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1011693
+        "overallRank": 1002220
       },
       {
         "rank": 14,
         "managerName": "Divyansh Gupta",
         "teamName": "UnTzolisited Advice",
         "entryId": 888498,
-        "totalPoints": 582,
-        "gwPoints": 0,
+        "totalPoints": 583,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1114599
+        "overallRank": 1104644
       },
       {
         "rank": 16,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2045522
+        "overallRank": 2077552
       },
       {
         "rank": 17,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2152013
+        "overallRank": 2184391
       },
       {
         "rank": 18,
@@ -973,52 +973,52 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2358396
+        "overallRank": 2392075
       },
       {
         "rank": 19,
         "managerName": "Vikramjeet Singh",
         "teamName": "MultaniFC",
         "entryId": 2347093,
-        "totalPoints": 543,
-        "gwPoints": 0,
+        "totalPoints": 544,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2868043
+        "overallRank": 2849772
       },
       {
         "rank": 21,
         "managerName": "Awanish Gaurav",
         "teamName": "FPL AGing",
         "entryId": 1576706,
-        "totalPoints": 533,
-        "gwPoints": 16,
+        "totalPoints": 535,
+        "gwPoints": 18,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3413292
+        "overallRank": 3337820
       },
       {
         "rank": 23,
         "managerName": "Manjot Singh",
         "teamName": "YFC Joga Bonito XI",
         "entryId": 2089714,
-        "totalPoints": 513,
-        "gwPoints": 0,
+        "totalPoints": 514,
+        "gwPoints": 1,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4604496
+        "overallRank": 4583741
       }
     ],
     "eliminated": [
@@ -1027,7 +1027,7 @@
         "managerName": "Vatsal Choudhary",
         "teamName": "OrderOfDevil's",
         "entryId": 5504060,
-        "totalPoints": 508,
+        "totalPoints": 509,
         "gwPoints": 40,
         "matchesWon": null,
         "matchesDrawn": null,
@@ -1083,7 +1083,7 @@
         "managerName": "Ash Kallen",
         "teamName": "Not Too Xabi",
         "entryId": 8291382,
-        "totalPoints": 537,
+        "totalPoints": 538,
         "gwPoints": 31,
         "matchesWon": null,
         "matchesDrawn": null,
@@ -1098,8 +1098,8 @@
     "gw": 10,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 1.7,
-    "aboveAverageCount": 4,
+    "averagePoints": 2.3,
+    "aboveAverageCount": 3,
     "leagueLeader": {
       "managerName": "Arka Ghosh",
       "teamName": "BrunoDosTres",
@@ -1115,10 +1115,10 @@
       "gw": 2
     },
     "topScorer": {
-      "managerName": "Anunay Gupta",
-      "teamName": "Jetha ke Jabaaz",
-      "entryId": 296314,
-      "gwPoints": 16
+      "managerName": "Awanish Gaurav",
+      "teamName": "FPL AGing",
+      "entryId": 1576706,
+      "gwPoints": 18
     },
     "bottomScorer": {
       "managerName": "Arka Ghosh",
@@ -1152,7 +1152,7 @@
         "rank": 21,
         "prevRank": 22,
         "movement": 1,
-        "gwPoints": 16
+        "gwPoints": 18
       }
     ],
     "fallers": [
@@ -1163,7 +1163,7 @@
         "rank": 4,
         "prevRank": 3,
         "movement": -1,
-        "gwPoints": 0
+        "gwPoints": 1
       },
       {
         "entryId": 1386216,
@@ -1172,7 +1172,7 @@
         "rank": 6,
         "prevRank": 5,
         "movement": -1,
-        "gwPoints": 0
+        "gwPoints": 1
       },
       {
         "entryId": 3357191,
