@@ -5,7 +5,7 @@
   "teamName": "Reece's Pieces",
   "gwPoints": 0,
   "totalPoints": 580,
-  "overallRank": 1297704,
+  "overallRank": 1297703,
   "activeChip": "3xc",
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Silva",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",

@@ -5,7 +5,7 @@
   "teamName": "Godspeed Gunners",
   "gwPoints": 2,
   "totalPoints": 557,
-  "overallRank": 2284199,
+  "overallRank": 2284198,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Tarkowski",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "ARS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "ARS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Henderson",

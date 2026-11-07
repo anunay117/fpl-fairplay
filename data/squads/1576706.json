@@ -5,7 +5,7 @@
   "teamName": "FPL AGing",
   "gwPoints": 20,
   "totalPoints": 537,
-  "overallRank": 3334304,
+  "overallRank": 3334303,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Silva",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "ARS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Schade",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "fixtureLabel": null
     },
     {
       "name": "João Pedro",

@@ -5,7 +5,7 @@
   "teamName": "Gvardiols Of Galaxy",
   "gwPoints": 2,
   "totalPoints": 587,
-  "overallRank": 1046140,
+  "overallRank": 1046139,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Gvardiol",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Barnes",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Schade",

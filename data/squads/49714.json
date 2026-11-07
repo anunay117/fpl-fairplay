@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Van Hecke",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "ARS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Ndiaye",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (A)"
+      "fixtureLabel": null
     }
   ]
 }

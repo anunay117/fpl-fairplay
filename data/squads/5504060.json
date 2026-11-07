@@ -5,7 +5,7 @@
   "teamName": "OrderOfDevil's",
   "gwPoints": 2,
   "totalPoints": 510,
-  "overallRank": 4892853,
+  "overallRank": 4892852,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Davis",
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Ajer",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "HUL (H)"
+      "fixtureLabel": null
     }
   ]
 }
