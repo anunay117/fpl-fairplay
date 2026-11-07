@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T21:20:46.291Z",
+  "updatedAt": "2026-11-07T21:31:10.124Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6260409
+        "overallRank": 6260408
       }
     ]
   },
@@ -1734,168 +1734,162 @@
       "status": "in_progress",
       "leaderboard": [
         {
-          "entryId": 296314,
-          "managerName": "Anunay Gupta",
-          "teamName": "Jetha ke Jabaaz",
-          "points": 16
+          "entryId": 6786553,
+          "managerName": "Two To Tangoal",
+          "teamName": "Cockroach FPL Party",
+          "points": 42
         },
         {
           "entryId": 1576706,
           "managerName": "Awanish Gaurav",
           "teamName": "FPL AGing",
-          "points": 16
-        },
-        {
-          "entryId": 3544319,
-          "managerName": "Siddharth Purang",
-          "teamName": "Unlucky 11",
-          "points": 9
-        },
-        {
-          "entryId": 635681,
-          "managerName": "Utkarsh Jaiswal",
-          "teamName": "Godspeed Gunners",
-          "points": 2
-        },
-        {
-          "entryId": 494423,
-          "managerName": "Arka Ghosh",
-          "teamName": "BrunoDosTres",
-          "points": 0
-        },
-        {
-          "entryId": 156976,
-          "managerName": "Ibrahim Ilmi",
-          "teamName": "Absolute Wirtz",
-          "points": 0
-        },
-        {
-          "entryId": 49714,
-          "managerName": "Prince Srivastava",
-          "teamName": "Why always me?",
-          "points": 0
+          "points": 40
         },
         {
           "entryId": 1386216,
           "managerName": "Nirbhay Vadera Varma",
           "teamName": "ØhDearGawd",
-          "points": 0
-        },
-        {
-          "entryId": 3357191,
-          "managerName": "Abhinav Verman",
-          "teamName": "Berlin Ballers",
-          "points": 0
+          "points": 37
         },
         {
           "entryId": 1595599,
           "managerName": "Gurjot Singh",
           "teamName": "Carrick-ter Assassin",
-          "points": 0
+          "points": 35
         },
         {
-          "entryId": 418990,
-          "managerName": "Yash Kapadia",
-          "teamName": "Scouser XI",
-          "points": 0
-        },
-        {
-          "entryId": 5165386,
-          "managerName": "Himanshu Rajawat",
-          "teamName": "WhatATeam!",
-          "points": 0
-        },
-        {
-          "entryId": 888498,
-          "managerName": "Divyansh Gupta",
-          "teamName": "UnTzolisited Advice",
-          "points": 0
-        },
-        {
-          "entryId": 97962,
-          "managerName": "Rajat Aggarwal",
-          "teamName": "Childish Firmino",
-          "points": 0
-        },
-        {
-          "entryId": 1443127,
-          "managerName": "Mayank Sharma",
-          "teamName": "euceladus",
-          "points": 0
-        },
-        {
-          "entryId": 2276854,
-          "managerName": "Rudra Manoj Joshi",
-          "teamName": "Reece's Pieces",
-          "points": 0
-        },
-        {
-          "entryId": 62675,
-          "managerName": "Vivek Agarwal",
-          "teamName": "Gvardiols Of Galaxy",
-          "points": 0
-        },
-        {
-          "entryId": 3717778,
-          "managerName": "Ritee Mishra",
-          "teamName": "Why always you?",
-          "points": 0
-        },
-        {
-          "entryId": 1172057,
-          "managerName": "Vipul Rustagi",
-          "teamName": "Champions XI",
-          "points": 0
-        },
-        {
-          "entryId": 8291382,
-          "managerName": "Ash Kallen",
-          "teamName": "Not Too Xabi",
-          "points": 0
-        },
-        {
-          "entryId": 2347093,
-          "managerName": "Vikramjeet Singh",
-          "teamName": "MultaniFC",
-          "points": 0
-        },
-        {
-          "entryId": 6786553,
-          "managerName": "Two To Tangoal",
-          "teamName": "Cockroach FPL Party",
-          "points": 0
-        },
-        {
-          "entryId": 2089714,
-          "managerName": "Manjot Singh",
-          "teamName": "YFC Joga Bonito XI",
-          "points": 0
-        },
-        {
-          "entryId": 5504060,
-          "managerName": "Vatsal Choudhary",
-          "teamName": "OrderOfDevil's",
-          "points": 0
+          "entryId": 296314,
+          "managerName": "Anunay Gupta",
+          "teamName": "Jetha ke Jabaaz",
+          "points": 34
         },
         {
           "entryId": 8619081,
           "managerName": "mohit maheshwari",
           "teamName": "mohit's Team",
-          "points": 0
+          "points": 34
+        },
+        {
+          "entryId": 2089714,
+          "managerName": "Manjot Singh",
+          "teamName": "YFC Joga Bonito XI",
+          "points": 33
+        },
+        {
+          "entryId": 888498,
+          "managerName": "Divyansh Gupta",
+          "teamName": "UnTzolisited Advice",
+          "points": 32
+        },
+        {
+          "entryId": 8291382,
+          "managerName": "Ash Kallen",
+          "teamName": "Not Too Xabi",
+          "points": 28
+        },
+        {
+          "entryId": 49714,
+          "managerName": "Prince Srivastava",
+          "teamName": "Why always me?",
+          "points": 26
+        },
+        {
+          "entryId": 2276854,
+          "managerName": "Rudra Manoj Joshi",
+          "teamName": "Reece's Pieces",
+          "points": 26
+        },
+        {
+          "entryId": 494423,
+          "managerName": "Arka Ghosh",
+          "teamName": "BrunoDosTres",
+          "points": 24
+        },
+        {
+          "entryId": 3357191,
+          "managerName": "Abhinav Verman",
+          "teamName": "Berlin Ballers",
+          "points": 24
+        },
+        {
+          "entryId": 3717778,
+          "managerName": "Ritee Mishra",
+          "teamName": "Why always you?",
+          "points": 24
+        },
+        {
+          "entryId": 3544319,
+          "managerName": "Siddharth Purang",
+          "teamName": "Unlucky 11",
+          "points": 23
+        },
+        {
+          "entryId": 2347093,
+          "managerName": "Vikramjeet Singh",
+          "teamName": "MultaniFC",
+          "points": 22
+        },
+        {
+          "entryId": 97962,
+          "managerName": "Rajat Aggarwal",
+          "teamName": "Childish Firmino",
+          "points": 20
+        },
+        {
+          "entryId": 1443127,
+          "managerName": "Mayank Sharma",
+          "teamName": "euceladus",
+          "points": 20
+        },
+        {
+          "entryId": 62675,
+          "managerName": "Vivek Agarwal",
+          "teamName": "Gvardiols Of Galaxy",
+          "points": 20
+        },
+        {
+          "entryId": 635681,
+          "managerName": "Utkarsh Jaiswal",
+          "teamName": "Godspeed Gunners",
+          "points": 20
+        },
+        {
+          "entryId": 1172057,
+          "managerName": "Vipul Rustagi",
+          "teamName": "Champions XI",
+          "points": 19
+        },
+        {
+          "entryId": 418990,
+          "managerName": "Yash Kapadia",
+          "teamName": "Scouser XI",
+          "points": 16
+        },
+        {
+          "entryId": 5165386,
+          "managerName": "Himanshu Rajawat",
+          "teamName": "WhatATeam!",
+          "points": 16
+        },
+        {
+          "entryId": 5504060,
+          "managerName": "Vatsal Choudhary",
+          "teamName": "OrderOfDevil's",
+          "points": 16
+        },
+        {
+          "entryId": 156976,
+          "managerName": "Ibrahim Ilmi",
+          "teamName": "Absolute Wirtz",
+          "points": 10
         }
       ],
       "winners": [
         {
-          "entryId": 296314,
-          "managerName": "Anunay Gupta",
-          "teamName": "Jetha ke Jabaaz",
-          "points": 16
-        },
-        {
-          "entryId": 1576706,
-          "managerName": "Awanish Gaurav",
-          "teamName": "FPL AGing",
-          "points": 16
+          "entryId": 6786553,
+          "managerName": "Two To Tangoal",
+          "teamName": "Cockroach FPL Party",
+          "points": 42
         }
       ]
     }
