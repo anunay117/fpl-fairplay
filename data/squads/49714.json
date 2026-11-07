@@ -5,7 +5,7 @@
   "teamName": "Why always me?",
   "gwPoints": 22,
   "totalPoints": 649,
-  "overallRank": 158980,
+  "overallRank": 150799,
   "activeChip": null,
   "picks": [
     {
@@ -52,8 +52,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
+      "eventPoints": 8,
+      "rawPoints": 8,
       "fixtureLabel": null
     },
     {
@@ -185,7 +185,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 10,
+      "rawPoints": 4,
       "fixtureLabel": null
     }
   ]
