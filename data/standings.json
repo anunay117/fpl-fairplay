@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T13:01:21.568Z",
+  "updatedAt": "2026-11-07T13:10:51.559Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -31,7 +31,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 64074
+        "overallRank": 64016
       },
       {
         "rank": 3,
@@ -61,7 +61,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 172649
+        "overallRank": 172534
       },
       {
         "rank": 5,
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 364170
+        "overallRank": 363915
       },
       {
         "rank": 6,
@@ -91,7 +91,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 415213
+        "overallRank": 414960
       },
       {
         "rank": 7,
@@ -121,7 +121,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 586681
+        "overallRank": 586445
       },
       {
         "rank": 9,
@@ -136,7 +136,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 597454
+        "overallRank": 597238
       },
       {
         "rank": 10,
@@ -151,7 +151,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 752026
+        "overallRank": 751751
       },
       {
         "rank": 11,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 828777
+        "overallRank": 828493
       },
       {
         "rank": 12,
@@ -181,7 +181,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 946902
+        "overallRank": 946585
       },
       {
         "rank": 13,
@@ -196,7 +196,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1005196
+        "overallRank": 1004920
       },
       {
         "rank": 14,
@@ -211,7 +211,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1107780
+        "overallRank": 1107572
       },
       {
         "rank": 15,
@@ -226,7 +226,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1219059
+        "overallRank": 1218766
       },
       {
         "rank": 16,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2081733
+        "overallRank": 2081618
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2188498
+        "overallRank": 2188557
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2396588
+        "overallRank": 2396589
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2854313
+        "overallRank": 2854603
       },
       {
         "rank": 20,
@@ -301,22 +301,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 3169935
+        "overallRank": 3170237
       },
       {
         "rank": 21,
         "managerName": "Awanish Gaurav",
         "teamName": "FPL AGing",
         "entryId": 1576706,
-        "totalPoints": 537,
-        "gwPoints": 20,
+        "totalPoints": 536,
+        "gwPoints": 19,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3230141
+        "overallRank": 3286521
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 4106456
+        "overallRank": 4107119
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4588416
+        "overallRank": 4588417
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4850419
+        "overallRank": 4851189
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6879305
+        "overallRank": 6880224
       }
     ]
   },
@@ -748,7 +748,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 64074
+        "overallRank": 64016
       },
       {
         "rank": 3,
@@ -778,7 +778,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 172649
+        "overallRank": 172534
       },
       {
         "rank": 5,
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 364170
+        "overallRank": 363915
       },
       {
         "rank": 6,
@@ -808,7 +808,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 415213
+        "overallRank": 414960
       },
       {
         "rank": 7,
@@ -838,7 +838,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 586681
+        "overallRank": 586445
       },
       {
         "rank": 9,
@@ -853,7 +853,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 597454
+        "overallRank": 597238
       },
       {
         "rank": 10,
@@ -868,7 +868,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 752026
+        "overallRank": 751751
       },
       {
         "rank": 11,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 828777
+        "overallRank": 828493
       },
       {
         "rank": 12,
@@ -898,7 +898,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 946902
+        "overallRank": 946585
       },
       {
         "rank": 13,
@@ -913,7 +913,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1005196
+        "overallRank": 1004920
       },
       {
         "rank": 14,
@@ -928,7 +928,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1107780
+        "overallRank": 1107572
       },
       {
         "rank": 16,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2081733
+        "overallRank": 2081618
       },
       {
         "rank": 17,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2188498
+        "overallRank": 2188557
       },
       {
         "rank": 18,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2396588
+        "overallRank": 2396589
       },
       {
         "rank": 19,
@@ -988,22 +988,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2854313
+        "overallRank": 2854603
       },
       {
         "rank": 21,
         "managerName": "Awanish Gaurav",
         "teamName": "FPL AGing",
         "entryId": 1576706,
-        "totalPoints": 537,
-        "gwPoints": 20,
+        "totalPoints": 536,
+        "gwPoints": 19,
         "matchesWon": null,
         "matchesDrawn": null,
         "matchesLost": null,
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3230141
+        "overallRank": 3286521
       },
       {
         "rank": 23,
@@ -1018,7 +1018,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4588416
+        "overallRank": 4588417
       }
     ],
     "eliminated": [
@@ -1098,7 +1098,7 @@
     "gw": 10,
     "isFirstGw": false,
     "managerCount": 25,
-    "averagePoints": 2.4,
+    "averagePoints": 2.3,
     "aboveAverageCount": 3,
     "leagueLeader": {
       "managerName": "Arka Ghosh",
@@ -1118,7 +1118,7 @@
       "managerName": "Awanish Gaurav",
       "teamName": "FPL AGing",
       "entryId": 1576706,
-      "gwPoints": 20
+      "gwPoints": 19
     },
     "bottomScorer": {
       "managerName": "Arka Ghosh",
@@ -1152,7 +1152,7 @@
         "rank": 21,
         "prevRank": 22,
         "movement": 1,
-        "gwPoints": 20
+        "gwPoints": 19
       }
     ],
     "fallers": [
