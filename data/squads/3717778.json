@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Ritee Mishra",
   "teamName": "Why always you?",
-  "gwPoints": 20,
-  "totalPoints": 579,
-  "overallRank": 2150317,
+  "gwPoints": 24,
+  "totalPoints": 583,
+  "overallRank": 2067896,
   "activeChip": null,
   "picks": [
     {
@@ -40,8 +40,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
@@ -100,8 +100,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 8,
-      "rawPoints": 8,
+      "eventPoints": 9,
+      "rawPoints": 9,
       "fixtureLabel": null
     },
     {
@@ -136,8 +136,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 1,
+      "eventPoints": 4,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {

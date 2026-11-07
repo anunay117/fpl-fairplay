@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Vikramjeet Singh",
   "teamName": "MultaniFC",
-  "gwPoints": 20,
-  "totalPoints": 563,
-  "overallRank": 2967958,
+  "gwPoints": 22,
+  "totalPoints": 565,
+  "overallRank": 2978994,
   "activeChip": null,
   "picks": [
     {
@@ -124,8 +124,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 1,
+      "eventPoints": 4,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {

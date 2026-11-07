@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Himanshu Rajawat",
   "teamName": "WhatATeam!",
-  "gwPoints": 15,
-  "totalPoints": 614,
-  "overallRank": 834275,
+  "gwPoints": 16,
+  "totalPoints": 615,
+  "overallRank": 866110,
   "activeChip": null,
   "picks": [
     {
@@ -112,8 +112,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 2,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
