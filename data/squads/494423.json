@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Arka Ghosh",
   "teamName": "BrunoDosTres",
-  "gwPoints": 3,
-  "totalPoints": 661,
-  "overallRank": 30140,
+  "gwPoints": 5,
+  "totalPoints": 663,
+  "overallRank": 28629,
   "activeChip": null,
   "picks": [
     {
@@ -16,8 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 3,
+      "rawPoints": 3,
       "fixtureLabel": null
     },
     {
