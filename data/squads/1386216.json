@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Nirbhay Vadera Varma",
   "teamName": "ØhDearGawd",
-  "gwPoints": 35,
-  "totalPoints": 644,
-  "overallRank": 215699,
+  "gwPoints": 36,
+  "totalPoints": 645,
+  "overallRank": 227918,
   "activeChip": null,
   "picks": [
     {
@@ -124,8 +124,8 @@
       "isCaptain": false,
       "isViceCaptain": true,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
