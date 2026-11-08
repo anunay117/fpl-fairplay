@@ -5,7 +5,7 @@
   "teamName": "FPL AGing",
   "gwPoints": 46,
   "totalPoints": 563,
-  "overallRank": 4319608,
+  "overallRank": 4319606,
   "activeChip": null,
   "picks": [
     {
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Kudus",

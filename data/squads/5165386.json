@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Evanilson",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Rudoni",

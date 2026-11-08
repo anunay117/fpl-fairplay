@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 49,
   "totalPoints": 592,
-  "overallRank": 2826297,
+  "overallRank": 2826296,
   "activeChip": null,
   "picks": [
     {
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "AVL (H)"
+      "fixtureLabel": null
     }
   ]
 }
