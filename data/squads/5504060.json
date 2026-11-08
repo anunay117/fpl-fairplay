@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 27,
-  "totalPoints": 535,
-  "overallRank": 5245956,
+  "gwPoints": 24,
+  "totalPoints": 532,
+  "overallRank": 5398631,
   "activeChip": null,
   "picks": [
     {
@@ -28,8 +28,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": -2,
+      "rawPoints": -2,
       "fixtureLabel": null
     },
     {
