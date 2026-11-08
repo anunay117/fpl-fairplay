@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Awanish Gaurav",
   "teamName": "FPL AGing",
-  "gwPoints": 43,
-  "totalPoints": 560,
-  "overallRank": 3652157,
+  "gwPoints": 45,
+  "totalPoints": 562,
+  "overallRank": 3752835,
   "activeChip": null,
   "picks": [
     {
@@ -40,8 +40,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 3,
+      "rawPoints": 3,
       "fixtureLabel": null
     },
     {
@@ -173,7 +173,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
+      "rawPoints": 9,
       "fixtureLabel": null
     },
     {

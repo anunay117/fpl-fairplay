@@ -3,9 +3,9 @@
   "gw": 10,
   "managerName": "Siddharth Purang",
   "teamName": "Unlucky 11",
-  "gwPoints": 29,
-  "totalPoints": 633,
-  "overallRank": 617708,
+  "gwPoints": 28,
+  "totalPoints": 632,
+  "overallRank": 761673,
   "activeChip": null,
   "picks": [
     {
@@ -100,8 +100,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 0,
+      "rawPoints": 0,
       "fixtureLabel": null
     },
     {
