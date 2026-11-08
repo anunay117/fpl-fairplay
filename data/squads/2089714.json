@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Ødegaard",
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",

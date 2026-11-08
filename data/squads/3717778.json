@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "N.Williams",
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Evanilson",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Wissa",

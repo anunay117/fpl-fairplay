@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Ødegaard",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "SUN (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Isak",
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "CRY (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Evanilson",
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "IPS (A)"
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Mendy",
