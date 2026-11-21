@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Gurjot Singh",
   "teamName": "Carrick-ter Assassin",
-  "gwPoints": 2,
-  "totalPoints": 657,
-  "overallRank": 781050,
+  "gwPoints": 3,
+  "totalPoints": 658,
+  "overallRank": 762617,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
