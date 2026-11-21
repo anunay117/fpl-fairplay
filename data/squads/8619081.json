@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "mohit maheshwari",
   "teamName": "mohit's Team",
-  "gwPoints": 18,
-  "totalPoints": 559,
-  "overallRank": 5636806,
+  "gwPoints": 17,
+  "totalPoints": 558,
+  "overallRank": 5810823,
   "activeChip": null,
   "picks": [
     {
@@ -112,8 +112,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 7,
-      "rawPoints": 7,
+      "eventPoints": 6,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
@@ -149,7 +149,7 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
+      "rawPoints": 6,
       "fixtureLabel": null
     },
     {
