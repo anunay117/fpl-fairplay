@@ -5,7 +5,7 @@
   "teamName": "Godspeed Gunners",
   "gwPoints": 28,
   "totalPoints": 639,
-  "overallRank": 2059981,
+  "overallRank": 2059979,
   "activeChip": "3xc",
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",

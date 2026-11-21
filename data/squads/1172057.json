@@ -5,7 +5,7 @@
   "teamName": "Champions XI",
   "gwPoints": 25,
   "totalPoints": 647,
-  "overallRank": 1755073,
+  "overallRank": 1755071,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Schade",

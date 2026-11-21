@@ -5,7 +5,7 @@
   "teamName": "Gvardiols Of Galaxy",
   "gwPoints": 30,
   "totalPoints": 672,
-  "overallRank": 926681,
+  "overallRank": 926679,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Barnes",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Davis",

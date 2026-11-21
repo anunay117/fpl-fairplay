@@ -5,7 +5,7 @@
   "teamName": "Berlin Ballers",
   "gwPoints": 32,
   "totalPoints": 697,
-  "overallRank": 402671,
+  "overallRank": 402670,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Van Hecke",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Giles",

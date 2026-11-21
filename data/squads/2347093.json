@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 25,
   "totalPoints": 630,
-  "overallRank": 2440434,
+  "overallRank": 2440432,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Muharemović",

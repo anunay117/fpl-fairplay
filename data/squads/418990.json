@@ -5,7 +5,7 @@
   "teamName": "Scouser XI",
   "gwPoints": 19,
   "totalPoints": 699,
-  "overallRank": 372037,
+  "overallRank": 372036,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Vuskovic",

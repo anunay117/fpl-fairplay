@@ -5,7 +5,7 @@
   "teamName": "Why always you?",
   "gwPoints": 18,
   "totalPoints": 630,
-  "overallRank": 2427017,
+  "overallRank": 2427015,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "ARS (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Bogle",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     }
   ]
 }

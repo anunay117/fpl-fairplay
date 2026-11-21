@@ -5,7 +5,7 @@
   "teamName": "euceladus",
   "gwPoints": 24,
   "totalPoints": 668,
-  "overallRank": 1041997,
+  "overallRank": 1041995,
   "activeChip": null,
   "picks": [
     {
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Muharemović",
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",

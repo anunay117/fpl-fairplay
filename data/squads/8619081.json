@@ -5,7 +5,7 @@
   "teamName": "mohit's Team",
   "gwPoints": 18,
   "totalPoints": 559,
-  "overallRank": 5923158,
+  "overallRank": 5923155,
   "activeChip": null,
   "picks": [
     {
@@ -18,7 +18,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",
@@ -30,7 +30,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "NEW (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Rúben",
