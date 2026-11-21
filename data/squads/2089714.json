@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Manjot Singh",
   "teamName": "YFC Joga Bonito XI",
-  "gwPoints": 9,
-  "totalPoints": 590,
-  "overallRank": 4049255,
+  "gwPoints": 13,
+  "totalPoints": 594,
+  "overallRank": 3906933,
   "activeChip": null,
   "picks": [
     {
@@ -112,8 +112,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 5,
+      "rawPoints": 5,
       "fixtureLabel": null
     },
     {
