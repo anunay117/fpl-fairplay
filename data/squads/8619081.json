@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "mohit maheshwari",
   "teamName": "mohit's Team",
-  "gwPoints": 0,
-  "totalPoints": 541,
-  "overallRank": 5919223,
+  "gwPoints": 3,
+  "totalPoints": 544,
+  "overallRank": 5860850,
   "activeChip": null,
   "picks": [
     {
@@ -52,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Vuskovic",
@@ -78,7 +78,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -136,9 +136,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Petrović",
@@ -162,7 +162,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Belloumi",

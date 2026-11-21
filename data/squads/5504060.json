@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 0,
-  "totalPoints": 543,
-  "overallRank": 5805350,
+  "gwPoints": 2,
+  "totalPoints": 545,
+  "overallRank": 5797162,
   "activeChip": null,
   "picks": [
     {
@@ -124,9 +124,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",

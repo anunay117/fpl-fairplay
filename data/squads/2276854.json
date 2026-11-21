@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Rudra Manoj Joshi",
   "teamName": "Reece's Pieces",
-  "gwPoints": 0,
-  "totalPoints": 643,
-  "overallRank": 1058330,
+  "gwPoints": 1,
+  "totalPoints": 644,
+  "overallRank": 1086748,
   "activeChip": null,
   "picks": [
     {
@@ -42,7 +42,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "De Cuyper",
@@ -136,9 +136,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Dubravka",

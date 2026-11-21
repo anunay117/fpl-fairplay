@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Vikramjeet Singh",
   "teamName": "MultaniFC",
-  "gwPoints": 0,
-  "totalPoints": 605,
-  "overallRank": 2570683,
+  "gwPoints": 2,
+  "totalPoints": 607,
+  "overallRank": 2565727,
   "activeChip": null,
   "picks": [
     {
@@ -124,9 +124,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Isak",

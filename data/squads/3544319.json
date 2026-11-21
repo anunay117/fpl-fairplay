@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Siddharth Purang",
   "teamName": "Unlucky 11",
-  "gwPoints": 0,
-  "totalPoints": 659,
-  "overallRank": 630322,
+  "gwPoints": 2,
+  "totalPoints": 661,
+  "overallRank": 628632,
   "activeChip": null,
   "picks": [
     {
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -112,9 +112,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",
@@ -149,8 +149,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Dewsbury-Hall",

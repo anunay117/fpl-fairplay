@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Ritee Mishra",
   "teamName": "Why always you?",
-  "gwPoints": 0,
-  "totalPoints": 612,
-  "overallRank": 2232199,
+  "gwPoints": 3,
+  "totalPoints": 615,
+  "overallRank": 2183264,
   "activeChip": null,
   "picks": [
     {
@@ -54,7 +54,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Manzambi",
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "MCI (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Palmer",
@@ -102,7 +102,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -136,9 +136,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",

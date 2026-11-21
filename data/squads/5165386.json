@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Himanshu Rajawat",
   "teamName": "WhatATeam!",
-  "gwPoints": 0,
-  "totalPoints": 658,
-  "overallRank": 652893,
+  "gwPoints": 2,
+  "totalPoints": 660,
+  "overallRank": 651120,
   "activeChip": "bboost",
   "picks": [
     {
@@ -112,9 +112,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",

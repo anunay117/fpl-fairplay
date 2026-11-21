@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Rajat Aggarwal",
   "teamName": "Childish Firmino",
-  "gwPoints": 0,
-  "totalPoints": 662,
-  "overallRank": 568379,
+  "gwPoints": 1,
+  "totalPoints": 663,
+  "overallRank": 588222,
   "activeChip": null,
   "picks": [
     {
@@ -124,9 +124,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Isak",

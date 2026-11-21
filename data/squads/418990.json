@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Yash Kapadia",
   "teamName": "Scouser XI",
-  "gwPoints": 0,
-  "totalPoints": 680,
-  "overallRank": 272846,
+  "gwPoints": 2,
+  "totalPoints": 682,
+  "overallRank": 272055,
   "activeChip": null,
   "picks": [
     {
@@ -136,9 +136,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Kinsky",

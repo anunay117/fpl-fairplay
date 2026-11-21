@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Gurjot Singh",
   "teamName": "Carrick-ter Assassin",
-  "gwPoints": 0,
-  "totalPoints": 655,
-  "overallRank": 733388,
+  "gwPoints": 1,
+  "totalPoints": 656,
+  "overallRank": 756333,
   "activeChip": null,
   "picks": [
     {
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -124,9 +124,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",

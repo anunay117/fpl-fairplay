@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Arka Ghosh",
   "teamName": "BrunoDosTres",
-  "gwPoints": 0,
-  "totalPoints": 719,
-  "overallRank": 25022,
+  "gwPoints": 2,
+  "totalPoints": 721,
+  "overallRank": 24887,
   "activeChip": null,
   "picks": [
     {
@@ -124,9 +124,9 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "FUL (H)"
+      "eventPoints": 2,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",
