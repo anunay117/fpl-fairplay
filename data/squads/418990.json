@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Yash Kapadia",
   "teamName": "Scouser XI",
-  "gwPoints": 7,
-  "totalPoints": 687,
-  "overallRank": 296292,
+  "gwPoints": 11,
+  "totalPoints": 691,
+  "overallRank": 332269,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 5,
+      "rawPoints": 5,
       "fixtureLabel": null
     },
     {
