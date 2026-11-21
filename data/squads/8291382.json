@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Ash Kallen",
   "teamName": "Not Too Xabi",
-  "gwPoints": 24,
-  "totalPoints": 610,
-  "overallRank": 3348223,
+  "gwPoints": 25,
+  "totalPoints": 611,
+  "overallRank": 3298384,
   "activeChip": null,
   "picks": [
     {
@@ -88,8 +88,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
+      "eventPoints": 7,
+      "rawPoints": 7,
       "fixtureLabel": null
     },
     {
