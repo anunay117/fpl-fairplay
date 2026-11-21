@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Anunay Gupta",
   "teamName": "Jetha ke Jabaaz",
-  "gwPoints": 2,
-  "totalPoints": 689,
-  "overallRank": 188374,
+  "gwPoints": 4,
+  "totalPoints": 691,
+  "overallRank": 188098,
   "activeChip": null,
   "picks": [
     {
@@ -124,8 +124,8 @@
       "isCaptain": true,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 1,
+      "eventPoints": 4,
+      "rawPoints": 2,
       "fixtureLabel": null
     },
     {
