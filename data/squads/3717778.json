@@ -5,7 +5,7 @@
   "teamName": "Why always you?",
   "gwPoints": 12,
   "totalPoints": 624,
-  "overallRank": 2066248,
+  "overallRank": 2068543,
   "activeChip": null,
   "picks": [
     {
@@ -124,8 +124,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
+      "eventPoints": 5,
+      "rawPoints": 5,
       "fixtureLabel": null
     },
     {
