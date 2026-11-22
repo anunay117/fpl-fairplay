@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Mayank Sharma",
   "teamName": "euceladus",
-  "gwPoints": 26,
-  "totalPoints": 670,
-  "overallRank": 1070025,
+  "gwPoints": 28,
+  "totalPoints": 672,
+  "overallRank": 1072859,
   "activeChip": null,
   "picks": [
     {
@@ -16,8 +16,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -100,8 +100,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
