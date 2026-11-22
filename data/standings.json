@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:01:22.781Z",
+  "updatedAt": "2026-11-22T16:11:04.197Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -76,7 +76,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 134675
+        "overallRank": 132510
       },
       {
         "rank": 6,
@@ -166,7 +166,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 750915
+        "overallRank": 750914
       },
       {
         "rank": 12,
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1802306
+        "overallRank": 1802304
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2030554
+        "overallRank": 2030552
       },
       {
         "rank": 18,
@@ -271,22 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2527531
-      },
-      {
-        "rank": 19,
-        "managerName": "Vikramjeet Singh",
-        "teamName": "MultaniFC",
-        "entryId": 2347093,
-        "totalPoints": 636,
-        "gwPoints": 31,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 0,
-        "overallRank": 2541309
+        "overallRank": 2527529
       },
       {
         "rank": 19,
@@ -301,7 +286,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2541309
+        "overallRank": 2541307
+      },
+      {
+        "rank": 19,
+        "managerName": "Vikramjeet Singh",
+        "teamName": "MultaniFC",
+        "entryId": 2347093,
+        "totalPoints": 636,
+        "gwPoints": 31,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 0,
+        "overallRank": 2541307
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3109986
+        "overallRank": 3116469
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 3512607
+        "overallRank": 3521868
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4024895
+        "overallRank": 4024891
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5076380
+        "overallRank": 5076377
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5910485
+        "overallRank": 5910481
       }
     ]
   },
@@ -793,7 +793,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 134675
+        "overallRank": 132510
       },
       {
         "rank": 6,
@@ -883,7 +883,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 750915
+        "overallRank": 750914
       },
       {
         "rank": 13,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1802306
+        "overallRank": 1802304
       },
       {
         "rank": 17,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2030554
+        "overallRank": 2030552
       },
       {
         "rank": 18,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2527531
+        "overallRank": 2527529
       },
       {
         "rank": 19,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2541309
+        "overallRank": 2541307
       },
       {
         "rank": 21,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3109986
+        "overallRank": 3116469
       }
     ],
     "eliminated": [
