@@ -5,7 +5,7 @@
   "teamName": "euceladus",
   "gwPoints": 32,
   "totalPoints": 676,
-  "overallRank": 1044520,
+  "overallRank": 1044518,
   "activeChip": null,
   "picks": [
     {
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Groß",
@@ -150,7 +150,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "N.Williams",

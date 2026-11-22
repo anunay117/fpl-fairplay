@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 31,
   "totalPoints": 636,
-  "overallRank": 2541308,
+  "overallRank": 2541303,
   "activeChip": null,
   "picks": [
     {
@@ -90,7 +90,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -138,7 +138,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Verbruggen",
@@ -186,7 +186,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "LIV (A)"
+      "fixtureLabel": null
     }
   ]
 }

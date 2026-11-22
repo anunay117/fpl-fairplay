@@ -5,7 +5,7 @@
   "teamName": "Champions XI",
   "gwPoints": 32,
   "totalPoints": 654,
-  "overallRank": 1802305,
+  "overallRank": 1802301,
   "activeChip": null,
   "picks": [
     {
@@ -114,7 +114,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "MUN (H)"
+      "fixtureLabel": null
     },
     {
       "name": "N.Jackson",
