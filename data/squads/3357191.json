@@ -3,9 +3,9 @@
   "gw": 11,
   "managerName": "Abhinav Verman",
   "teamName": "Berlin Ballers",
-  "gwPoints": 46,
-  "totalPoints": 711,
-  "overallRank": 447587,
+  "gwPoints": 39,
+  "totalPoints": 704,
+  "overallRank": 416655,
   "activeChip": null,
   "picks": [
     {
@@ -40,8 +40,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 7,
-      "rawPoints": 7,
+      "eventPoints": 1,
+      "rawPoints": 1,
       "fixtureLabel": null
     },
     {
@@ -112,8 +112,8 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 5,
-      "rawPoints": 5,
+      "eventPoints": 4,
+      "rawPoints": 4,
       "fixtureLabel": null
     },
     {
