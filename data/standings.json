@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T16:11:04.197Z",
+  "updatedAt": "2026-11-22T16:20:52.882Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1802304
+        "overallRank": 1802305
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2030552
+        "overallRank": 2030553
       },
       {
         "rank": 18,
@@ -271,22 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2527529
-      },
-      {
-        "rank": 19,
-        "managerName": "Two To Tangoal",
-        "teamName": "Cockroach FPL Party",
-        "entryId": 6786553,
-        "totalPoints": 636,
-        "gwPoints": 33,
-        "matchesWon": null,
-        "matchesDrawn": null,
-        "matchesLost": null,
-        "pointsFor": null,
-        "status": "scored",
-        "rankChange": 1,
-        "overallRank": 2541307
+        "overallRank": 2527530
       },
       {
         "rank": 19,
@@ -301,7 +286,22 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2541307
+        "overallRank": 2541308
+      },
+      {
+        "rank": 19,
+        "managerName": "Two To Tangoal",
+        "teamName": "Cockroach FPL Party",
+        "entryId": 6786553,
+        "totalPoints": 636,
+        "gwPoints": 33,
+        "matchesWon": null,
+        "matchesDrawn": null,
+        "matchesLost": null,
+        "pointsFor": null,
+        "status": "scored",
+        "rankChange": 1,
+        "overallRank": 2541308
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3116469
+        "overallRank": 3116470
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 3521868
+        "overallRank": 3521869
       },
       {
         "rank": 23,
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1802304
+        "overallRank": 1802305
       },
       {
         "rank": 17,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2030552
+        "overallRank": 2030553
       },
       {
         "rank": 18,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2527529
+        "overallRank": 2527530
       },
       {
         "rank": 19,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 2541307
+        "overallRank": 2541308
       },
       {
         "rank": 21,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3116469
+        "overallRank": 3116470
       }
     ],
     "eliminated": [
