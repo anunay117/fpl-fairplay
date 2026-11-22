@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:50:55.554Z",
+  "updatedAt": "2026-11-22T00:01:29.541Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -241,7 +241,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1793178
+        "overallRank": 1793177
       },
       {
         "rank": 17,
@@ -256,7 +256,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2102885
+        "overallRank": 2102884
       },
       {
         "rank": 18,
@@ -271,7 +271,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 2,
-        "overallRank": 2357026
+        "overallRank": 2357025
       },
       {
         "rank": 19,
@@ -286,7 +286,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 2519615
+        "overallRank": 2519614
       },
       {
         "rank": 20,
@@ -301,7 +301,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2533195
+        "overallRank": 2533194
       },
       {
         "rank": 21,
@@ -316,7 +316,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3159686
+        "overallRank": 3159684
       },
       {
         "rank": 22,
@@ -331,7 +331,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 3324044
+        "overallRank": 3324042
       },
       {
         "rank": 23,
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4030015
+        "overallRank": 4030013
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5094837
+        "overallRank": 5094835
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5942211
+        "overallRank": 5942209
       }
     ]
   },
@@ -943,7 +943,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 1793178
+        "overallRank": 1793177
       },
       {
         "rank": 17,
@@ -958,7 +958,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 2102885
+        "overallRank": 2102884
       },
       {
         "rank": 19,
@@ -973,7 +973,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -2,
-        "overallRank": 2519615
+        "overallRank": 2519614
       },
       {
         "rank": 20,
@@ -988,7 +988,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": -1,
-        "overallRank": 2533195
+        "overallRank": 2533194
       },
       {
         "rank": 21,
@@ -1003,7 +1003,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 1,
-        "overallRank": 3159686
+        "overallRank": 3159684
       }
     ],
     "eliminated": [
