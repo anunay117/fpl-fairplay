@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:40:47.562Z",
+  "updatedAt": "2026-11-23T23:50:53.208Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -1745,15 +1745,15 @@
           "points": 119
         },
         {
-          "entryId": 296314,
-          "managerName": "Anunay Gupta",
-          "teamName": "Jetha ke Jabaaz",
-          "points": 115
-        },
-        {
           "entryId": 1386216,
           "managerName": "Nirbhay Vadera Varma",
           "teamName": "ØhDearGawd",
+          "points": 116
+        },
+        {
+          "entryId": 296314,
+          "managerName": "Anunay Gupta",
+          "teamName": "Jetha ke Jabaaz",
           "points": 115
         },
         {
@@ -1778,7 +1778,7 @@
           "entryId": 1172057,
           "managerName": "Vipul Rustagi",
           "teamName": "Champions XI",
-          "points": 106
+          "points": 107
         },
         {
           "entryId": 494423,
@@ -1805,16 +1805,16 @@
           "points": 100
         },
         {
+          "entryId": 62675,
+          "managerName": "Vivek Agarwal",
+          "teamName": "Gvardiols Of Galaxy",
+          "points": 99
+        },
+        {
           "entryId": 2347093,
           "managerName": "Vikramjeet Singh",
           "teamName": "MultaniFC",
           "points": 99
-        },
-        {
-          "entryId": 62675,
-          "managerName": "Vivek Agarwal",
-          "teamName": "Gvardiols Of Galaxy",
-          "points": 98
         },
         {
           "entryId": 3357191,
@@ -1850,7 +1850,7 @@
           "entryId": 1576706,
           "managerName": "Awanish Gaurav",
           "teamName": "FPL AGing",
-          "points": 88
+          "points": 90
         },
         {
           "entryId": 1443127,
