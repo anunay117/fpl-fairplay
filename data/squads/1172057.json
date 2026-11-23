@@ -5,7 +5,7 @@
   "teamName": "Champions XI",
   "gwPoints": 37,
   "totalPoints": 659,
-  "overallRank": 1761393,
+  "overallRank": 1761394,
   "activeChip": null,
   "picks": [
     {
@@ -66,7 +66,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Rogers",

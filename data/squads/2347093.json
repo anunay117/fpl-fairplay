@@ -5,7 +5,7 @@
   "teamName": "MultaniFC",
   "gwPoints": 37,
   "totalPoints": 642,
-  "overallRank": 2470083,
+  "overallRank": 2470084,
   "activeChip": null,
   "picks": [
     {
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Shaw",

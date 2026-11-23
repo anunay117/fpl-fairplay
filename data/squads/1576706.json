@@ -5,7 +5,7 @@
   "teamName": "FPL AGing",
   "gwPoints": 40,
   "totalPoints": 605,
-  "overallRank": 4306066,
+  "overallRank": 4306067,
   "activeChip": null,
   "picks": [
     {
@@ -126,7 +126,7 @@
       "isStarting": true,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "BRE (A)"
+      "fixtureLabel": null
     },
     {
       "name": "Evanilson",
@@ -174,7 +174,7 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": "EVE (H)"
+      "fixtureLabel": null
     },
     {
       "name": "Egan",
