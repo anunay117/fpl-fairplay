@@ -1,11 +1,11 @@
 {
   "entryId": 2089714,
-  "gw": 11,
+  "gw": 12,
   "managerName": "Manjot Singh",
   "teamName": "YFC Joga Bonito XI",
-  "gwPoints": 43,
-  "totalPoints": 624,
-  "overallRank": 3448173,
+  "gwPoints": 0,
+  "totalPoints": 620,
+  "overallRank": 3635838,
   "activeChip": null,
   "picks": [
     {
@@ -16,21 +16,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Calafiori",
-      "team": "ARS",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NEW (H)"
     },
     {
       "name": "Van Hecke",
@@ -40,9 +28,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 6,
-      "rawPoints": 6,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "SUN (A)"
     },
     {
       "name": "Konsa",
@@ -52,21 +40,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 1,
-      "rawPoints": 1,
-      "fixtureLabel": null
-    },
-    {
-      "name": "Silva",
-      "team": "BOU",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t91.png",
-      "position": "DEF",
-      "isCaptain": false,
-      "isViceCaptain": false,
-      "isStarting": true,
-      "eventPoints": 8,
-      "rawPoints": 8,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
       "name": "Muharemović",
@@ -76,9 +52,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "COV (H)"
     },
     {
       "name": "Ødegaard",
@@ -88,9 +64,21 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 5,
-      "rawPoints": 5,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "MCI (H)"
+    },
+    {
+      "name": "Wirtz",
+      "team": "LIV",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t14.png",
+      "position": "MID",
+      "isCaptain": false,
+      "isViceCaptain": true,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "EVE (A)"
     },
     {
       "name": "Groß",
@@ -100,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 4,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "NEW (H)"
     },
     {
       "name": "Tavernier",
@@ -112,9 +100,21 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 8,
-      "rawPoints": 8,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
+    },
+    {
+      "name": "Calvert-Lewin",
+      "team": "LEE",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t2.png",
+      "position": "FWD",
+      "isCaptain": true,
+      "isViceCaptain": false,
+      "isStarting": true,
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "COV (H)"
     },
     {
       "name": "N.Jackson",
@@ -122,23 +122,23 @@
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t7.png",
       "position": "FWD",
       "isCaptain": false,
-      "isViceCaptain": true,
+      "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 2,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "IPS (A)"
     },
     {
       "name": "Haaland",
       "team": "MCI",
       "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
       "position": "FWD",
-      "isCaptain": true,
+      "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 4,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "eventPoints": 0,
+      "rawPoints": 0,
+      "fixtureLabel": "ARS (A)"
     },
     {
       "name": "Dubravka",
@@ -150,31 +150,31 @@
       "isStarting": false,
       "eventPoints": 0,
       "rawPoints": 0,
-      "fixtureLabel": null
+      "fixtureLabel": "SUN (A)"
     },
     {
-      "name": "Palmer",
-      "team": "CHE",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t8.png",
-      "position": "MID",
+      "name": "Calafiori",
+      "team": "ARS",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 2,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "MCI (H)"
     },
     {
-      "name": "Gonzalo",
-      "team": "FUL",
-      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t54.png",
-      "position": "FWD",
+      "name": "Silva",
+      "team": "BOU",
+      "crestUrl": "https://resources.premierleague.com/premierleague/badges/50/t91.png",
+      "position": "DEF",
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 1,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "FUL (A)"
     },
     {
       "name": "Slater",
@@ -185,8 +185,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 3,
-      "fixtureLabel": null
+      "rawPoints": 0,
+      "fixtureLabel": "CRY (A)"
     }
   ]
 }
