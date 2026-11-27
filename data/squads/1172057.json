@@ -3,9 +3,9 @@
   "gw": 12,
   "managerName": "Vipul Rustagi",
   "teamName": "Champions XI",
-  "gwPoints": 0,
-  "totalPoints": 660,
-  "overallRank": 1753975,
+  "gwPoints": 2,
+  "totalPoints": 662,
+  "overallRank": 1721127,
   "activeChip": "bboost",
   "picks": [
     {
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -160,9 +160,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": false,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Calafiori",

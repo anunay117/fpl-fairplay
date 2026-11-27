@@ -3,9 +3,9 @@
   "gw": 12,
   "managerName": "Arka Ghosh",
   "teamName": "BrunoDosTres",
-  "gwPoints": 0,
-  "totalPoints": 761,
-  "overallRank": 18318,
+  "gwPoints": 1,
+  "totalPoints": 762,
+  "overallRank": 18777,
   "activeChip": null,
   "picks": [
     {
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "B.Fernandes",

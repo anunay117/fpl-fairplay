@@ -3,9 +3,9 @@
   "gw": 12,
   "managerName": "Vikramjeet Singh",
   "teamName": "MultaniFC",
-  "gwPoints": 0,
-  "totalPoints": 642,
-  "overallRank": 2513745,
+  "gwPoints": 1,
+  "totalPoints": 643,
+  "overallRank": 2519847,
   "activeChip": null,
   "picks": [
     {
@@ -76,9 +76,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Mbeumo",

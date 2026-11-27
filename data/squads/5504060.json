@@ -3,9 +3,9 @@
   "gw": 12,
   "managerName": "Vatsal Choudhary",
   "teamName": "OrderOfDevil's",
-  "gwPoints": 0,
-  "totalPoints": 585,
-  "overallRank": 5455376,
+  "gwPoints": 1,
+  "totalPoints": 586,
+  "overallRank": 5462505,
   "activeChip": null,
   "picks": [
     {
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Calvert-Lewin",

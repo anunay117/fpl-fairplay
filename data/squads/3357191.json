@@ -3,9 +3,9 @@
   "gw": 12,
   "managerName": "Abhinav Verman",
   "teamName": "Berlin Ballers",
-  "gwPoints": 0,
-  "totalPoints": 704,
-  "overallRank": 475592,
+  "gwPoints": 2,
+  "totalPoints": 706,
+  "overallRank": 462035,
   "activeChip": null,
   "picks": [
     {
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Manzambi",
@@ -88,9 +88,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",

@@ -3,9 +3,9 @@
   "gw": 12,
   "managerName": "Prince Srivastava",
   "teamName": "Why always me?",
-  "gwPoints": 0,
-  "totalPoints": 739,
-  "overallRank": 83478,
+  "gwPoints": 2,
+  "totalPoints": 741,
+  "overallRank": 79922,
   "activeChip": null,
   "picks": [
     {
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Tavernier",
@@ -100,9 +100,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Haaland",

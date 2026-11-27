@@ -3,9 +3,9 @@
   "gw": 12,
   "managerName": "Gurjot Singh",
   "teamName": "Carrick-ter Assassin",
-  "gwPoints": 0,
-  "totalPoints": 690,
-  "overallRank": 778837,
+  "gwPoints": 1,
+  "totalPoints": 691,
+  "overallRank": 784372,
   "activeChip": null,
   "picks": [
     {
@@ -64,9 +64,9 @@
       "isCaptain": false,
       "isViceCaptain": false,
       "isStarting": true,
-      "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "eventPoints": 1,
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Wirtz",
@@ -173,8 +173,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "CHE (H)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Cherki",

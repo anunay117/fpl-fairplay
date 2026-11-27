@@ -5,7 +5,7 @@
   "teamName": "Scouser XI",
   "gwPoints": 0,
   "totalPoints": 713,
-  "overallRank": 329505,
+  "overallRank": 348118,
   "activeChip": null,
   "picks": [
     {
@@ -161,8 +161,8 @@
       "isViceCaptain": false,
       "isStarting": false,
       "eventPoints": 0,
-      "rawPoints": 0,
-      "fixtureLabel": "NFO (A)"
+      "rawPoints": 1,
+      "fixtureLabel": null
     },
     {
       "name": "Konsa",
