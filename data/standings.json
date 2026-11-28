@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T10:40:52.045Z",
+  "updatedAt": "2026-11-28T10:50:48.117Z",
   "classicLeague": {
     "leagueName": "FPL Fairlplay League 26-27",
     "managers": [
@@ -346,7 +346,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 4249339
+        "overallRank": 4249338
       },
       {
         "rank": 24,
@@ -361,7 +361,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 5521106
+        "overallRank": 5521104
       },
       {
         "rank": 25,
@@ -376,7 +376,7 @@
         "pointsFor": null,
         "status": "scored",
         "rankChange": 0,
-        "overallRank": 6427420
+        "overallRank": 6427418
       }
     ]
   },
